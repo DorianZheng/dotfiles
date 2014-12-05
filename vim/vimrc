@@ -14,7 +14,9 @@
 " Backups ----------------------------------------
 " Custom Functions -------------------------------
 " Plugins Config ---------------------------------
-	" NERDTree -----------------------------------
+    " Fugitive -----------------------------------
+    " NERDTree -----------------------------------
+    " Python mode --------------------------------
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -39,6 +41,7 @@ Plugin 'gmarik/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
+Plugin 'klen/python-mode'
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -238,8 +241,12 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins Config
 """"""""""""""""""""""""""""""""""""""""""""""""""
-	" NERDTree
-	map <F2> :NERDTreeToggle<CR>
+"""" Fugitive
+
+"""" NERDTree
+map <F2> :NERDTreeToggle<CR>
+
+"""" Python mode
 
 
 
