@@ -9,6 +9,7 @@
 " Searching --------------------------------------
 " Folding ----------------------------------------
 " Movement ---------------------------------------
+" Status Line ------------------------------------
 " Leader Shortcuts -------------------------------
 " Autogroups -------------------------------------
 " Backups ----------------------------------------
@@ -17,6 +18,7 @@
     " Fugitive -----------------------------------
     " NERDTree -----------------------------------
     " Python mode --------------------------------
+    " vim-airline --------------------------------
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -42,6 +44,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
+Plugin 'bling/vim-airline'
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -164,6 +167,15 @@ nnoremap ^ <nop>
 nnoremap gV `[v`]
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" Status Line
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Always show the status line
+set laststatus=2
+
+" Format the status line
+"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 " Leader Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=","       " leader is comma
@@ -264,7 +276,10 @@ map <F2> :NERDTreeToggle<CR>
 
 """" Python mode
 
-
+"""" vim-airline
+let g:airline_theme='powerlineish'
+let g:airline_enable_branch=1
+let g:airline_enable_syntastic=1
 
 
 
