@@ -12,13 +12,17 @@ running the commands:
 Create symlinks:
 
     ln -s ~/dotfiles/bash/bashrc ~/.bashrc
+
     ln -s ~/dotfiles/vim/vimrc ~/.vimrc
-    ln -s ~/dotfiles/vim/gvimrc ~/.gvimrc
-    ln -s ~/dotfiles/irbrc ~/.irbrc
     ln -s ~/dotfiles/vim ~/.vim
+    
+    ln -s ~/dotfiles/gtk ~/.gtkrc-2.0
+
+    ln -s ~/dotfiles/irbrc ~/.irbrc
     ln -s ~/dotfiles/ctags ~/.ctags
     ln -s ~/dotfiles/jshintrc ~/.jshintrc
     ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+
     ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
     ln -s ~/dotfiles/git/global-gitignore ~/.gitignore
 
