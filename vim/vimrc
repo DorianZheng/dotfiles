@@ -67,13 +67,53 @@ set lazyredraw          " redraw only when we need to
 
 set showmatch           " highlight matching [{()}]
 
+" Set extra options when running in GUI mode
+if has("gui_running")
+    set guioptions-=T
+    set guioptions-=e
+    set t_Co=256
+    set guitablabel=%M\ %t
+endif
+
+" Disable scrollbars (real hackers don't use scrollbars for navigation!)
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable              " enable syntax processing
 
-colorscheme monokai        " colorscheme
-"set background=dark        " dark background
+" Colorscheme
+if has("gui_running")
+    set background=dark
+    try
+    	colorscheme monokai
+	catch
+	endtry
+else
+    colorscheme desert
+    let g:colors_name="desert"
+endif
+
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" Set font according to system
+if has("mac") || has("macunix")
+    set gfn=Source\ Code\ Pro:h15,Menlo:h15
+elseif has("win16") || has("win32")
+    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+elseif has("linux")
+    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+elseif has("unix")
+    set gfn=Monospace\ 11
+endif
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Spaces and Tabs
