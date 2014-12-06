@@ -88,9 +88,7 @@ the most from these, you should install the [interactive_editor][i_editor] and
 
 # REFERENCE #
 
-Some references:
-
-    [interactive_editor][i_editor]
+Some references:[interactive_editor][i_editor]
 
 
 
