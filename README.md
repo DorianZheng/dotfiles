@@ -90,7 +90,7 @@ the most from these, you should install the [interactive_editor][i_editor] and
 
 Some references:
 
-    [USING_GIT_AND_GITHUB_TO_MANAGE_YOUR_DOTFILES][ref_dotfiles]
+    [interactive_editor][i_editor]
 
 
 
