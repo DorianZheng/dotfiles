@@ -3,9 +3,9 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 " Launch Config ----------------------------------
+" UI Config --------------------------------------
 " Colors and Fonts -------------------------------
 " Spaces and Tabs --------------------------------
-" UI Config --------------------------------------
 " Searching --------------------------------------
 " Folding ----------------------------------------
 " Movement ---------------------------------------
@@ -16,11 +16,6 @@
 " Backups ----------------------------------------
 " Custom Functions -------------------------------
 " Plugins Config ---------------------------------
-    " Fugitive -----------------------------------
-    " NERDTree -----------------------------------
-    " Python mode --------------------------------
-    " vim-airline --------------------------------
-    " YouCompleteMe ------------------------------
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -49,34 +44,11 @@ Plugin 'tpope/vim-commentary'
 
 " Color schemes
 Plugin 'sickill/vim-monokai'
+Plugin 'vim-scripts/peaksea'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-
-" More infomation
-" https://github.com/gmarik/Vundle.vim
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Colors and Fonts
-""""""""""""""""""""""""""""""""""""""""""""""""""
-syntax enable              " enable syntax processing
-
-colorscheme monokai        " colorscheme
-"set background=dark        " dark background
-
-" Set utf8 as standard encoding and en_US as the standard language
-set encoding=utf8
-
-set ffs=unix,dos,mac       " Use Unix as the standard file type
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Spaces and Tabs
-""""""""""""""""""""""""""""""""""""""""""""""""""
-set shiftwidth=4    " re-indents code based on your indent settings
-set tabstop=4       " number of visual spaces per TAB
-set softtabstop=4   " number of spaces in tab when editing
-set expandtab       " tabs are spaces
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " UI Config
@@ -95,23 +67,21 @@ set lazyredraw          " redraw only when we need to
 
 set showmatch           " highlight matching [{()}]
 
-" Toggle Menu and Toolbar
-set guioptions-=m
-set guioptions-=T
-map <silent> <C-F2> :if &guioptions =~# 'T' <Bar>
-        \set guioptions-=T <Bar>
-        \set guioptions-=m <bar>
-    \else <Bar>
-        \set guioptions+=T <Bar>
-        \set guioptions+=m <Bar>
-    \endif<CR>
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Colors and Fonts
+""""""""""""""""""""""""""""""""""""""""""""""""""
+syntax enable              " enable syntax processing
 
-" hide scrollbar
-set guioptions-=b
-set guioptions-=R
-set guioptions-=r
-set guioptions-=L
-set guioptions-=l
+colorscheme monokai        " colorscheme
+"set background=dark        " dark background
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Spaces and Tabs
+""""""""""""""""""""""""""""""""""""""""""""""""""
+set shiftwidth=4    " re-indents code based on your indent settings
+set tabstop=4       " number of visual spaces per TAB
+set softtabstop=4   " number of spaces in tab when editing
+set expandtab       " tabs are spaces
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Searching
@@ -148,8 +118,8 @@ nnoremap B ^
 nnoremap E $
 
 " $/^ doesn't do anything
-"nnoremap $ <nop>
-"nnoremap ^ <nop>
+nnoremap $ <nop>
+nnoremap ^ <nop>
 
 " highlight last inserted text
 nnoremap gV `[v`]
