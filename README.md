@@ -58,6 +58,12 @@ as follows:
     git add .
     git ci -m "Added the javascript bundle"
 
+### YouCompleteMe
+
+Compiling YCM with semantic support for C-family languages:
+    cd ~/.vim/bundle/YouCompleteMe
+    ./install.sh --clang-completer
+
 ### Command-t
 
 The command-t extension require Vim with ruby support, and furthermore, the
