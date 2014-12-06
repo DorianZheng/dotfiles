@@ -41,10 +41,13 @@ Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'ghewgill/vim-scmdiff'
 Plugin 'tpope/vim-commentary'
+Plugin 'amix/vim-zenroom2'
 
 " Color schemes
-Plugin 'sickill/vim-monokai'
-Plugin 'vim-scripts/peaksea'
+Plugin 'tomasr/molokai'
+Plugin 'altercation/vim-colors-solarized'
+"Plugin 'sickill/vim-monokai'
+"Plugin 'vim-scripts/peaksea'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -90,7 +93,7 @@ syntax enable              " enable syntax processing
 if has("gui_running")
     set background=dark
     try
-    	colorscheme monokai
+    	colorscheme molokai
 	catch
 	endtry
 else
@@ -296,3 +299,6 @@ let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 
 """" vim-commentary
 
+"""" monokai
+"let g:molokai_original = 1
+"let g:rehash256 = 1
