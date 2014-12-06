@@ -124,7 +124,9 @@ map <silent> <C-F2> :if &guioptions =~# 'T' <Bar>
 
 " hide scrollbar
 set guioptions-=b
+set guioptions-=R
 set guioptions-=r
+set guioptions-=L
 set guioptions-=l
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
