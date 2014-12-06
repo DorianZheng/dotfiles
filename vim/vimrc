@@ -2,13 +2,14 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
-" Launch Config (Vundle) -------------------------
-" Colors -----------------------------------------
-" Spaces & Tabs ----------------------------------
+" Launch Config ----------------------------------
+" Colors and Fonts -------------------------------
+" Spaces and Tabs --------------------------------
 " UI Config --------------------------------------
 " Searching --------------------------------------
 " Folding ----------------------------------------
 " Movement ---------------------------------------
+" Windows ----------------------------------------
 " Status Line ------------------------------------
 " Leader Shortcuts -------------------------------
 " Autogroups -------------------------------------
@@ -25,7 +26,7 @@
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" Launch Config (Vundle)
+" Launch Config
 """"""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -33,65 +34,48 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" The following are examples of different formats supported.
-" Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
+" Plugins
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
-" plugin from http://vim-scripts.org/vim/scripts.html
-"Plugin 'L9'
-" Git plugin not hosted on GitHub
-"Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-"Plugin 'file:///home/gmarik/path/to/plugin'
-" The sparkup vim script is in a subdirectory of this repo called vim.
-" Pass the path to set the runtimepath properly.
-"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-"Plugin 'user/L9', {'name': 'newL9'}
+Plugin 'ghewgill/vim-scmdiff'
+Plugin 'tpope/vim-commentary'
+
+" Color schemes
+Plugin 'sickill/vim-monokai'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+
+" More infomation
+" https://github.com/gmarik/Vundle.vim
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" Colors
+" Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""
-colorscheme desert         " colorscheme
-
-set background=dark        " dark background
-
 syntax enable              " enable syntax processing
 
+colorscheme monokai        " colorscheme
+"set background=dark        " dark background
+
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+
+set ffs=unix,dos,mac       " Use Unix as the standard file type
+
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" Spaces & Tabs
+" Spaces and Tabs
 """"""""""""""""""""""""""""""""""""""""""""""""""
 set shiftwidth=4    " re-indents code based on your indent settings
-
 set tabstop=4       " number of visual spaces per TAB
-
 set softtabstop=4   " number of spaces in tab when editing
-
 set expandtab       " tabs are spaces
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
@@ -164,11 +148,20 @@ nnoremap B ^
 nnoremap E $
 
 " $/^ doesn't do anything
-nnoremap $ <nop>
-nnoremap ^ <nop>
+"nnoremap $ <nop>
+"nnoremap ^ <nop>
 
 " highlight last inserted text
 nnoremap gV `[v`]
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Windows
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Smart way to move between windows
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Status Line
@@ -289,53 +282,7 @@ let g:airline_enable_syntastic=1
 " Install
 " cd ~/.vim/bundle/YouCompleteMe
 " ./install --clang-completer
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""" vim-commentary
 
