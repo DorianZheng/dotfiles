@@ -61,6 +61,7 @@ as follows:
 ### YouCompleteMe
 
 Compiling YCM with semantic support for C-family languages:
+    
     cd ~/.vim/bundle/YouCompleteMe
     ./install.sh --clang-completer
 
@@ -89,7 +90,7 @@ the most from these, you should install the [interactive_editor][i_editor] and
 
 Some references:
 
-    [USING GIT AND GITHUB TO MANAGE YOUR DOTFILES][ref_dotfiles]
+    [USING_GIT_AND_GITHUB_TO_MANAGE_YOUR_DOTFILES][ref_dotfiles]
 
 
 
