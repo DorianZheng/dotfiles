@@ -279,26 +279,5 @@ endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Plugins Config
 """"""""""""""""""""""""""""""""""""""""""""""""""
-"""" Fugitive
+source ~/dotfiles/vim/vimrc_plugins_config
 
-"""" NERDTree
-map <F2> :NERDTreeToggle<CR>
-
-"""" Python mode
-
-"""" vim-airline
-let g:airline_theme='powerlineish'
-let g:airline_enable_branch=1
-let g:airline_enable_syntastic=1
-
-"""" YouCompleteMe
-" Install
-" cd ~/.vim/bundle/YouCompleteMe
-" ./install --clang-completer
-let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
-
-"""" vim-commentary
-
-"""" monokai
-"let g:molokai_original = 1
-"let g:rehash256 = 1
