@@ -189,6 +189,7 @@ set laststatus=2
 " Leader Shortcuts
 """"""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader=","       " leader is comma
+let g:mapleader=","
 
 " jk is escape
 inoremap jk <esc>
