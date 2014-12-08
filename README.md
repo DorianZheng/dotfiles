@@ -58,6 +58,9 @@ as follows:
     git add .
     git ci -m "Added the javascript bundle"
 
+### Ctags
+
+
 ### YouCompleteMe
 
 Compiling YCM with semantic support for C-family languages:

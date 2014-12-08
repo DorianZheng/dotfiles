@@ -38,10 +38,11 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'klen/python-mode'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'ghewgill/vim-scmdiff'
 Plugin 'tpope/vim-commentary'
 Plugin 'amix/vim-zenroom2'
+Plugin 'taglist.vim'
+Plugin 'winmanager'
 
 " Color schemes
 Plugin 'tomasr/molokai'
