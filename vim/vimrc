@@ -43,6 +43,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'amix/vim-zenroom2'
 Plugin 'taglist.vim'
 Plugin 'winmanager'
+Plugin 'Valloric/YouCompleteMe'
 
 " Color schemes
 Plugin 'tomasr/molokai'
