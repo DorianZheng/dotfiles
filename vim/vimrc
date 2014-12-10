@@ -34,16 +34,20 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Plugins
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
-Plugin 'klen/python-mode'
-Plugin 'bling/vim-airline'
-Plugin 'ghewgill/vim-scmdiff'
-Plugin 'tpope/vim-commentary'
-Plugin 'amix/vim-zenroom2'
-Plugin 'taglist.vim'
 Plugin 'winmanager'
+Plugin 'scrooloose/nerdtree'
+Plugin 'taglist.vim'
+Plugin 'bling/vim-airline'
+Plugin 'ervandew/supertab'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+Plugin 'klen/python-mode'
+Plugin 'Raimondi/delimitMate'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ghewgill/vim-scmdiff'
+Plugin 'amix/vim-zenroom2'
 
 " Color schemes
 Plugin 'tomasr/molokai'

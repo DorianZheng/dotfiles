@@ -2,18 +2,18 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
-" Fugitive ---------------------------------------
+" WinManager -------------------------------------
 " NERDTree ---------------------------------------
+" TagList ----------------------------------------
+" SuperTab ---------------------------------------
+" YouCompleteMe ----------------------------------
+" UltiSnips --------------------------------------
+" Snippets ---------------------------------------
+" Fugitive ---------------------------------------
 " Python-mode ------------------------------------
 " vim-airline ------------------------------------
-" YouCompleteMe ----------------------------------
 " commentary.vim ---------------------------------
 
-""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Fugitive
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -53,8 +53,45 @@ let Tlist_File_Fold_Auto_Close=1
 nnoremap <silent> <F4> :TlistToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" SuperTab
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" YouCompleteMe
+""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" UltiSnips
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<C-b>"
+let g:UltiSnipsJumpBackwardTrigger="<C-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 " Python-mode
 """"""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" commentary.vim
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Fugitive
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " vim-airline
@@ -65,16 +102,4 @@ let g:airline_enable_syntastic=1
 
 " Automatically displays all buffers when there's only one tab open.
 let g:airline#extensions#tabline#enabled = 1
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" YouCompleteMe
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Install
-" cd ~/.vim/bundle/YouCompleteMe
-" ./install --clang-completer
-let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" commentary.vim
-""""""""""""""""""""""""""""""""""""""""""""""""""
 
