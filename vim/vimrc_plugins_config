@@ -55,7 +55,7 @@ nnoremap <silent> <F4> :TlistToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " SuperTab
 """"""""""""""""""""""""""""""""""""""""""""""""""
-
+let g:SuperTabDefaultCompletionType = '<C-n>'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " YouCompleteMe
@@ -84,7 +84,7 @@ let g:UltiSnipsEditSplit="vertical"
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" commentary.vim
+" NERD Commenter
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
 
