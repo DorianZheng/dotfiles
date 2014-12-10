@@ -48,6 +48,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'ghewgill/vim-scmdiff'
 Plugin 'amix/vim-zenroom2'
+Plugin 'nginx.vim'
 
 " Color schemes
 Plugin 'tomasr/molokai'
@@ -210,6 +211,9 @@ nnoremap <leader>s :mksession<CR>
 
 " open ag.vim
 nnoremap <leader>a :Ag
+
+" change current directory to nginx root
+nnoremap <leader>n :cd ~/Workspace/nginx<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Autogroups
