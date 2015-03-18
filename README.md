@@ -59,6 +59,20 @@ Compiling YCM with semantic support for C-family languages:
     (for me YCM server crashed with its own libclang, so I reinstall YCM with system libclang. 
     Just replace ./install.sh --clang-completer with ./install.sh --clang-completer --system-clang)
 
+### winmanager
+
+fix bug
+
+    " modify ~/dotfiles/vim/bundle/winmanager/plugin/winmanager.vim configure file
+    function! <SID>ToggleWindowsManager()
+	    if IsWinManagerVisible()
+		    call s:CloseWindowsManager()
+	    else
+		    call s:StartWindowsManager()
+		    exe 'q' "####添加此行
+	    end
+    endfunction
+
 ### Command-t
 
 The command-t extension require Vim with ruby support, and furthermore, the
