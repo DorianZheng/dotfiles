@@ -44,7 +44,10 @@ if has("cscope")
     nmap <C-_>t :cs find t <C-R>=expand("<cword>")<CR><CR>
     nmap <C-_>e :cs find e <C-R>=expand("<cword>")<CR><CR>
     nmap <C-_>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
-    nmap <C-_>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+    "nmap <C-_>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+    " 在我的vim中无法工作, 但是我改成:
+    nmap <C-_>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
+    " 就可以正常工作了, 不知道是什么原因? 有哪位朋友知道请告诉我.
     nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 endif
 
