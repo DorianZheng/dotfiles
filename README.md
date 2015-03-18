@@ -49,6 +49,10 @@ directory.
 
     sudo apt-get install exuberant-ctags
 
+### Cscope
+
+    sudo apt-get install cscope
+
 ### YouCompleteMe
 
 Compiling YCM with semantic support for C-family languages:
