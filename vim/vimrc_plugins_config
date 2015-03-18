@@ -27,8 +27,7 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Cscope
 """"""""""""""""""""""""""""""""""""""""""""""""""
-if has("cscope")
-    " 
+if has("cscope") 
     set csprg=/usr/bin/cscope
     set csto=1
     set cst
