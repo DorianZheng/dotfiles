@@ -6,12 +6,12 @@
 " UI Config --------------------------------------
 " Colors and Fonts -------------------------------
 " Spaces and Tabs --------------------------------
+" Leader Shortcuts -------------------------------
 " Searching --------------------------------------
 " Folding ----------------------------------------
 " Movement ---------------------------------------
 " Windows ----------------------------------------
 " Status Line ------------------------------------
-" Leader Shortcuts -------------------------------
 " Autogroups -------------------------------------
 " Backups ----------------------------------------
 " Custom Functions -------------------------------
@@ -134,6 +134,36 @@ set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
+" Leader Shortcuts
+""""""""""""""""""""""""""""""""""""""""""""""""""
+let mapleader=","       " leader is comma
+let g:mapleader=","     " global leader is comma  
+
+" jk is escape
+inoremap jk <esc>
+
+" toggle gundo
+nnoremap <leader>u :GundoToggle<CR>
+
+" edit vimrc/zshrc and load vimrc bindings
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>evp :vsp ~/dotfiles/vim/vimrc_plugins_config<CR>
+nnoremap <leader>ez :vsp ~/.zshrc<CR>
+nnoremap <leader>sv :source $MYVIMRC<CR>
+
+" cheatsheet
+nnoremap <leader>vc :vsp ~/dotfiles/vim/cheatsheet<CR>
+
+" save session
+nnoremap <leader>s :mksession<CR>
+
+" open ag.vim
+nnoremap <leader>a :Ag
+
+" change current directory to nginx root
+nnoremap <leader>n :cd ~/Workspace/nginx<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
 " Searching
 """"""""""""""""""""""""""""""""""""""""""""""""""
 set incsearch           " showing the matches while typing the pattern
@@ -188,36 +218,6 @@ map <C-l> <C-W>l
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Always show the status line
 set laststatus=2
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
-" Leader Shortcuts
-""""""""""""""""""""""""""""""""""""""""""""""""""
-let mapleader=","       " leader is comma
-let g:mapleader=","     " global leader is comma  
-
-" jk is escape
-inoremap jk <esc>
-
-" toggle gundo
-nnoremap <leader>u :GundoToggle<CR>
-
-" edit vimrc/zshrc and load vimrc bindings
-nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>evp :vsp ~/dotfiles/vim/vimrc_plugins_config<CR>
-nnoremap <leader>ez :vsp ~/.zshrc<CR>
-nnoremap <leader>sv :source $MYVIMRC<CR>
-
-" cheatsheet
-nnoremap <leader>vc :vsp ~/dotfiles/vim/cheatsheet<CR>
-
-" save session
-nnoremap <leader>s :mksession<CR>
-
-" open ag.vim
-nnoremap <leader>a :Ag
-
-" change current directory to nginx root
-nnoremap <leader>n :cd ~/Workspace/nginx<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Autogroups
