@@ -203,8 +203,12 @@ nnoremap <leader>u :GundoToggle<CR>
 
 " edit vimrc/zshrc and load vimrc bindings
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>evp :vsp ~/dotfiles/vim/vimrc_plugins_config<CR>
 nnoremap <leader>ez :vsp ~/.zshrc<CR>
 nnoremap <leader>sv :source $MYVIMRC<CR>
+
+" cheatsheet
+nnoremap <leader>vc :vsp ~/dotfiles/vim/cheatsheet<CR>
 
 " save session
 nnoremap <leader>s :mksession<CR>
