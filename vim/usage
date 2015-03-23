@@ -8,3 +8,5 @@ cs find c|d|e|f|g|i|s|t name
 6 或 e	查找本 egrep 模式
 7 或 f	查找本文件
 8 或 i	查找包含本文件的文件
+
+ 把光标定位到某一函数名上或者宏上, 按下 Ctrl + ], vim就可以自动切换到该函数定义处！要返回只需要按下Ctrl + o  或者 Ctrl + t. 
