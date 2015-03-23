@@ -20,7 +20,6 @@ Create symlinks:
 
     ln -s ~/dotfiles/vim/vimrc ~/.vimrc
     ln -s ~/dotfiles/vim ~/.vim
-    ln -s ~/dotfiles/vim/ycm_extra_conf.py ~/.ycm_extra_conf.py
     
     ln -s ~/dotfiles/gtk ~/.gtkrc-2.0
 
