@@ -169,11 +169,6 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
-" code_complete 
-""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:CodeCompl_Hotkey="<C-L>"
-
-""""""""""""""""""""""""""""""""""""""""""""""""""
 " Snippets
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
