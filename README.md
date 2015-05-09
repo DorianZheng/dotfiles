@@ -61,7 +61,7 @@ Compiling YCM with semantic support for C-family languages:
     git submodule update --init --recursive
     ./install.sh --clang-completer
     (for me YCM server crashed with its own libclang, so I reinstall YCM with system libclang. 
-    Just replace ./install.sh --clang-completer with ./install.sh --clang-completer --system-clang)
+    Just replace ./install.sh --clang-completer with ./install.sh --clang-completer --system-libclang)
 
 ### winmanager
 
