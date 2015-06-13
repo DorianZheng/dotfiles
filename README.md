@@ -21,7 +21,7 @@ Create symlinks:
     ln -s ~/dotfiles/vim/vimrc ~/.vimrc
     ln -s ~/dotfiles/vim ~/.vim
     
-    ln -s ~/dotfiles/gtk ~/.gtkrc-2.0
+    ln -s ~/dotfiles/gtk/gtkrc-2.0 ~/.gtkrc-2.0
 
     ln -s ~/dotfiles/irbrc ~/.irbrc
     ln -s ~/dotfiles/ctags ~/.ctags
