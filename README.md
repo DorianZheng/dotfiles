@@ -59,7 +59,7 @@ Compiling YCM with semantic support for C-family languages:
     cd ~/.vim/bundle/YouCompleteMe
     ./install.sh --clang-completer
     
-     ln -s ~/dotfiles/vim/ycm_extra_conf.py ~/.ycm_extra_conf.py
+    ln -s ~/dotfiles/vim/ycm_extra_conf.py ~/.ycm_extra_conf.py
 
 ### winmanager
 
