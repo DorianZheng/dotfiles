@@ -38,6 +38,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'winmanager'
 Plugin 'scrooloose/nerdtree'
 Plugin 'taglist.vim'
+Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'Valloric/YouCompleteMe'
@@ -51,7 +52,7 @@ Plugin 'ghewgill/vim-scmdiff'
 Plugin 'amix/vim-zenroom2'
 Plugin 'nginx.vim'
 
-" Color schemes
+"  Color schemes
 Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
 

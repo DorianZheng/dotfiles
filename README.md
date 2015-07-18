@@ -6,8 +6,7 @@ Vim plugin Vundle is installed as git submodules. Check these out by
 running the commands:
 
     cd dotfiles
-    git submodule init
-    git submodule update
+    git submodule update --init --recursive
 
 Where possible, Vim plugins are installed by Vundle. check these out by
 running the commands:
@@ -58,10 +57,7 @@ directory.
 Compiling YCM with semantic support for C-family languages:
     
     cd ~/.vim/bundle/YouCompleteMe
-    git submodule update --init --recursive
     ./install.sh --clang-completer
-    (for me YCM server crashed with its own libclang, so I reinstall YCM with system libclang. 
-    Just replace ./install.sh --clang-completer with ./install.sh --clang-completer --system-libclang)
 
 ### winmanager
 

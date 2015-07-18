@@ -7,6 +7,7 @@
 " WinManager -------------------------------------
 " NERDTree ---------------------------------------
 " TagList ----------------------------------------
+" ctrlp----------------------------------------
 " vim-airline ------------------------------------
 " SuperTab ---------------------------------------
 " YouCompleteMe ----------------------------------
@@ -90,6 +91,23 @@ let Tlist_Exit_OnlyWindow=1
 let Tlist_File_Fold_Auto_Close=1
 
 nnoremap <silent> <F4> :TlistToggle<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" ctrlp
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Change the default mapping and the default command to invoke CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
+" Exclude files or directories using Vim's wildignore
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " Linux/MacOSX
+set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe  " Windows
+" And/Or CtrlP's own g:ctrlp_custom_ignore
+let g:ctrlp_custom_ignore = {
+	\ 'dir':  '\v[\/]\.(git|hg|svn)$',
+	\ 'file': '\v\.(exe|so|dll)$',
+	\ 'link': 'SOME_BAD_SYMBOLIC_LINKS',
+	\ }
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " vim-airline
