@@ -1,4 +1,4 @@
-" Don't put anything in your .vimrc you don't understand!
+" Don't put anything in your .vimrc you don' understand!
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -76,7 +76,7 @@ nnoremap <silent> <F2> :WMToggle<CR>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " NERDTree
 """"""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <silent> <F3> :NERDTreeToggle<CR>
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " TagList 
@@ -89,8 +89,6 @@ let Tlist_Exit_OnlyWindow=1
  
 "让当前不被编辑的文件的方法列表自动折叠起来 
 let Tlist_File_Fold_Auto_Close=1
-
-nnoremap <silent> <F4> :TlistToggle<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " ctrlp
