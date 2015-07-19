@@ -6,13 +6,14 @@
 " Cscope -----------------------------------------
 " WinManager -------------------------------------
 " NERDTree ---------------------------------------
+" NERFTreeTabs -----------------------------------
 " TagList ----------------------------------------
-" ctrlp----------------------------------------
+" ctrlp-------------------------------------------
 " vim-airline ------------------------------------
 " SuperTab ---------------------------------------
 " YouCompleteMe ----------------------------------
+" YCM-Generator ----------------------------------
 " UltiSnips --------------------------------------
-" code_complete ----------------------------------
 " Snippets ---------------------------------------
 " Auto Pairs -------------------------------------
 " python-mode ------------------------------------
@@ -151,9 +152,10 @@ nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 nmap <F4> :YcmDiags<CR> " 打开诊断窗口
+nnoremap <F5> :YcmForceCompileAndDiagnostics<CR> "  force YCM to immediately recompile your file and display any new diagnostics it encounters
 
-let g:ycm_error_symbol = '>>'
-let g:ycm_warning_symbol = '>*'
+let g:ycm_error_symbol = '>>' " 错误提示符
+let g:ycm_warning_symbol = '>*' " 警告提示符
 
 let g:ycm_collect_identifiers_from_tags_files=1	" 开启 YCM 基于标签引擎
 let g:ycm_min_num_of_chars_for_completion=2	" 从第2个键入字符就开始罗列匹配项
@@ -170,6 +172,11 @@ let g:ycm_filetype_blacklist = {
       \ 'tagbar' : 1,
       \ 'gitcommit' : 1,
       \}
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" YCM-Generator
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " UltiSnips
@@ -222,3 +229,5 @@ let g:UltiSnipsEditSplit="vertical"
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Nginx
 """"""""""""""""""""""""""""""""""""""""""""""""""
+
+
