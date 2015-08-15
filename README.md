@@ -2,17 +2,6 @@ Installation
 
     git clone git@github.com:DorianZheng/dotfiles.git
 
-Vim plugin Vundle is installed as git submodules. Check these out by
-running the commands:
-
-    cd dotfiles
-    git submodule update --init --recursive
-
-Where possible, Vim plugins are installed by Vundle. check these out by
-running the commands:
-
-    vim +PluginInstall +qall
-
 Create symlinks:
 
     ln -s ~/dotfiles/bash/bashrc ~/.bashrc
@@ -29,6 +18,18 @@ Create symlinks:
 
     ln -s ~/dotfiles/git/gitconfig ~/.gitconfig
     ln -s ~/dotfiles/git/global-gitignore ~/.gitignore
+
+Vim plugin Vundle is installed as git submodules. Check these out by
+running the commands:
+
+    cd dotfiles
+    git submodule init
+    git submodule update
+
+Where possible, Vim plugins are installed by Vundle. check these out by
+running the commands:
+
+    vim +PluginInstall +qall
 
 I put Vim's backup and swap files in `~/tmp`, so that directory must exist. To
 be sure, run: 
