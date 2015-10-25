@@ -1,4 +1,3 @@
-" Don't put anything in your .vimrc you don't understand!
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -37,22 +36,17 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins
 Plugin 'winmanager'
 Plugin 'scrooloose/nerdtree'
-" Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'taglist.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'davidhalter/jedi'
 Plugin 'rdnetto/YCM-Generator'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'jiangmiao/auto-pairs'
-" Plugin 'klen/python-mode'
 Plugin 'scrooloose/nerdcommenter'
-" Plugin 'tpope/vim-fugitive'
-" Plugin 'ghewgill/vim-scmdiff'
-" Plugin 'amix/vim-zenroom2'
-" Plugin 'nginx.vim'
 
 "  Color schemes
 Plugin 'tomasr/molokai'
