@@ -1,3 +1,12 @@
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "terminal/gnome-terminal-colors-solarized"]
+	path = terminal/gnome-terminal-colors-solarized
+	url = https://github.com/Anthony25/gnome-terminal-colors-solarized.git
+[submodule "terminal/dircolors-solarized"]
+	path = terminal/dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
+[submodule "zsh/oh-my-zsh"]
+	path = zsh/oh-my-zsh
+	url = git://github.com/robbyrussell/oh-my-zsh.git
