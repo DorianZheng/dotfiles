@@ -15,7 +15,10 @@ git submodule update
 ln -sf $HOME/dotfiles/terminal/gnome-terminal-colors-solarized $HOME/.solarized
 ln -sf $HOME/dotfiles/terminal/dircolors-solarized/dircolors.ansi-dark $HOME/.dircolors
 
-eval '$HOME/.solarized/set_dark.sh'
+#eval '$HOME/.solarized/set_dark.sh'
+
+# fix winmanager
+cp $HOME/dotfiles/vim/ $HOME/dotfiles/vim/bundle/winmanager/plugin/winmanager.vim 
 
 
 ############################################################
@@ -44,5 +47,5 @@ ln -sf $HOME/dotfiles/zsh/zshrc $HOME/.zshrc
 ln -sf $HOME/dotfiles/git/gitconfig $HOME/.gitconfig
 
 ssh-keygen -t rsa -b 4096 -C "xingzhengde72@gmail.com"
-ssh-add ~/.ssh/id_rsa
-xclip -sel clip < ~/.ssh/id_rsa.pub
+ssh-add $HOME/.ssh/id_rsa
+xclip -sel clip < $HOME/.ssh/id_rsa.pub
