@@ -41,12 +41,13 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'davidhalter/jedi'
-Plugin 'rdnetto/YCM-Generator'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+" Plugin 'davidhalter/jedi'
+" Plugin 'rdnetto/YCM-Generator'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'sjl/gundo.vim'
 
 "  Color schemes
 Plugin 'tomasr/molokai'
@@ -96,7 +97,7 @@ syntax enable              " enable syntax processing
 if has("gui_running")
     set background=dark
     try
-    	colorscheme molokai
+    	colorscheme solarized
 	catch
 	endtry
 else
@@ -137,9 +138,6 @@ let g:mapleader=","     " global leader is comma
 
 " jk is escape
 inoremap jk <esc>
-
-" toggle gundo
-nnoremap <leader>u :GundoToggle<CR>
 
 " edit vimrc/zshrc and load vimrc bindings
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
@@ -208,6 +206,10 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+"设置切换Buffer快捷键"
+nnoremap <C-N> :bn<CR>
+nnoremap <C-P> :bp<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " Status Line
