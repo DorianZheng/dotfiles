@@ -35,7 +35,8 @@ vim +PluginInstall +qall
 ############################################################
 # zsh
 ############################################################
-ln -sf $HOME/dotfiles/zsh/oh-my-zsh $HOME/.oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+rm $HOME/.zshrc
 ln -sf $HOME/dotfiles/zsh/zshrc $HOME/.zshrc
 
 #chsh -s /bin/zsh
