@@ -84,6 +84,10 @@ export LANG=en_US.UTF-8
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias cls="clear"
+alias tailf="tail -f"
+alias gu="git stash && git pull && git stash pop"
+PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p%{$fg[cyan]%}%d %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}>'
 
 # Go
 export GOPATH="$HOME/Workspace/go"
