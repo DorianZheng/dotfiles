@@ -10,3 +10,6 @@
 [submodule "zsh/oh-my-zsh"]
 	path = zsh/oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "iterm/iterm2-zmodem"]
+	path = iterm/iterm2-zmodem
+	url = https://github.com/mmastrac/iterm2-zmodem.git

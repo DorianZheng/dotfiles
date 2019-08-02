@@ -3,3 +3,5 @@
 	email = xingzhengde72@gmail.com
 [push]
 	default = simple
+[core]
+	autocrlf = input
