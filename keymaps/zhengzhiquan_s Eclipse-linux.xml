@@ -1,4 +1,4 @@
-<keymap version="1" name="Eclipse copy" parent="Eclipse">
+<keymap version="1" name="zhengzhiquan's Eclipse-linux" parent="Eclipse">
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
