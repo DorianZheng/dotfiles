@@ -1,10 +1,18 @@
 <keymap version="1" name="zhengzhiquan's Eclipse-linux" parent="Eclipse">
+  <action id="CIDR.Lang.SwitchHeaderSource">
+    <keyboard-shortcut first-keystroke="f10" />
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="Diff.FocusOppositePane" />
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="ctrl multiply" />
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
 </keymap>
