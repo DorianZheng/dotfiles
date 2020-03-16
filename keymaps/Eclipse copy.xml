@@ -1,0 +1,10 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="ctrl multiply" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+</keymap>
