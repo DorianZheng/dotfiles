@@ -1,6 +1,8 @@
 <keymap version="1" name="zhengzhiquan's Eclipse-linux" parent="Eclipse">
-  <action id="CIDR.Lang.SwitchHeaderSource">
+  <action id="Annotate">
     <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="CIDR.Lang.SwitchHeaderSource">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="CollapseAllRegions">
