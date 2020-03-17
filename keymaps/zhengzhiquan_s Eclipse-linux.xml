@@ -10,6 +10,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="Diff.FocusOppositePane" />
+  <action id="EditBookmark">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f12" />
+  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="ctrl multiply" />
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
