@@ -2,4 +2,11 @@
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />
   </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="ObjectiveC" value="true" />
+      </map>
+    </option>
+  </component>
 </application>
