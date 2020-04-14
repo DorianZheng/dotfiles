@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxSdW5TaW5nbGVMYW5lXD4=</entry>
         <entry>STLGraphSampleSize</entry>
         <entry>GenerateSTGraph::Run()</entry>
         <entry encoding="base64">XDxHZW5lcmF0ZVNUR3JhcGhcPg==</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDxQcm9wb3NhbEZlYXNpYmlsaXR5XD4=</entry>
         <entry encoding="base64">XDxHZW5lcmF0ZVByb3Bvc2FsXD4=</entry>
         <entry encoding="base64">XDxmcmFtZVw+</entry>
+        <entry>enable_cpu_profiling</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -134,6 +134,9 @@
       <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1586762610099">
         <mark key="'" line="221" column="49" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/main.cc" timestamp="1586839993477">
+        <mark key="'" line="52" column="24" />
+      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1586768740683">
         <mark key="'" line="132" column="43" />
         <mark key="[" line="18" column="0" />
@@ -164,7 +167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="34" column="16" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
       <jump line="36" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
       <jump line="37" column="35" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
       <jump line="455" column="24" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
@@ -264,6 +266,7 @@
       <jump line="324" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" />
       <jump line="484" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" />
       <jump line="17" column="39" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" />
+      <jump line="52" column="24" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/main.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -275,7 +278,7 @@
         <text>, double speed_limit</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxmcmFtZVw+</text>
+        <text>enable_cpu_profiling</text>
       </register>
       <register name="0" type="4">
         <text>hard_limits_upper[idx]</text>
@@ -314,9 +317,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxmcmFtZVw+</last-search>
+      <last-search>enable_cpu_profiling</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxmcmFtZVw+</last-pattern>
+      <last-pattern>enable_cpu_profiling</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxGcm9tQ29udG91clRlc3RcPg==</last-substitute>
       <last-dir>1</last-dir>
