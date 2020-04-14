@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>GenerateSTGraph::Run()</entry>
         <entry encoding="base64">XDxHZW5lcmF0ZVNUR3JhcGhcPg==</entry>
         <entry encoding="base64">XDxNdWx0aVByb3Bvc2FsU1RTY2FuXD4=</entry>
         <entry encoding="base64">XDxkZWNpc2lvbl9tYWluXD4=</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDxmcmFtZVw+</entry>
         <entry>enable_cpu_profiling</entry>
         <entry encoding="base64">XDxtYWluX2xvb3BcPg==</entry>
+        <entry encoding="base64">XDxzcGVlZF9saW1pdFw+</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -121,12 +121,12 @@
         <mark key="." line="679" column="37" />
         <mark key="^" line="679" column="37" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/st_scan_utils.cc" timestamp="1586827446322">
-        <mark key="'" line="120" column="18" />
-        <mark key="[" line="213" column="26" />
-        <mark key="]" line="213" column="29" />
-        <mark key="^" line="213" column="29" />
-        <mark key="." line="213" column="29" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/st_scan_utils.cc" timestamp="1586842475719">
+        <mark key="'" line="90" column="67" />
+        <mark key="[" line="89" column="0" />
+        <mark key="]" line="89" column="0" />
+        <mark key="^" line="182" column="29" />
+        <mark key="." line="89" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/sampling/st_sampler.cc" timestamp="1586828921061">
         <mark key="'" line="94" column="30" />
@@ -167,9 +167,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="37" column="35" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
-      <jump line="455" column="24" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="293" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="552" column="34" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="1667" column="62" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" />
       <jump line="1815" column="21" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" />
@@ -267,48 +264,51 @@
       <jump line="17" column="39" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" />
       <jump line="52" column="24" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/main.cc" />
       <jump line="64" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="271" column="53" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/st_scan_utils.cc" />
+      <jump line="278" column="19" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/st_scan_utils.cc" />
+      <jump line="121" column="67" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/st_scan_utils.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIC8vIEJlYXQgY2FzZQo=</text>
+        <text encoding="base64">c3RydWN0IEFjY2VsZXJhdGlvbkxpbWl0cyB7CiAgc3RydWN0IEJvdW5kIHsKICAgIGRvdWJsZSB2YWx1ZTsKICAgIHNpemVfdCBmcm9tLCB0bzsgIC8vIHQgXGluIFtmcm9tLCB0bykKICB9OwogIHN0ZDo6dmVjdG9yPEJvdW5kPiB1cHBlciwgbG93ZXI7CgogIGRvdWJsZSBhdmVyYWdlX2dhcChzaXplX3QgZnJvbSwgc2l6ZV90IHRvKSBjb25zdCBub2V4Y2VwdCB7CiAgICBpZiAodG8gPD0gZnJvbSkgewogICAgICByZXR1cm4gMC4wOwogICAgfQogICAgZG91YmxlIHRvdGFsX2dhcCA9IDAuMDsKICAgIGZvciAoc2l6ZV90IHRfaW5kZXggPSBmcm9tOyB0X2luZGV4IDwgdG87ICsrdF9pbmRleCkgewogICAgICBkb3VibGUgdXBwZXJfYm91bmQgPSBzdGQ6Om51bWVyaWNfbGltaXRzPGRvdWJsZT46Om1heCgpOwogICAgICBkb3VibGUgbG93ZXJfYm91bmQgPSBzdGQ6Om51bWVyaWNfbGltaXRzPGRvdWJsZT46Omxvd2VzdCgpOwogICAgICBmb3IgKGF1dG8gJmJvdW5kIDogdXBwZXIpIHsKICAgICAgICBpZiAoYm91bmQuZnJvbSA8PSB0X2luZGV4ICYmIHRfaW5kZXggPCBib3VuZC50bykgewogICAgICAgICAgdXBwZXJfYm91bmQgPSBzdGQ6Om1pbih1cHBlcl9ib3VuZCwgYm91bmQudmFsdWUpOwogICAgICAgIH0KICAgICAgfQogICAgICBmb3IgKGF1dG8gJmJvdW5kIDogbG93ZXIpIHsKICAgICAgICBpZiAoYm91bmQuZnJvbSA8PSB0X2luZGV4ICYmIHRfaW5kZXggPCBib3VuZC50bykgewogICAgICAgICAgbG93ZXJfYm91bmQgPSBzdGQ6Om1heChsb3dlcl9ib3VuZCwgYm91bmQudmFsdWUpOwogICAgICAgIH0KICAgICAgfQogICAgICB0b3RhbF9nYXAgKz0gdXBwZXJfYm91bmQgLSBsb3dlcl9ib3VuZDsKICAgIH0KICAgIHJldHVybiB0b3RhbF9nYXAgLyAodG8gLSBmcm9tKTsKICB9Cn07Cgo=</text>
       </register>
       <register name="-" type="4">
         <text>, double speed_limit</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtYWluX2xvb3BcPg==</text>
+        <text encoding="base64">XDxzcGVlZF9saW1pdFw+</text>
       </register>
       <register name="0" type="4">
         <text>hard_limits_upper[idx]</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIC8vIEJlYXQgY2FzZQo=</text>
+        <text encoding="base64">c3RydWN0IEFjY2VsZXJhdGlvbkxpbWl0cyB7CiAgc3RydWN0IEJvdW5kIHsKICAgIGRvdWJsZSB2YWx1ZTsKICAgIHNpemVfdCBmcm9tLCB0bzsgIC8vIHQgXGluIFtmcm9tLCB0bykKICB9OwogIHN0ZDo6dmVjdG9yPEJvdW5kPiB1cHBlciwgbG93ZXI7CgogIGRvdWJsZSBhdmVyYWdlX2dhcChzaXplX3QgZnJvbSwgc2l6ZV90IHRvKSBjb25zdCBub2V4Y2VwdCB7CiAgICBpZiAodG8gPD0gZnJvbSkgewogICAgICByZXR1cm4gMC4wOwogICAgfQogICAgZG91YmxlIHRvdGFsX2dhcCA9IDAuMDsKICAgIGZvciAoc2l6ZV90IHRfaW5kZXggPSBmcm9tOyB0X2luZGV4IDwgdG87ICsrdF9pbmRleCkgewogICAgICBkb3VibGUgdXBwZXJfYm91bmQgPSBzdGQ6Om51bWVyaWNfbGltaXRzPGRvdWJsZT46Om1heCgpOwogICAgICBkb3VibGUgbG93ZXJfYm91bmQgPSBzdGQ6Om51bWVyaWNfbGltaXRzPGRvdWJsZT46Omxvd2VzdCgpOwogICAgICBmb3IgKGF1dG8gJmJvdW5kIDogdXBwZXIpIHsKICAgICAgICBpZiAoYm91bmQuZnJvbSA8PSB0X2luZGV4ICYmIHRfaW5kZXggPCBib3VuZC50bykgewogICAgICAgICAgdXBwZXJfYm91bmQgPSBzdGQ6Om1pbih1cHBlcl9ib3VuZCwgYm91bmQudmFsdWUpOwogICAgICAgIH0KICAgICAgfQogICAgICBmb3IgKGF1dG8gJmJvdW5kIDogbG93ZXIpIHsKICAgICAgICBpZiAoYm91bmQuZnJvbSA8PSB0X2luZGV4ICYmIHRfaW5kZXggPCBib3VuZC50bykgewogICAgICAgICAgbG93ZXJfYm91bmQgPSBzdGQ6Om1heChsb3dlcl9ib3VuZCwgYm91bmQudmFsdWUpOwogICAgICAgIH0KICAgICAgfQogICAgICB0b3RhbF9nYXAgKz0gdXBwZXJfYm91bmQgLSBsb3dlcl9ib3VuZDsKICAgIH0KICAgIHJldHVybiB0b3RhbF9nYXAgLyAodG8gLSBmcm9tKTsKICB9Cn07Cgo=</text>
       </register>
       <register name="2" type="2">
         <text encoding="base64">ICAgIC8vIEJlYXQgY2FzZQo=</text>
       </register>
       <register name="3" type="2">
+        <text encoding="base64">ICAgIC8vIEJlYXQgY2FzZQo=</text>
+      </register>
+      <register name="4" type="2">
         <text encoding="base64">ICAgICAgICBhdXRvICZodSA9Cg==</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">c3RfYmxvY2suYWN0aXZlX3RpbWVfaW5kZXguc2Vjb25kID49IGhvcml6b24gLSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IGhvcml6b24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogc3RfYmxvY2suYWN0aXZlX3RpbWVfaW5kZXguc2Vjb25kICsgMQ==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">c3RfYmxvY2suYWN0aXZlX3RpbWVfaW5kZXguc2Vjb25kID49CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbiAtIDEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8gaG9yaXpvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiBzdF9ibG9jay5hY3RpdmVfdGltZV9pbmRleC5zZWNvbmQgKyAx</text>
       </register>
-      <register name="6" type="2">
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgYXV0byAmcHUgPQo=</text>
       </register>
-      <register name="7" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgICAgc2l6ZV90IHN0YXJ0X3QgPSBzdF9ibG9jay5hY3RpdmVfdGltZV9pbmRleC5maXJzdDsK</text>
       </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgY29udGludWU7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -317,9 +317,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxtYWluX2xvb3BcPg==</last-search>
+      <last-search encoding="base64">XDxzcGVlZF9saW1pdFw+</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtYWluX2xvb3BcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxzcGVlZF9saW1pdFw+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxGcm9tQ29udG91clRlc3RcPg==</last-substitute>
       <last-dir>1</last-dir>
