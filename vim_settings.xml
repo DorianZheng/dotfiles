@@ -103,10 +103,11 @@
         <mark key="^" line="11" column="66" />
         <mark key="." line="11" column="20" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1586952078754">
-        <mark key="[" line="244" column="0" />
-        <mark key="]" line="244" column="0" />
-        <mark key="." line="244" column="0" />
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1586952885422">
+        <mark key="[" line="248" column="45" />
+        <mark key="]" line="249" column="4" />
+        <mark key="." line="249" column="3" />
+        <mark key="^" line="249" column="4" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_service.cc" timestamp="1586935476804">
         <mark key="'" line="0" column="0" />
@@ -138,7 +139,7 @@
         <mark key="." line="181" column="1" />
         <mark key="^" line="181" column="2" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1586939866073">
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1586953097004">
         <mark key="'" line="474" column="27" />
         <mark key="[" line="283" column="66" />
         <mark key="]" line="283" column="66" />
@@ -165,13 +166,14 @@
         <mark key="^" line="16" column="37" />
         <mark key="." line="16" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1586922678568" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1586953204551">
+        <mark key="'" line="140" column="1" />
+      </file>
       <file name="/scheduler.h" timestamp="1586952185781">
         <mark key="'" line="213" column="6" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="511" column="19" filename="$USER_HOME$/Workspace/gibraltar/corelib/log.h" />
       <jump line="1302" column="9" filename="$USER_HOME$/Workspace/gibraltar/corelib/log.h" />
       <jump line="38" column="24" filename="$USER_HOME$/Workspace/gibraltar/corelib/log.h" />
       <jump line="491" column="9" filename="$USER_HOME$/Workspace/gibraltar/corelib/log.h" />
@@ -271,15 +273,16 @@
       <jump line="225" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="260" column="25" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="213" column="6" filename="/scheduler.h" />
+      <jump line="140" column="1" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICBTcGF3blRhc2tJbXBsKFt0aGlzLCB0YXNrX2NvdW50LCBtYXhfY29uY3VycmVudF90YXNrcywgY2FsbGVyLAogICAgICAgICAgICAgICAgICAgIHRhc2tfZ2VuZXJhdG9yID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX3Q+KHRhc2tfZ2VuZXJhdG9yKSwKICAgICAgICAgICAgICAgICAgICB0YXNrX2dlbmVyYXRvcl9uYW1lID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX25hbWVfdD4odGFza19nZW5lcmF0b3JfbmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgICZpbm5lcl90YXNrc19maW5pc2hlZF9jdiwgJmlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4LAogICAgICAgICAgICAgICAgICAgICAgICAmbnVtX2NvbmN1cnJlbnRfdGFza3MsIG51bV9leGVjdXRvcnNfZmluaXNoZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICZ0YXNrX2luZGV4X2NvdW50ZXIsICZnZW5lcmF0b3JfcHJvZmlsZXJfc2VjdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgJnRhc2tfcHJvZmlsZXJfc2VjdGlvbiwgJmlubmVyX3Rhc2tdKCkgbXV0YWJsZSBub2V4Y2VwdCB7CiAgfSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>48</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxtYXhfY29uY3VycmVudF90YXNrc1w+</text>
@@ -288,31 +291,31 @@
         <text encoding="base64">ICAgICAgTE9HKFdBUk5JTkcpIDw8ICJ+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fiI7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBTcGF3blRhc2tJbXBsKFt0aGlzLCB0YXNrX2NvdW50LCBtYXhfY29uY3VycmVudF90YXNrcywgY2FsbGVyLAogICAgICAgICAgICAgICAgICAgIHRhc2tfZ2VuZXJhdG9yID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX3Q+KHRhc2tfZ2VuZXJhdG9yKSwKICAgICAgICAgICAgICAgICAgICB0YXNrX2dlbmVyYXRvcl9uYW1lID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX25hbWVfdD4odGFza19nZW5lcmF0b3JfbmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgICZpbm5lcl90YXNrc19maW5pc2hlZF9jdiwgJmlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4LAogICAgICAgICAgICAgICAgICAgICAgICAmbnVtX2NvbmN1cnJlbnRfdGFza3MsIG51bV9leGVjdXRvcnNfZmluaXNoZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICZ0YXNrX2luZGV4X2NvdW50ZXIsICZnZW5lcmF0b3JfcHJvZmlsZXJfc2VjdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgJnRhc2tfcHJvZmlsZXJfc2VjdGlvbiwgJmlubmVyX3Rhc2tdKCkgbXV0YWJsZSBub2V4Y2VwdCB7CiAgfSk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBTcGF3blRhc2tJbXBsKFt0aGlzLCB0YXNrX2NvdW50LCBtYXhfY29uY3VycmVudF90YXNrcywgY2FsbGVyLAogICAgICAgICAgICAgICAgICAgIHRhc2tfZ2VuZXJhdG9yID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX3Q+KHRhc2tfZ2VuZXJhdG9yKSwKICAgICAgICAgICAgICAgICAgICB0YXNrX2dlbmVyYXRvcl9uYW1lID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX25hbWVfdD4odGFza19nZW5lcmF0b3JfbmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgICZpbm5lcl90YXNrc19maW5pc2hlZF9jdiwgJmlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4LAogICAgICAgICAgICAgICAgICAgICAgICAmbnVtX2NvbmN1cnJlbnRfdGFza3MsIG51bV9leGVjdXRvcnNfZmluaXNoZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICZ0YXNrX2luZGV4X2NvdW50ZXIsICZnZW5lcmF0b3JfcHJvZmlsZXJfc2VjdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgJnRhc2tfcHJvZmlsZXJfc2VjdGlvbiwgJmlubmVyX3Rhc2tdKCkgbXV0YWJsZSBub2V4Y2VwdCB7CiAgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbaW5uZXJfdGFza10oKSBub2V4Y2VwdCB7ICgqaW5uZXJfdGFzaykoaW5uZXJfdGFzayk7IH0pOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGF1dG8gXyA9IGdlbmVyYXRvcl9wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwogICAgaWYgKG1heF9jb25jdXJyZW50X3Rhc2tzID09IDApIHsKICAgICAgbWF4X2NvbmN1cnJlbnRfdGFza3MgPSBHZXRNYXhDb25jdXJyZW50VGFza3MoKTsKICAgIH0KCiAgICBmb3IgKHNpemVfdCBpID0gMDsgaSA8IG51bV9jb25jdXJyZW50X3Rhc2tzOyArK2kpIHsKICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbJl0oKSBub2V4Y2VwdCB7IGlubmVyX3Rhc2soJmlubmVyX3Rhc2spOyB9KTsKICAgIH0K</text>
+        <text encoding="base64">ICAgICAgaW5uZXJfdGFza3NfZmluaXNoZWRfY3Yubm90aWZ5X2FsbCgpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgTE9HKFdBUk5JTkcpIDw8ICJ+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fiI7Cg==</text>
+        <text encoding="base64">ICAgIDsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIExPRyhXQVJOSU5HKSA8PCAifn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn4iOwo=</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIG1hcmtfZXhlY3V0b3JfZG9uZSgpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIExPRyhXQVJOSU5HKSA8PCAifn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn4iOwo=</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIG1hcmtfZXhlY3V0b3JfZG9uZSgpOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgTE9HKFdBUk5JTkcpIDw8ICJ+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fiI7Cg==</text>
+        <text encoding="base64">ICAgIC8vIFRoaXMgZXh0cmEgY2hlY2sgaGVyZSBpcyBhIGNoZWFwIG9wdGltaWF0aW9uIHRvIGF2b2lkCiAgICAvLyByZS1zcGF3bmluZyBpZiB3ZSBrbm93IGZvciBzdXJlIHdlJ3JlIGRvbmUuCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgTE9HKFdBUk5JTkcpIDw8ICJ+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fiI7Cg==</text>
+        <text encoding="base64">ICAgIGlmIChKQ19VTkxJS0VMWSgpKSB7CiAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgTE9HKFdBUk5JTkcpIDw8ICJ+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fiI7Cg==</text>
+        <text encoding="base64">ICAgIGlmIChKQ19VTkxJS0VMWSh0YXNrX2luZGV4ID49IHRhc2tfY291bnQpKSB7CiAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsKICAgIH0gZWxzZSB7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
