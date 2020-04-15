@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxzcGVlZF9saW1pdFw+</entry>
         <entry encoding="base64">XDxwcmVkaWN0aW9uX21haW5cPg==</entry>
         <entry encoding="base64">XDxwcmVkaWN0aW9uX2NwdV9wcm9mXD4=</entry>
         <entry>lateral_prediction</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDxXb3JrZXJUaHJlYWRcPg==</entry>
         <entry>Make</entry>
         <entry encoding="base64">XDxMb2dcPg==</entry>
+        <entry encoding="base64">XDxqY19sb2dcPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -152,18 +152,15 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc_dir/fragment.cpp" timestamp="1586851709766">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1586911021860">
-        <mark key="'" line="381" column="7" />
-        <mark key="[" line="430" column="26" />
-        <mark key="]" line="430" column="27" />
-        <mark key="." line="430" column="26" />
-        <mark key="^" line="430" column="27" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1586912748480">
+        <mark key="'" line="168" column="4" />
+        <mark key="[" line="424" column="65" />
+        <mark key="]" line="424" column="79" />
+        <mark key="." line="424" column="78" />
+        <mark key="^" line="424" column="79" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="30" column="20" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
-      <jump line="32" column="20" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
-      <jump line="24" column="14" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
       <jump line="36" column="43" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
       <jump line="45" column="21" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
       <jump line="28" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
@@ -261,6 +258,9 @@
       <jump line="491" column="9" filename="$USER_HOME$/Workspace/gibraltar/corelib/log.h" />
       <jump line="1178" column="13" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/log.cc" />
       <jump line="567" column="10" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/st_scan_utils.cc" />
+      <jump line="424" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
+      <jump line="37" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
+      <jump line="168" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -272,7 +272,7 @@
         <text>)</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxMb2dcPg==</text>
+        <text encoding="base64">XDxqY19sb2dcPg==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CiAgU2VydmljZTo6R2V0PHNlcnZpY2VzOjpTY2hlZHVsZXJTZXJ2aWNlPigpCiAgICAgIC0+TWFrZVJ1bkluZGV4ZWRUYXNrc1JlcXVlc3QoY29uc3RydWN0X3NpbmdsZV9zbF9ncmFwaCwgc2FtcGxlX3NpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RkOjpzdHJpbmcoIkdlbmVyYXRlU0xHcmFwaCIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbmZpZzo6R2V0KCkubnVtX3RocmVhZHMoKSkKICAgICAgLT5TdGFydEFuZFdhaXRGb3IoKTsK</text>
@@ -311,9 +311,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxMb2dcPg==</last-search>
+      <last-search encoding="base64">XDxqY19sb2dcPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxMb2dcPg==</last-pattern>
+      <last-pattern encoding="base64">XDxqY19sb2dcPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
