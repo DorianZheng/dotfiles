@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxodHRwX3NlcnZlcl9cPg==</entry>
-        <entry>api</entry>
         <entry encoding="base64">XDxTcGF3bkdlbmVyYXRlZFRhc2tzXD4=</entry>
         <entry encoding="base64">XDxOb3RpZnlDb21wbGV0ZVw+</entry>
         <entry>core</entry>
@@ -16,7 +14,6 @@
         <entry encoding="base64">XDxNYWtlUnVuR2VuZXJhdGVkVGFza3NSZXF1ZXN0XD4=</entry>
         <entry>~~~~</entry>
         <entry encoding="base64">XDxtYXhfY29uY3VycmVudF90YXNrc1w+</entry>
-        <entry encoding="base64">XDxTcGF3blRhc2tJbXBsXD4=</entry>
         <entry encoding="base64">XDxnel9zZW1hbnRpY19tYXBfdjJcPg==</entry>
         <entry>SpawnTaskImpl</entry>
         <entry encoding="base64">XDxTZXJ2aWNlU3RhcnRcPg==</entry>
@@ -25,6 +22,9 @@
         <entry encoding="base64">XDxpbm5lcl90YXNrc19maW5pc2hlZF9jdlw+</entry>
         <entry encoding="base64">XDxudW1fY29uY3VycmVudF90YXNrc1w+</entry>
         <entry>RunGener</entry>
+        <entry encoding="base64">XDx0YXNrX3dyYXBwZXJfdFw+</entry>
+        <entry encoding="base64">XDxTcGF3blRhc2tJbXBsXD4=</entry>
+        <entry>Callable</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -96,12 +96,8 @@
         <mark key="^" line="11" column="66" />
         <mark key="." line="11" column="20" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587018144597">
-        <mark key="'" line="285" column="13" />
-        <mark key="[" line="229" column="4" />
-        <mark key="]" line="229" column="13" />
-        <mark key="." line="229" column="12" />
-        <mark key="^" line="229" column="13" />
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587022622736">
+        <mark key="'" line="124" column="34" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_service.cc" timestamp="1586935476804">
         <mark key="'" line="0" column="0" />
@@ -121,12 +117,12 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/pnc/tasks/task_runner.h" timestamp="1586917732453">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587019104808">
-        <mark key="'" line="367" column="11" />
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587022607895">
+        <mark key="'" line="363" column="0" />
         <mark key="[" line="25" column="70" />
-        <mark key="]" line="25" column="70" />
-        <mark key="." line="25" column="70" />
-        <mark key="^" line="373" column="32" />
+        <mark key="]" line="363" column="1" />
+        <mark key="." line="363" column="0" />
+        <mark key="^" line="363" column="1" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/request.h" timestamp="1586935705774">
         <mark key="'" line="196" column="10" />
@@ -144,17 +140,16 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1586940681670">
         <mark key="'" line="314" column="41" />
       </file>
-      <file name="/Dummy.txt" timestamp="1587000017544">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="5" column="3" />
-        <mark key="." line="5" column="3" />
+      <file name="/Dummy.txt" timestamp="1587020997232">
+        <mark key="[" line="0" column="1" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/experimental/users/zzq/scheduler/main.cc" timestamp="1587004674235">
+      <file name="$USER_HOME$/Workspace/gibraltar/experimental/users/zzq/scheduler/main.cc" timestamp="1587022245646">
         <mark key="'" line="32" column="12" />
-        <mark key="[" line="18" column="32" />
-        <mark key="]" line="18" column="34" />
-        <mark key="." line="18" column="33" />
-        <mark key="^" line="18" column="34" />
+        <mark key="[" line="21" column="0" />
+        <mark key="]" line="21" column="0" />
+        <mark key="." line="21" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_config.proto" timestamp="1586934406687">
         <mark key="[" line="16" column="24" />
@@ -170,17 +165,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="252" column="8" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="27" column="59" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="248" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="296" column="5" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="243" column="7" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="209" column="10" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="143" column="4" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/pnc/tasks/task_runner.h" />
-      <jump line="150" column="15" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="261" column="50" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="17" column="19" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="260" column="26" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="167" column="23" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="381" column="15" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
@@ -197,7 +181,6 @@
       <jump line="213" column="2" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="183" column="0" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="184" column="7" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="133" column="67" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="141" column="15" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="175" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="179" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
@@ -270,48 +253,73 @@
       <jump line="92" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="258" column="56" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="285" column="13" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="183" column="39" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="125" column="23" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="127" column="30" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="178" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="247" column="10" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="132" column="23" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="133" column="4" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="174" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="140" column="15" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="363" column="0" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="64" column="82" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="124" column="34" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>d</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>--;</text>
       </register>
       <register name="/" type="4">
-        <text>RunGener</text>
+        <text>Callable</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgTE9HKFdBUk5JTkcpIDw8ICJYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIjsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8gICAgICB0aGlzLT5TcGF3blRhc2tJbXBsKFtpbm5lcl90YXNrXSgpIG5vZXhjZXB0IHsgKCppbm5lcl90YXNrKShpbm5lcl90YXNrKTsgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIC8vIFRoaXMgZXh0cmEgY2hlY2sgaGVyZSBpcyBhIGNoZWFwIG9wdGltaWF0aW9uIHRvIGF2b2lkCiAgICAvLyByZS1zcGF3bmluZyBpZiB3ZSBrbm93IGZvciBzdXJlIHdlJ3JlIGRvbmUuCg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text>Set the thread name to aid debugging
+
+Summary:
+
+Test Plan:
+No need
+
+Reviewers:
+
+Subscribers:
+
+Blame Revision:
+
+JIRA Is</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgOwogICAgICBpZiAoSkNfVU5MSUtFTFkodGFza19pbmRleCA+PSB0YXNrX2NvdW50KSkgewogICAgICAgIHJldHVybjsKICAgICAgfSBlbHNlIHsK</text>
+        <text encoding="base64">Ly8gICAgICB0aGlzLT5TcGF3blRhc2tJbXBsKFtpbm5lcl90YXNrXSgpIG5vZXhjZXB0IHsgKCppbm5lcl90YXNrKShpbm5lcl90YXNrKTsgfSk7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgIC8vIFRoaXMgZXh0cmEgY2hlY2sgaGVyZSBpcyBhIGNoZWFwIG9wdGltaWF0aW9uIHRvIGF2b2lkCiAgICAvLyByZS1zcGF3bmluZyBpZiB3ZSBrbm93IGZvciBzdXJlIHdlJ3JlIGRvbmUuCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgfQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgLy8gVGhpcyBleHRyYSBjaGVjayBoZXJlIGlzIGEgY2hlYXAgb3B0aW1pYXRpb24gdG8gYXZvaWQKICAgICAgLy8gcmUtc3Bhd25pbmcgaWYgd2Uga25vdyBmb3Igc3VyZSB3ZSdyZSBkb25lLgogICAgICBpZiAobnVtX2V4ZWN1dG9yc19maW5pc2hlZC5mZXRjaF9hZGQoMSkgPCB0YXNrX2NvdW50IC0gMSkgewovLyAgICAgIHRoaXMtPlNwYXduVGFza0ltcGwoW2lubmVyX3Rhc2tdKCkgbm9leGNlcHQgeyAoKmlubmVyX3Rhc2spKGlubmVyX3Rhc2spOyB9KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBKQ19BU1NFUlQobnVtX2V4ZWN1dG9yc19maW5pc2hlZCA9PSB0YXNrX2NvdW50KQogICAgICAgIHN0ZDo6dW5pcXVlX2xvY2s8c3RkOjptdXRleD4gbG9jayhpbm5lcl90YXNrc19maW5pc2hlZF9tdXRleCk7CiAgICAgICAgZG9uZSA9IHRydWU7CiAgICAgICAgaW5uZXJfdGFza3NfZmluaXNoZWRfY3Yubm90aWZ5X29uZSgpOwogICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgOwogICAgICBpZiAoSkNfVU5MSUtFTFkodGFza19pbmRleCA+PSB0YXNrX2NvdW50KSkgewogICAgICAgIHJldHVybjsKICAgICAgfSBlbHNlIHsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGF1dG8gdGFza19pbmRleCA9IHRhc2tfaW5kZXhfY291bnRlci5mZXRjaF9hZGQoMSk7CiAgICBpZiAoSkNfVU5MSUtFTFkodGFza19pbmRleCA+PSB0YXNrX2NvdW50KSkgewogICAgICByZXR1cm47CiAgICB9IGVsc2UgewogICAgICBhdXRvIF8gPSB0YXNrX3Byb2ZpbGVyX3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7CiAgICAgIHRhc2tfZ2VuZXJhdG9yKHRhc2tfaW5kZXgsIHRhc2tfY291bnQpKCk7CiAgICB9CgogICAgLy8gVGhpcyBleHRyYSBjaGVjayBoZXJlIGlzIGEgY2hlYXAgb3B0aW1pYXRpb24gdG8gYXZvaWQKICAgIC8vIHJlLXNwYXduaW5nIGlmIHdlIGtub3cgZm9yIHN1cmUgd2UncmUgZG9uZS4KICAgIGlmIChudW1fZXhlY3V0b3JzX2ZpbmlzaGVkLmZldGNoX2FkZCgxKSA8IHRhc2tfY291bnQgLSAxKSB7Ci8vICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbaW5uZXJfdGFza10oKSBub2V4Y2VwdCB7ICgqaW5uZXJfdGFzaykoaW5uZXJfdGFzayk7IH0pOwogICAgfSBlbHNlIHsKICAgICAgSkNfQVNTRVJUKG51bV9leGVjdXRvcnNfZmluaXNoZWQgPT0gdGFza19jb3VudCkKICAgICAgc3RkOjp1bmlxdWVfbG9jazxzdGQ6Om11dGV4PiBsb2NrKGlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4KTsKICAgICAgZG9uZSA9IHRydWU7CiAgICAgIGlubmVyX3Rhc2tzX2ZpbmlzaGVkX2N2Lm5vdGlmeV9vbmUoKTsKICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -320,9 +328,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>RunGener</last-search>
+      <last-search>Callable</last-search>
       <last-offset />
-      <last-pattern>RunGener</last-pattern>
+      <last-pattern>Callable</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
