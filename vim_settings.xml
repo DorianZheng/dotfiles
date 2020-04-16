@@ -145,11 +145,12 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/experimental/users/zzq/scheduler/main.cc" timestamp="1587022245646">
+      <file name="$USER_HOME$/Workspace/gibraltar/experimental/users/zzq/scheduler/main.cc" timestamp="1587023077687">
         <mark key="'" line="32" column="12" />
-        <mark key="[" line="21" column="0" />
-        <mark key="]" line="21" column="0" />
-        <mark key="." line="21" column="0" />
+        <mark key="[" line="29" column="48" />
+        <mark key="]" line="29" column="48" />
+        <mark key="." line="29" column="48" />
+        <mark key="^" line="13" column="34" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_config.proto" timestamp="1586934406687">
         <mark key="[" line="16" column="24" />
@@ -269,11 +270,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>0</text>
       </register>
       <register name="-" type="4">
-        <text>--;</text>
+        <text>0</text>
       </register>
       <register name="/" type="4">
         <text>Callable</text>
