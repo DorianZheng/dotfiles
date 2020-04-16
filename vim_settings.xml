@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxNYWtlUnVuR2VuZXJhdGVkVGFza3NSZXF1ZXN0XD4=</entry>
         <entry>~~~~</entry>
         <entry encoding="base64">XDxtYXhfY29uY3VycmVudF90YXNrc1w+</entry>
         <entry encoding="base64">XDxnel9zZW1hbnRpY19tYXBfdjJcPg==</entry>
@@ -25,6 +24,7 @@
         <entry>enable_sampling_framework</entry>
         <entry>\.04</entry>
         <entry>enable_ref_path_multi_thread</entry>
+        <entry>SpawnTaskIm</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -118,8 +118,8 @@
         <mark key="." line="29" column="48" />
         <mark key="^" line="13" column="34" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587022607895">
-        <mark key="'" line="25" column="0" />
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587037938066">
+        <mark key="'" line="428" column="74" />
         <mark key="[" line="25" column="70" />
         <mark key="]" line="25" column="1" />
         <mark key="." line="25" column="0" />
@@ -128,6 +128,13 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" timestamp="1587034520278" />
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/decision/default.py" timestamp="1587034728126">
         <mark key="'" line="679" column="5" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587037703346">
+        <mark key="'" line="286" column="50" />
+        <mark key="[" line="283" column="24" />
+        <mark key="]" line="283" column="24" />
+        <mark key="." line="283" column="24" />
+        <mark key="^" line="294" column="43" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_service.cc" timestamp="1586935476804">
         <mark key="'" line="0" column="0" />
@@ -157,9 +164,6 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/reference_path/reference_path.cc" timestamp="1587034923418" />
     </filemarks>
     <jumps>
-      <jump line="205" column="52" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="469" column="17" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="470" column="16" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="475" column="27" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="81" column="7" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="88" column="24" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
@@ -257,61 +261,51 @@
       <jump line="109" column="92" filename="$USER_HOME$/Workspace/gibraltar/config_files/flag.txt" />
       <jump line="19" column="32" filename="$USER_HOME$/Workspace/gibraltar/config_files/planning/prediction/default.py" />
       <jump line="312" column="9" filename="$USER_HOME$/Workspace/gibraltar/config_files/planning/prediction/default.py" />
+      <jump line="215" column="1" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="286" column="50" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="428" column="74" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>nigntly</text>
+        <text>auto *inner_task</text>
       </register>
       <register name="-" type="4">
-        <text>nigntly</text>
+        <text>auto *inner_task</text>
       </register>
       <register name="/" type="4">
-        <text>enable_ref_path_multi_thread</text>
+        <text>SpawnTaskIm</text>
       </register>
-      <register name="0" type="4">
-        <text>staging</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICBzdGQ6OnVuaXF1ZV9sb2NrPHN0ZDo6bXV0ZXg+IGxvY2soaW5uZXJfdGFza3NfZmluaXNoZWRfbXV0ZXgpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text>unable profiler</text>
+        <text encoding="base64">ICAgICAgSkNfQVNTRVJUKCFkb25lKTsK</text>
       </register>
       <register name="2" type="2">
-        <text>unable profiler</text>
+        <text encoding="base64">Ly8gICAgYXV0byB0YXNrX2luZGV4ID0gdGFza19pbmRleF9jb3VudGVyLmZldGNoX2FkZCgxKTsKLy8gICAgaWYgKEpDX1VOTElLRUxZKHRhc2tfaW5kZXggPj0gdGFza19jb3VudCkpIHsKLy8gICAgICByZXR1cm4gbWFya19leGVjdXRvcl9kb25lKCk7Ci8vICAgIH0gZWxzZSB7Ci8vICAgICAgYXV0byBfID0gdGFza19wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwovLyAgICAgIHRhc2tfZ2VuZXJhdG9yKHRhc2tfaW5kZXgsIHRhc2tfY291bnQpKCk7Ci8vICAgIH0KLy8KLy8gICAgLy8gVGhpcyBleHRyYSBjaGVjayBoZXJlIGlzIGEgY2hlYXAgb3B0aW1pYXRpb24gdG8gYXZvaWQKLy8gICAgLy8gcmUtc3Bhd25pbmcgaWYgd2Uga25vdyBmb3Igc3VyZSB3ZSdyZSBkb25lLgovLyAgICBpZiAoSkNfVU5MSUtFTFkodGFza19pbmRleF9jb3VudGVyLmxvYWQoKSA+PSB0YXNrX2NvdW50KSkgewovLyAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsKLy8gICAgfSBlbHNlIHsKLy8gICAgICB0aGlzLT5TcGF3blRhc2tJbXBsKFtpbm5lcl90YXNrXSgpIG5vZXhjZXB0IHsgKCppbm5lcl90YXNrKShpbm5lcl90YXNrKTsgfSk7Ci8vICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text>test</text>
+        <text encoding="base64">ICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbaW5uZXJfdGFza10oKSBub2V4Y2VwdCB7ICgqaW5uZXJfdGFzaykoaW5uZXJfdGFzayk7IH0pOwogICAgfQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgICAgcmV0dXJuIG1hcmtfZXhlY3V0b3JfZG9uZSgpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text>Set the thread name to aid debugging
-
-Summary:
-
-Test Plan:
-No need
-
-Reviewers:
-
-Subscribers:
-
-Blame Revision:
-
-JIRA Is</text>
+        <text encoding="base64">ICAgIGkK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Ly8gICAgICB0aGlzLT5TcGF3blRhc2tJbXBsKFtpbm5lcl90YXNrXSgpIG5vZXhjZXB0IHsgKCppbm5lcl90YXNrKShpbm5lcl90YXNrKTsgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgYXV0byBfID0gdGFza19wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIC8vIFRoaXMgZXh0cmEgY2hlY2sgaGVyZSBpcyBhIGNoZWFwIG9wdGltaWF0aW9uIHRvIGF2b2lkCiAgICAvLyByZS1zcGF3bmluZyBpZiB3ZSBrbm93IGZvciBzdXJlIHdlJ3JlIGRvbmUuCg==</text>
+        <text encoding="base64">ICAgICAgYXV0bwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -320,9 +314,9 @@ JIRA Is</text>
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>enable_ref_path_multi_thread</last-search>
+      <last-search>SpawnTaskIm</last-search>
       <last-offset />
-      <last-pattern>enable_ref_path_multi_thread</last-pattern>
+      <last-pattern>SpawnTaskIm</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
