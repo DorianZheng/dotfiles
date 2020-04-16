@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxTcGF3bkdlbmVyYXRlZFRhc2tzXD4=</entry>
-        <entry encoding="base64">XDxOb3RpZnlDb21wbGV0ZVw+</entry>
         <entry>core</entry>
         <entry encoding="base64">XDx0YXNrX2dlbmVyYXRvclw+</entry>
         <entry>SpawnGeneratedTasks</entry>
@@ -25,6 +23,8 @@
         <entry encoding="base64">XDx0YXNrX3dyYXBwZXJfdFw+</entry>
         <entry encoding="base64">XDxTcGF3blRhc2tJbXBsXD4=</entry>
         <entry>Callable</entry>
+        <entry>staging</entry>
+        <entry>stag</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
