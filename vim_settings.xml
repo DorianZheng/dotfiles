@@ -89,20 +89,12 @@
         <mark key="^" line="1180" column="4" />
         <mark key="." line="1180" column="3" />
       </file>
-      <file name="/Dummy.txt" timestamp="1587038633889">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="4" />
-        <mark key="." line="0" column="4" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/config/default.py" timestamp="1587031450827">
-        <mark key="'" line="53" column="32" />
-        <mark key="[" line="48" column="19" />
-        <mark key="]" line="48" column="21" />
-        <mark key="^" line="48" column="21" />
-        <mark key="." line="48" column="20" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/flag.txt" timestamp="1587034786100">
-        <mark key="'" line="109" column="92" />
+        <mark key="'" line="54" column="32" />
+        <mark key="[" line="49" column="19" />
+        <mark key="]" line="49" column="21" />
+        <mark key="^" line="49" column="21" />
+        <mark key="." line="49" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/prediction/default.py" timestamp="1587035114422">
         <mark key="'" line="312" column="9" />
@@ -110,6 +102,26 @@
         <mark key="]" line="312" column="44" />
         <mark key="." line="312" column="43" />
         <mark key="^" line="312" column="44" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587041769021">
+        <mark key="'" line="291" column="62" />
+        <mark key="[" line="209" column="0" />
+        <mark key="]" line="209" column="0" />
+        <mark key="." line="209" column="0" />
+        <mark key="^" line="293" column="30" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587035043282">
+        <mark key="'" line="49" column="19" />
+        <mark key="[" line="49" column="20" />
+        <mark key="]" line="49" column="20" />
+        <mark key="." line="49" column="20" />
+        <mark key="^" line="60" column="37" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1587042715093">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/flag.txt" timestamp="1587034786100">
+        <mark key="'" line="109" column="92" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/experimental/users/zzq/scheduler/main.cc" timestamp="1587023077687">
         <mark key="'" line="32" column="12" />
@@ -125,35 +137,8 @@
         <mark key="." line="25" column="0" />
         <mark key="^" line="25" column="1" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" timestamp="1587034520278" />
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/decision/default.py" timestamp="1587034728126">
-        <mark key="'" line="679" column="5" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587039276218">
-        <mark key="'" line="291" column="62" />
-        <mark key="[" line="273" column="37" />
-        <mark key="]" line="274" column="6" />
-        <mark key="." line="274" column="5" />
-        <mark key="^" line="274" column="6" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_service.cc" timestamp="1586935476804">
-        <mark key="'" line="0" column="0" />
-      </file>
       <file name="/" timestamp="1587031352169">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/request.h" timestamp="1586935705774">
-        <mark key="'" line="196" column="10" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587035043282">
-        <mark key="'" line="49" column="19" />
-        <mark key="[" line="49" column="20" />
-        <mark key="]" line="49" column="20" />
-        <mark key="." line="49" column="20" />
-        <mark key="^" line="60" column="37" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1586953204551">
-        <mark key="'" line="140" column="1" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/service.h" timestamp="1587000251218">
         <mark key="'" line="347" column="33" />
@@ -161,7 +146,6 @@
       <file name="/scheduler.h" timestamp="1587002497453">
         <mark key="'" line="225" column="15" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/reference_path/reference_path.cc" timestamp="1587034923418" />
     </filemarks>
     <jumps>
       <jump line="88" column="24" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
@@ -272,7 +256,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">YXV0byBpbm5lcl90YXNrID0g</text>
+        <text>uint64_t concurrent_tasks</text>
       </register>
       <register name="/" type="4">
         <text>SpawnTaskIm</text>
@@ -284,28 +268,28 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Ly8gIFJ1blRhc2tHZW5lcmF0b3IoW3RoaXMsIHRhc2tfY291bnQsIG1heF9jb25jdXJyZW50X3Rhc2tzLCBjYWxsZXIsCi8vICAgICAgICAgICAgICAgICAgICB0YXNrX2dlbmVyYXRvciA9IHN0ZDo6Zm9yd2FyZDx0YXNrX2dlbmVyYXRvcl90Pih0YXNrX2dlbmVyYXRvciksCi8vICAgICAgICAgICAgICAgICAgICB0YXNrX2dlbmVyYXRvcl9uYW1lID0gc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX25hbWVfdD4odGFza19nZW5lcmF0b3JfbmFtZSldKCkgbXV0YWJsZSBub2V4Y2VwdCB7Ci8vICAgIGlmIChtYXhfY29uY3VycmVudF90YXNrcyA9PSAwKSB7Ci8vICAgICAgbWF4X2NvbmN1cnJlbnRfdGFza3MgPSBHZXRNYXhDb25jdXJyZW50VGFza3MoKTsKLy8gICAgfQovLwovLyAgICBjb25zdCBhdXRvIGdlbmVyYXRvcl9wcm9maWxlcl9zZWN0aW9uID0gY29yZWxpYjo6TWFpblByb2ZpbGVyKCktPlNlY3Rpb24oCi8vICAgICAgSXNFbXB0eVN0cmluZyh0YXNrX2dlbmVyYXRvcl9uYW1lKQovLyAgICAgICAgPyBjYWxsZXIuR2V0RnVuY3Rpb25OYW1lKCkgKyAiIC0+IEFsbCB0YXNrcyIKLy8gICAgICAgIDogc3RkOjpmb3J3YXJkPHRhc2tfZ2VuZXJhdG9yX25hbWVfdD4odGFza19nZW5lcmF0b3JfbmFtZSkpOwovLwovLyAgICBjb25zdCBhdXRvIHRhc2tfcHJvZmlsZXJfc2VjdGlvbiA9IGdlbmVyYXRvcl9wcm9maWxlcl9zZWN0aW9uLT5TZWN0aW9uKCJJbm5lciB0YXNrIik7Ci8vCi8vICAgIGF1dG8gXyA9IGdlbmVyYXRvcl9wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwovLwovLyAgICBjb25zdCBhdXRvIG51bV9jb25jdXJyZW50X3Rhc2tzID0gc3RkOjptaW4odGFza19jb3VudCwgbWF4X2NvbmN1cnJlbnRfdGFza3MpOwovLyAgICBzdGQ6OmF0b21pYzx1aW50NjRfdD4gICB0YXNrX2luZGV4X2NvdW50ZXJ7MH07Ci8vCi8vICAgIHVpbnQ2NF90ICAgICAgICAgICAgICAgIG51bV9leGVjdXRvcnNfZmluaXNoZWR7MH07Ci8vICAgIHN0ZDo6bXV0ZXggICAgICAgICAgICAgIGlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4OwovLyAgICBzdGQ6OmNvbmRpdGlvbl92YXJpYWJsZSBpbm5lcl90YXNrc19maW5pc2hlZF9jdjsKLy8KLy8gICAgYXV0byBtYXJrX2V4ZWN1dG9yX2RvbmUgPSBbJl0oKSB7Ci8vICAgICAgc3RkOjp1bmlxdWVfbG9jazxzdGQ6Om11dGV4PiBsb2NrKGlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4KTsKLy8gICAgICBpZiAoKytudW1fZXhlY3V0b3JzX2ZpbmlzaGVkID09IG51bV9jb25jdXJyZW50X3Rhc2tzKSB7Ci8vICAgICAgICBpbm5lcl90YXNrc19maW5pc2hlZF9jdi5ub3RpZnlfb25lKCk7Ci8vICAgICAgfQovLyAgICB9OwovLwovLyAgICBhdXRvIGlubmVyX3Rhc2sgPSBbJl0oYXV0byAqaW5uZXJfdGFzaykgbm9leGNlcHQgewovLyAgICAgIGF1dG8gdGFza19pbmRleCA9IHRhc2tfaW5kZXhfY291bnRlci5mZXRjaF9hZGQoMSk7Ci8vICAgICAgaWYgKEpDX1VOTElLRUxZKHRhc2tfaW5kZXggPj0gdGFza19jb3VudCkpIHsKLy8gICAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsKLy8gICAgICB9IGVsc2UgewovLyAgICAgICAgYXV0byBfID0gdGFza19wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwovLyAgICAgICAgdGFza19nZW5lcmF0b3IodGFza19pbmRleCwgdGFza19jb3VudCkoKTsKLy8gICAgICB9Ci8vCi8vICAgICAgLy8gVGhpcyBleHRyYSBjaGVjayBoZXJlIGlzIGEgY2hlYXAgb3B0aW1pYXRpb24gdG8gYXZvaWQKLy8gICAgICAvLyByZS1zcGF3bmluZyBpZiB3ZSBrbm93IGZvciBzdXJlIHdlJ3JlIGRvbmUuCi8vICAgICAgaWYgKEpDX1VOTElLRUxZKHRhc2tfaW5kZXhfY291bnRlci5sb2FkKCkgPj0gdGFza19jb3VudCkpIHsKLy8gICAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsKLy8gICAgICB9IGVsc2UgewovLyAgICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbaW5uZXJfdGFza10oKSBub2V4Y2VwdCB7ICgqaW5uZXJfdGFzaykoaW5uZXJfdGFzayk7IH0pOwovLyAgICAgIH0KLy8gICAgfTsKLy8KLy8gICAgZm9yIChzaXplX3QgaSA9IDA7IGkgPCBudW1fY29uY3VycmVudF90YXNrczsgKytpKSB7Ci8vICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbJl0oKSBub2V4Y2VwdCB7IGlubmVyX3Rhc2soJmlubmVyX3Rhc2spOyB9KTsKLy8gICAgfQovLwovLyAgICBzdGQ6OnVuaXF1ZV9sb2NrPHN0ZDo6bXV0ZXg+IGxvY2soaW5uZXJfdGFza3NfZmluaXNoZWRfbXV0ZXgpOwovLyAgICBpbm5lcl90YXNrc19maW5pc2hlZF9jdi53YWl0KGxvY2ssIFsmXSgpIHsgcmV0dXJuIG51bV9leGVjdXRvcnNfZmluaXNoZWQgPT0gbnVtX2NvbmN1cnJlbnRfdGFza3M7IH0pOwovLyAgfSk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBhdXRvIGlubmVyX3Rhc2sgPSBbJl0oKSBub2V4Y2VwdCB7CiAgICB1aW50NjRfdCB0YXNrX2luZGV4OwogICAgd2hpbGUgKCh0YXNrX2luZGV4ID0gdGFza19pbmRleF9jb3VudGVyLmZldGNoX2FkZCgxKSkgPCB0YXNrX2NvdW50KSB7CiAgICAgIGF1dG8gXyA9IHRhc2tfcHJvZmlsZXJfc2VjdGlvbi0+QmVnaW5UaW1pbmcoKTsKICAgICAgdGFza19nZW5lcmF0b3IodGFza19pbmRleCwgdGFza19jb3VudCkoKTsKICAgIH0KCiAgICBpZiAobnVtX2V4ZWN1dG9yc19maW5pc2hlZC5mZXRjaF9hZGQoMSkgPj0gbnVtX2NvbmN1cnJlbnRfdGFza3MgLSAxKSB7CiAgICAgIHN0ZDo6bG9ja19ndWFyZDxzdGQ6Om11dGV4PiBsKGlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4KTsKICAgICAgSkNfQVNTRVJUKCFkb25lKTsKICAgICAgZG9uZSA9IHRydWU7CiAgICAgIGlubmVyX3Rhc2tzX2ZpbmlzaGVkX2N2Lm5vdGlmeV9vbmUoKTsKICAgIH0KICB9Owo=</text>
+        <text encoding="base64">ICAgICAgdWludDY0X3QgY29uY3VycmVudF90YXNrcyA9IG51bV9jb25jdXJyZW50X3Rhc2tzOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgSkNfQVNTRVJUKCFkb25lKTsK</text>
+        <text encoding="base64">ICAgIC8vIHBhc3MgYG51bV9jb25jdXJyZW50X3Rhc2tgIGFzIGEgcGFyYW1ldGVyIGJlY2F1c2UgdGhlcmUgbWlnaHQgYmUgYSBjaGFuY2UKICAgIC8vIHRoYXQgYFNwYXduR2VuZXJhdGVkVGFza3NgIHJldHVybiBhbmQgcmVjbGFpbiBtZW1vcnkgb2YgCiAgICAvLyBgbnVtX2NvbmN1cnJlbnRfdGFza2AgYmVmb3JlIAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgYXV0byB0YXNrX2luZGV4ID0gdGFza19pbmRleF9jb3VudGVyLmZldGNoX2FkZCgxKTsKLy8gICAgaWYgKEpDX1VOTElLRUxZKHRhc2tfaW5kZXggPj0gdGFza19jb3VudCkpIHsKLy8gICAgICByZXR1cm4gbWFya19leGVjdXRvcl9kb25lKCk7Ci8vICAgIH0gZWxzZSB7Ci8vICAgICAgYXV0byBfID0gdGFza19wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwovLyAgICAgIHRhc2tfZ2VuZXJhdG9yKHRhc2tfaW5kZXgsIHRhc2tfY291bnQpKCk7Ci8vICAgIH0KLy8KLy8gICAgLy8gVGhpcyBleHRyYSBjaGVjayBoZXJlIGlzIGEgY2hlYXAgb3B0aW1pYXRpb24gdG8gYXZvaWQKLy8gICAgLy8gcmUtc3Bhd25pbmcgaWYgd2Uga25vdyBmb3Igc3VyZSB3ZSdyZSBkb25lLgovLyAgICBpZiAoSkNfVU5MSUtFTFkodGFza19pbmRleF9jb3VudGVyLmxvYWQoKSA+PSB0YXNrX2NvdW50KSkgewovLyAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsKLy8gICAgfSBlbHNlIHsKLy8gICAgICB0aGlzLT5TcGF3blRhc2tJbXBsKFtpbm5lcl90YXNrXSgpIG5vZXhjZXB0IHsgKCppbm5lcl90YXNrKShpbm5lcl90YXNrKTsgfSk7Ci8vICAgIH0K</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgdGhpcy0+U3Bhd25UYXNrSW1wbChbaW5uZXJfdGFza10oKSBub2V4Y2VwdCB7ICgqaW5uZXJfdGFzaykoaW5uZXJfdGFzayk7IH0pOwogICAgfQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgcmV0dXJuIG1hcmtfZXhlY3V0b3JfZG9uZSgpOwo=</text>
+        <text encoding="base64">ICBhdXRvIGlubmVyX3Rhc2sgPSBbJl0oKSBub2V4Y2VwdCB7CiAgICB1aW50NjRfdCB0YXNrX2luZGV4OwogICAgd2hpbGUgKCh0YXNrX2luZGV4ID0gdGFza19pbmRleF9jb3VudGVyLmZldGNoX2FkZCgxKSkgPCB0YXNrX2NvdW50KSB7CiAgICAgIGF1dG8gXyA9IHRhc2tfcHJvZmlsZXJfc2VjdGlvbi0+QmVnaW5UaW1pbmcoKTsKICAgICAgdGFza19nZW5lcmF0b3IodGFza19pbmRleCwgdGFza19jb3VudCkoKTsKICAgIH0KCiAgICBpZiAobnVtX2V4ZWN1dG9yc19maW5pc2hlZC5mZXRjaF9hZGQoMSkgPj0gbnVtX2NvbmN1cnJlbnRfdGFza3MgLSAxKSB7CiAgICAgIHN0ZDo6bG9ja19ndWFyZDxzdGQ6Om11dGV4PiBsKGlubmVyX3Rhc2tzX2ZpbmlzaGVkX211dGV4KTsKICAgICAgSkNfQVNTRVJUKCFkb25lKTsKICAgICAgZG9uZSA9IHRydWU7CiAgICAgIGlubmVyX3Rhc2tzX2ZpbmlzaGVkX2N2Lm5vdGlmeV9vbmUoKTsKICAgIH0KICB9Owo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgSkNfQVNTRVJUKCFkb25lKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGkK</text>
+        <text encoding="base64">Ly8gICAgYXV0byB0YXNrX2luZGV4ID0gdGFza19pbmRleF9jb3VudGVyLmZldGNoX2FkZCgxKTsKLy8gICAgaWYgKEpDX1VOTElLRUxZKHRhc2tfaW5kZXggPj0gdGFza19jb3VudCkpIHsKLy8gICAgICByZXR1cm4gbWFya19leGVjdXRvcl9kb25lKCk7Ci8vICAgIH0gZWxzZSB7Ci8vICAgICAgYXV0byBfID0gdGFza19wcm9maWxlcl9zZWN0aW9uLT5CZWdpblRpbWluZygpOwovLyAgICAgIHRhc2tfZ2VuZXJhdG9yKHRhc2tfaW5kZXgsIHRhc2tfY291bnQpKCk7Ci8vICAgIH0KLy8KLy8gICAgLy8gVGhpcyBleHRyYSBjaGVjayBoZXJlIGlzIGEgY2hlYXAgb3B0aW1pYXRpb24gdG8gYXZvaWQKLy8gICAgLy8gcmUtc3Bhd25pbmcgaWYgd2Uga25vdyBmb3Igc3VyZSB3ZSdyZSBkb25lLgovLyAgICBpZiAoSkNfVU5MSUtFTFkodGFza19pbmRleF9jb3VudGVyLmxvYWQoKSA+PSB0YXNrX2NvdW50KSkgewovLyAgICAgIHJldHVybiBtYXJrX2V4ZWN1dG9yX2RvbmUoKTsKLy8gICAgfSBlbHNlIHsKLy8gICAgICB0aGlzLT5TcGF3blRhc2tJbXBsKFtpbm5lcl90YXNrXSgpIG5vZXhjZXB0IHsgKCppbm5lcl90YXNrKShpbm5lcl90YXNrKTsgfSk7Ci8vICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
