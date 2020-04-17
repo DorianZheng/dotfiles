@@ -82,12 +82,6 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/log.cc" timestamp="1587087440604">
-        <mark key="[" line="1178" column="0" />
-        <mark key="]" line="1178" column="0" />
-        <mark key="^" line="1180" column="4" />
-        <mark key="." line="1178" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" timestamp="1587094372149">
         <mark key="'" line="43" column="12" />
         <mark key="[" line="43" column="29" />
@@ -95,27 +89,9 @@
         <mark key="^" line="43" column="30" />
         <mark key="." line="43" column="29" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587087505312">
-        <mark key="'" line="31" column="87" />
-        <mark key="[" line="263" column="33" />
-        <mark key="]" line="263" column="21" />
-        <mark key="^" line="263" column="21" />
-        <mark key="." line="263" column="20" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.cc" timestamp="1587088406120" />
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1587099224726">
-        <mark key="'" line="369" column="4" />
-        <mark key="[" line="282" column="0" />
-        <mark key="]" line="283" column="65" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" timestamp="1587092926927">
         <mark key="'" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_cep.py" timestamp="1587086649810">
-        <mark key="[" line="81" column="36" />
-        <mark key="]" line="81" column="41" />
-        <mark key="." line="81" column="40" />
-        <mark key="^" line="81" column="41" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/partial_order_graph.h" timestamp="1587104172967" />
       <file name="/Dummy.txt" timestamp="1587094750039">
@@ -123,21 +99,9 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/motion_plan.h" timestamp="1587098842870" />
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" timestamp="1587106425929">
         <mark key="'" line="93" column="8" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587087492555">
-        <mark key="'" line="191" column="17" />
-        <mark key="[" line="305" column="0" />
-        <mark key="]" line="305" column="0" />
-        <mark key="." line="305" column="0" />
-        <mark key="^" line="25" column="1" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" timestamp="1587105579392">
-        <mark key="'" line="80" column="38" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/decision/default.py" timestamp="1587105542585" />
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.h" timestamp="1587087800690">
         <mark key="'" line="0" column="0" />
       </file>
