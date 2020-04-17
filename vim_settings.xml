@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>~~~~</entry>
-        <entry encoding="base64">XDxtYXhfY29uY3VycmVudF90YXNrc1w+</entry>
-        <entry encoding="base64">XDxnel9zZW1hbnRpY19tYXBfdjJcPg==</entry>
         <entry>SpawnTaskImpl</entry>
         <entry encoding="base64">XDxTZXJ2aWNlU3RhcnRcPg==</entry>
         <entry encoding="base64">XDxoYXJkd2FyZV9jb25jdXJyZW5jeVw+</entry>
@@ -25,6 +22,9 @@
         <entry>\.04</entry>
         <entry>enable_ref_path_multi_thread</entry>
         <entry>SpawnTaskIm</entry>
+        <entry>Rotate</entry>
+        <entry>MakeR</entry>
+        <entry>SLBox overlap</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -82,19 +82,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/log.cc" timestamp="1586955319977">
-        <mark key="'" line="1178" column="13" />
-        <mark key="[" line="1177" column="8" />
-        <mark key="]" line="1180" column="4" />
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/log.cc" timestamp="1587087440604">
+        <mark key="[" line="1178" column="0" />
+        <mark key="]" line="1178" column="0" />
         <mark key="^" line="1180" column="4" />
-        <mark key="." line="1180" column="3" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/config/default.py" timestamp="1587031450827">
-        <mark key="'" line="54" column="32" />
-        <mark key="[" line="49" column="19" />
-        <mark key="]" line="49" column="21" />
-        <mark key="^" line="49" column="21" />
-        <mark key="." line="49" column="20" />
+        <mark key="." line="1178" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/prediction/default.py" timestamp="1587035114422">
         <mark key="'" line="312" column="9" />
@@ -103,12 +95,20 @@
         <mark key="." line="312" column="43" />
         <mark key="^" line="312" column="44" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587044390708">
-        <mark key="'" line="275" column="62" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" timestamp="1587087351687">
+        <mark key="[" line="40" column="0" />
+        <mark key="]" line="40" column="0" />
+        <mark key="." line="40" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587087505312">
+        <mark key="'" line="31" column="87" />
         <mark key="[" line="263" column="33" />
         <mark key="]" line="263" column="21" />
         <mark key="^" line="263" column="21" />
         <mark key="." line="263" column="20" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.cc" timestamp="1587088406120">
+        <mark key="'" line="248" column="15" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587035043282">
         <mark key="'" line="49" column="19" />
@@ -117,47 +117,40 @@
         <mark key="." line="49" column="20" />
         <mark key="^" line="60" column="37" />
       </file>
-      <file name="/Dummy.txt" timestamp="1587045386059">
-        <mark key="[" line="0" column="17" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1587087599394">
+        <mark key="'" line="329" column="38" />
+        <mark key="[" line="282" column="0" />
+        <mark key="]" line="283" column="65" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" timestamp="1587087811000">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_cep.py" timestamp="1587086649810">
+        <mark key="[" line="81" column="36" />
+        <mark key="]" line="81" column="41" />
+        <mark key="." line="81" column="40" />
+        <mark key="^" line="81" column="41" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1587088445238">
+        <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/flag.txt" timestamp="1587034786100">
         <mark key="'" line="109" column="92" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/experimental/users/zzq/scheduler/main.cc" timestamp="1587023077687">
-        <mark key="'" line="32" column="12" />
-        <mark key="[" line="29" column="48" />
-        <mark key="]" line="29" column="48" />
-        <mark key="." line="29" column="48" />
-        <mark key="^" line="13" column="34" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587039284713">
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587087492555">
         <mark key="'" line="191" column="17" />
-        <mark key="[" line="25" column="70" />
-        <mark key="]" line="25" column="1" />
-        <mark key="." line="25" column="0" />
+        <mark key="[" line="305" column="0" />
+        <mark key="]" line="305" column="0" />
+        <mark key="." line="305" column="0" />
         <mark key="^" line="25" column="1" />
       </file>
-      <file name="/" timestamp="1587031352169">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/service.h" timestamp="1587000251218">
-        <mark key="'" line="347" column="33" />
-      </file>
-      <file name="/scheduler.h" timestamp="1587002497453">
-        <mark key="'" line="225" column="15" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.h" timestamp="1587087800690">
+        <mark key="'" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="88" column="24" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="189" column="9" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="314" column="41" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="206" column="49" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="295" column="20" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="253" column="38" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="263" column="58" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="225" column="6" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="260" column="25" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="213" column="6" filename="/scheduler.h" />
       <jump line="140" column="1" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
@@ -250,48 +243,56 @@
       <jump line="272" column="56" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="291" column="62" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
       <jump line="191" column="17" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="302" column="53" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="324" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="329" column="38" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="31" column="87" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.h" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" />
+      <jump line="8" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.cc" />
+      <jump line="248" column="15" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text>set civetweb worker thread num to 2</text>
+        <text>remove useless cond waitx</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y3Yud2FpdChsb2NrLCBbJl0oKSB7IHJldHVybiBhbGxfdGFza3NfZmluaXNoZWQ7IA==</text>
+        <text>api::MultiChartService</text>
       </register>
       <register name="/" type="4">
-        <text>SpawnTaskIm</text>
+        <text>SLBox overlap</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBzdGQ6OnVuaXF1ZV9sb2NrPHN0ZDo6bXV0ZXg+IGxvY2soaW5uZXJfdGFza3NfZmluaXNoZWRfbXV0ZXgpOwo=</text>
+        <text encoding="base64">ICBTZXJ2aWNlOjpHZXQ8c2VydmljZXM6OlNjaGVkdWxlclNlcnZpY2U+KCktPlNwYXduVGFzaygKICAgICAgW10geyBjb3JlbGliOjpTZXJ2aWNlOjpHZXQ8TWFwU2VydmljZT4oKS0+RHJhd09uUnZpeigpOyB9KTsK</text>
       </register>
       <register name="1" type="2">
-        <text>set civetweb worker thread num to 2</text>
+        <text>remove useless cond waitx</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgdGFza19nZW5lcmF0b3IodGFza19pbmRleCwgdGFza19jb3VudCkoKTsK</text>
+        <text encoding="base64">ICBzdGQ6OnBhaXI8Ym9vbCwgdWludDMyX3Q+IFRyeUdldEN1cnJlbnRXb3JrZXJUaHJlYWRJbmRleCgpIGNvbnN0IG5vZXhjZXB0IG92ZXJyaWRlIHsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgWyZdKHNpemVfdCB0YXNrX2luZGV4LCBzaXplX3QgdGFza19jb3VudCkgbXV0YWJsZSBub2V4Y2VwdCB7Cg==</text>
+        <text encoding="base64">ICByZXR1cm47Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgfSwK</text>
+        <text encoding="base64">ICAgIGNvcmVsaWI6OlNlcnZpY2U6OkdldDw+KCktPkNsZWFyKGZyYW1lX2lkKCkpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgIGlmIChKQ19VTkxJS0VMWShudW1fZmluaXNoZWQuZmV0Y2hfYWRkKDEpICsgMSA9PSB0YXNrX2NvdW50KSkgewogICAgICAgICAgICBzdGQ6OmxvY2tfZ3VhcmQ8c3RkOjptdXRleD4gbG9jayhtKTsKICAgICAgICAgICAgYWxsX3Rhc2tzX2ZpbmlzaGVkID0gdHJ1ZTsKICAgICAgICAgICAgY3Yubm90aWZ5X29uZSgpOwogICAgICAgICAgfQogICAgICAgIH07Cg==</text>
+        <text>set civetweb worker thread num to 2</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gWyYsIHRhc2tfaW5kZXgsIHRhc2tfY291bnRdKCkgbXV0YWJsZSBub2V4Y2VwdCB7Cg==</text>
+        <text encoding="base64">ICAgICAgdGFza19nZW5lcmF0b3IodGFza19pbmRleCwgdGFza19jb3VudCkoKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6YXRvbWljPHNpemVfdD4gbnVtX2ZpbmlzaGVkezB9OwogICAgc3RkOjptdXRleCBtOwogICAgc3RkOjpjb25kaXRpb25fdmFyaWFibGUgY3Y7CiAgICBib29sIGFsbF90YXNrc19maW5pc2hlZCA9ICh0YXNrX2NvdW50ID09IDApOwo=</text>
+        <text encoding="base64">ICAgICAgWyZdKHNpemVfdCB0YXNrX2luZGV4LCBzaXplX3QgdGFza19jb3VudCkgbXV0YWJsZSBub2V4Y2VwdCB7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">CiAgICBzdGQ6OnVuaXF1ZV9sb2NrPHN0ZDo6bXV0ZXg+IGxvY2sobSk7CiAgICBjdi53YWl0KGxvY2ssIFsmXSgpIHsgcmV0dXJuIGFsbF90YXNrc19maW5pc2hlZDsgfSk7Cg==</text>
+        <text encoding="base64">ICAgICAgfSwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHN0ZDo6dW5pcXVlX2xvY2s8c3RkOjptdXRleD4gbG9jayhtKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIGlmIChKQ19VTkxJS0VMWShudW1fZmluaXNoZWQuZmV0Y2hfYWRkKDEpICsgMSA9PSB0YXNrX2NvdW50KSkgewogICAgICAgICAgICBzdGQ6OmxvY2tfZ3VhcmQ8c3RkOjptdXRleD4gbG9jayhtKTsKICAgICAgICAgICAgYWxsX3Rhc2tzX2ZpbmlzaGVkID0gdHJ1ZTsKICAgICAgICAgICAgY3Yubm90aWZ5X29uZSgpOwogICAgICAgICAgfQogICAgICAgIH07Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -300,9 +301,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>SpawnTaskIm</last-search>
+      <last-search>SLBox overlap</last-search>
       <last-offset />
-      <last-pattern>SpawnTaskIm</last-pattern>
+      <last-pattern>SLBox overlap</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
