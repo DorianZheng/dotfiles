@@ -5,15 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>publish_bool</entry>
-        <entry encoding="base64">XDxyZXN1bHRzXD4=</entry>
-        <entry encoding="base64">XDxwcm9qZWN0aW9uX3NlY3Rpb25cPg==</entry>
-        <entry encoding="base64">XDxsb29rdXBfY29uZmlnXD4=</entry>
-        <entry encoding="base64">XDxzdGF0aWNfYWdlbnRfc2VjdGlvblw+</entry>
-        <entry encoding="base64">XDxzdGF0aWNfYWdlbnRfdGltZXJcPg==</entry>
-        <entry>agent_section</entry>
-        <entry encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfc2VjdGlvblw+</entry>
-        <entry encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</entry>
         <entry>MakeRun</entry>
         <entry>Inner Task</entry>
         <entry>Inner task</entry>
@@ -25,6 +16,15 @@
         <entry encoding="base64">XDxhZ2VudF9zZWN0aW9uXD4=</entry>
         <entry encoding="base64">XDxhZ2VudF90aW1lclw+</entry>
         <entry>GenerateSLGraph\&quot;</entry>
+        <entry>motion_main</entry>
+        <entry encoding="base64">XDx0aW1lX21vdGlvbl9tYWluXD4=</entry>
+        <entry encoding="base64">XDxtb3Rpb25fZ2V0X21vdGlvbl9wbGFuXD4=</entry>
+        <entry encoding="base64">XDxtcGNfZ2V0X3NpbmdsZVw+</entry>
+        <entry encoding="base64">XDxtcGNfbW90aW9uX3BsYW5faW1wbFw+</entry>
+        <entry encoding="base64">XDxtcGNfcGVyX3R1YmVcPg==</entry>
+        <entry encoding="base64">XDxzd2F0aF9kaXNjb21mb3J0X3NwZWVkX2xpbWl0X2N1cnZlXD4=</entry>
+        <entry encoding="base64">XDxkaXNjb21mb3J0X3NwZWVkX2xpbWl0XD4=</entry>
+        <entry encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -87,8 +87,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" timestamp="1587369009295">
+        <mark key="'" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" timestamp="1587362709844">
-        <mark key="'" line="64" column="36" />
+        <mark key="'" line="63" column="36" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" timestamp="1587351334088">
         <mark key="'" line="11489" column="0" />
@@ -96,10 +99,6 @@
         <mark key="]" line="12936" column="8" />
         <mark key="^" line="12936" column="8" />
         <mark key="." line="12936" column="7" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" timestamp="1587350240757">
-        <mark key="[" line="34" column="0" />
-        <mark key="]" line="46" column="24" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" timestamp="1587127509518">
         <mark key="'" line="40" column="22" />
@@ -118,12 +117,16 @@
       <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587364262336">
         <mark key="'" line="221" column="76" />
       </file>
-      <file name="/" timestamp="1587108867512">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/BUILD" timestamp="1587350077309">
         <mark key="[" line="11" column="0" />
         <mark key="]" line="11" column="20" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" timestamp="1587370770402">
+        <mark key="'" line="37" column="12" />
+        <mark key="[" line="1246" column="57" />
+        <mark key="]" line="1246" column="58" />
+        <mark key="^" line="1246" column="58" />
+        <mark key="." line="1246" column="57" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587361753778">
         <mark key="[" line="30" column="17" />
@@ -131,9 +134,7 @@
         <mark key="." line="30" column="20" />
         <mark key="^" line="30" column="21" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1587367017554">
-        <mark key="'" line="149" column="0" />
-      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1587368487552" />
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" timestamp="1587128253778">
         <mark key="'" line="251" column="12" />
       </file>
@@ -143,38 +144,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="428" column="74" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="272" column="56" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="291" column="62" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="191" column="17" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="302" column="53" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="324" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="329" column="38" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="31" column="87" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.h" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/utils.cc" />
-      <jump line="8" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.cc" />
-      <jump line="248" column="15" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.cc" />
-      <jump line="44" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" />
-      <jump line="282" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="287" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="296" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="368" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="369" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="77" column="11" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="180" column="20" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="183" column="2" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="186" column="2" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="153" column="41" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="35" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="80" column="38" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="93" column="8" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
-      <jump line="37" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="82" column="38" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="155" column="38" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
-      <jump line="40" column="22" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" />
-      <jump line="634" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
-      <jump line="31" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/defs.h" />
       <jump line="7" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/defs.h" />
       <jump line="33" column="39" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/defs.h" />
       <jump line="38" column="32" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/defs.h" />
@@ -243,21 +212,53 @@
       <jump line="32" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
       <jump line="251" column="9" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
       <jump line="149" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
+      <jump line="726" column="55" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="33" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="37" column="34" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="38" column="30" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="562" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="730" column="6" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="36" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="593" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="31" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="910" column="31" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="30" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="34" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="36" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1236" column="58" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1284" column="56" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1332" column="17" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1351" column="6" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1354" column="20" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1348" column="17" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1222" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1235" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1246" column="57" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1259" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1306" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1321" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1333" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1373" column="29" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1394" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1423" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="1442" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="37" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIGF1dG8gCg==</text>
+        <text encoding="base64">ICAgICAgICAgIGF1dG8gXyA9IHByb2ZpbGVyOjptcGNfZmluZF90dWJlX2xpbWl0cy0+U2VjdGlvbigiNiIpOwo=</text>
       </register>
       <register name="-" type="4">
-        <text>}</text>
+        <text encoding="base64">c3RkOjp2ZWN0b3I8bXBjOjphZGFwdGVyOjpDcm9zc1NlY3Rpb25Cb3VuZGFyeT4=</text>
       </register>
       <register name="/" type="4">
-        <text>GenerateSLGraph\&quot;</text>
+        <text encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBhdXRvIF8gPSBwcm9maWxlcjo6c2luZ2xlX3Byb2plY3Rpb25fc2VjdGlvbi0+QmVnaW5UaW1pbmcoKTsK</text>
+        <text encoding="base64">ICAgICAgICAgIGF1dG8gXyA9IHByb2ZpbGVyOjptcGNfZmluZF90dWJlX2xpbWl0cy0+U2VjdGlvbigiNiIpOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgIGF1dG8gCg==</text>
@@ -293,9 +294,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>GenerateSLGraph\&quot;</last-search>
+      <last-search encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</last-search>
       <last-offset />
-      <last-pattern>GenerateSLGraph\&quot;</last-pattern>
+      <last-pattern encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
