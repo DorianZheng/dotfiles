@@ -5,11 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>motion_main</entry>
-        <entry encoding="base64">XDx0aW1lX21vdGlvbl9tYWluXD4=</entry>
-        <entry encoding="base64">XDxtb3Rpb25fZ2V0X21vdGlvbl9wbGFuXD4=</entry>
-        <entry encoding="base64">XDxtcGNfZ2V0X3NpbmdsZVw+</entry>
-        <entry encoding="base64">XDxtcGNfbW90aW9uX3BsYW5faW1wbFw+</entry>
         <entry encoding="base64">XDxtcGNfcGVyX3R1YmVcPg==</entry>
         <entry encoding="base64">XDxzd2F0aF9kaXNjb21mb3J0X3NwZWVkX2xpbWl0X2N1cnZlXD4=</entry>
         <entry encoding="base64">XDxkaXNjb21mb3J0X3NwZWVkX2xpbWl0XD4=</entry>
@@ -25,6 +20,11 @@
         <entry encoding="base64">XDxzZWN0aW9uX2JcPg==</entry>
         <entry encoding="base64">XDxMb25MYXRQbGFuXD4=</entry>
         <entry encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</entry>
+        <entry encoding="base64">XDxtcGNfbGF0ZXJhbF9tYWluXD4=</entry>
+        <entry>PlanImpl</entry>
+        <entry>jc_log</entry>
+        <entry>EndTimi</entry>
+        <entry encoding="base64">XDx0aW1lX2RlY2lzaW9uX21haW5cPg==</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -82,12 +82,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" timestamp="1587351334088">
-        <mark key="'" line="11489" column="0" />
-        <mark key="[" line="12934" column="50" />
-        <mark key="]" line="12936" column="8" />
-        <mark key="^" line="12936" column="8" />
-        <mark key="." line="12936" column="7" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/longitudinal_prediction/lon_prediction.cc" timestamp="1587380989721">
+        <mark key="'" line="97" column="37" />
+        <mark key="[" line="98" column="65" />
+        <mark key="]" line="98" column="73" />
+        <mark key="." line="98" column="72" />
+        <mark key="^" line="98" column="73" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/scheduler.h" timestamp="1587364262336">
         <mark key="'" line="221" column="76" />
@@ -104,10 +104,11 @@
         <mark key="." line="30" column="20" />
         <mark key="^" line="30" column="21" />
       </file>
-      <file name="/Dummy.txt" timestamp="1587359071578">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" timestamp="1587380151243">
+        <mark key="'" line="772" column="9" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1587380799727">
+        <mark key="'" line="511" column="20" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" timestamp="1587369009295">
         <mark key="'" line="0" column="0" />
@@ -115,12 +116,10 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" timestamp="1587362709844">
         <mark key="'" line="63" column="36" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/sampling/st_sampler.cc" timestamp="1587359213021">
-        <mark key="'" line="138" column="6" />
-        <mark key="[" line="22" column="0" />
-        <mark key="]" line="22" column="24" />
-        <mark key="." line="22" column="0" />
-        <mark key="^" line="21" column="12" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" timestamp="1587380847806">
+        <mark key="'" line="146" column="36" />
+        <mark key="[" line="146" column="0" />
+        <mark key="]" line="147" column="79" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" timestamp="1587376662456">
         <mark key="'" line="37" column="12" />
@@ -134,23 +133,13 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/reference_velocity.cc" timestamp="1587374955000">
         <mark key="'" line="16" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" timestamp="1587376112523">
-        <mark key="'" line="44" column="20" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" timestamp="1587380760322">
+        <mark key="'" line="17" column="23" />
+        <mark key="[" line="311" column="0" />
+        <mark key="]" line="311" column="55" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="132" column="30" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="144" column="28" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="487" column="68" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="386" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="135" column="17" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="146" column="60" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="64" column="36" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
-      <jump line="156" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="412" column="38" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="411" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="257" column="40" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="285" column="50" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
       <jump line="25" column="19" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
       <jump line="31" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
       <jump line="256" column="9" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
@@ -239,48 +228,60 @@
       <jump line="1097" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
       <jump line="1100" column="52" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
       <jump line="37" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
+      <jump line="770" column="21" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" />
+      <jump line="772" column="9" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" />
+      <jump line="96" column="3" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/longitudinal_prediction/lon_prediction.cc" />
+      <jump line="17" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/longitudinal_prediction/lon_prediction.cc" />
+      <jump line="1028" column="16" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
+      <jump line="17" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="511" column="20" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="216" column="6" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
+      <jump line="80" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
+      <jump line="97" column="37" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/longitudinal_prediction/lon_prediction.cc" />
+      <jump line="146" column="36" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/decision.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">LT5CZWdpblRpbWluZygp</text>
+        <text>profiler::lon_prediction</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>profiler::lon_prediction</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</text>
+        <text encoding="base64">XDx0aW1lX2RlY2lzaW9uX21haW5cPg==</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">LT5CZWdpblRpbWluZygp</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICBGcmFtZXM6OlRoaXMoKS0+cGxhbm5pbmdfbGF0ZW5jeS0+ZGVjaXNpb25fbGF0ZW5jeV9tcyA9CiAgICAgIHRpbWVfZGVjaXNpb25fbWFpbi0+R2V0VG90YWxBY2N1bXVsYXRlZFRpbWU8c3RkOjpjaHJvbm86Om1pbGxpc2Vjb25kcz4oKTsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGF1dG8gCg==</text>
+        <text encoding="base64">ICBqYwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBhdXRvIHN0YXRpY19hZ2VudF90aW1lciA9CiAgICAgIDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6c3RhdGljX2FnZW50X3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7CgogIC8vIFByb2plY3Qgc3RhdGlvbmFyeSBvYnN0YWNsZS4KICBmb3IgKGNvbnN0IE9ic3RhY2xlUHJlZGljdGlvbiAmcHJlZCA6ICpGcmFtZXM6OlRoaXMoKS0+cHJlZGljdGlvbnMpIHsKICAgIGF1dG8gYWdlbnRzID0gY3JlYXRlX3NpbmdsZV9zbF9hZ2VudChwcmVkLCAwLjAsIHRydWUpOwogICAgZm9yIChjb25zdCBhdXRvICZlbnZlbG9wZV90eXBlIDogQWxsRW52ZWxvcGVzKSB7CiAgICAgIGlmICghYWxsX2VudmVsb3Blc1tlbnZlbG9wZV90eXBlXS5lbmFibGVkKCkpIHsKICAgICAgICBpZiAoYWdlbnRzW2VudmVsb3BlX3R5cGVdICE9IG51bGxwdHIpIHsKICAgICAgICAgIGpjX2xvZy5XYXJuKCJBYm5vcm1hbCBhZ2VudCBmb3IgZW52ZWxvcGU6ICUlIiwgZW52ZWxvcGVfdHlwZSk7CiAgICAgICAgfQogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChhZ2VudHNbZW52ZWxvcGVfdHlwZV0gPT0gbnVsbHB0cikgewogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGZvciAoc2l6ZV90IHRpbWVfaW5kZXggPSAwOyB0aW1lX2luZGV4IDwgc2FtcGxlX3NpemU7IHRpbWVfaW5kZXgrKykgewogICAgICAgIGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF0uZW1wbGFjZV9iYWNrKAogICAgICAgICAgICAqYWdlbnRzW2VudmVsb3BlX3R5cGVdKTsKICAgICAgfQogICAgfQogIH0KCiAgc3RhdGljX2FnZW50X3RpbWVyLT5FbmRUaW1pbmcoKTs=</text>
+        <text encoding="base64">ICAgIGF1dG8gCg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgZm9yIChTaWRlIHNpZGUgOiBrQWxsU2lkZXMpIHsKICAgIGlmICghIUZyYW1lczo6VGhpcygpLT5kZWNpc2lvbi0+c2luZ2xlX2xhbmVfc2V0LkdldFN0YXRlKHNpZGUpKSB7CiAgICAgIFJ1blNpbmdsZUxhbmUoCiAgICAgICAgICBGcmFtZXM6OlRoaXMoKS0+ZGVjaXNpb24tPnNpbmdsZV9sYW5lX3NldC5HZXRTdGF0ZShzaWRlKS5nZXQoKSk7CiAgICB9CiAgfQo=</text>
+        <text encoding="base64">ICBhdXRvIHN0YXRpY19hZ2VudF90aW1lciA9CiAgICAgIDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6c3RhdGljX2FnZW50X3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7CgogIC8vIFByb2plY3Qgc3RhdGlvbmFyeSBvYnN0YWNsZS4KICBmb3IgKGNvbnN0IE9ic3RhY2xlUHJlZGljdGlvbiAmcHJlZCA6ICpGcmFtZXM6OlRoaXMoKS0+cHJlZGljdGlvbnMpIHsKICAgIGF1dG8gYWdlbnRzID0gY3JlYXRlX3NpbmdsZV9zbF9hZ2VudChwcmVkLCAwLjAsIHRydWUpOwogICAgZm9yIChjb25zdCBhdXRvICZlbnZlbG9wZV90eXBlIDogQWxsRW52ZWxvcGVzKSB7CiAgICAgIGlmICghYWxsX2VudmVsb3Blc1tlbnZlbG9wZV90eXBlXS5lbmFibGVkKCkpIHsKICAgICAgICBpZiAoYWdlbnRzW2VudmVsb3BlX3R5cGVdICE9IG51bGxwdHIpIHsKICAgICAgICAgIGpjX2xvZy5XYXJuKCJBYm5vcm1hbCBhZ2VudCBmb3IgZW52ZWxvcGU6ICUlIiwgZW52ZWxvcGVfdHlwZSk7CiAgICAgICAgfQogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChhZ2VudHNbZW52ZWxvcGVfdHlwZV0gPT0gbnVsbHB0cikgewogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGZvciAoc2l6ZV90IHRpbWVfaW5kZXggPSAwOyB0aW1lX2luZGV4IDwgc2FtcGxlX3NpemU7IHRpbWVfaW5kZXgrKykgewogICAgICAgIGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF0uZW1wbGFjZV9iYWNrKAogICAgICAgICAgICAqYWdlbnRzW2VudmVsb3BlX3R5cGVdKTsKICAgICAgfQogICAgfQogIH0KCiAgc3RhdGljX2FnZW50X3RpbWVyLT5FbmRUaW1pbmcoKTs=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGF1dG8gXyA9IDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6Z3JhcGhfc2VjdGlvbi0+QmVnaW5UaW1pbmcoKTsKICAgIGZvciAoY29uc3QgYXV0byAmZW52ZWxvcGVfdHlwZSA6IEFsbEVudmVsb3BlcykgewogICAgICBpZiAoIWFsbF9lbnZlbG9wZXNbZW52ZWxvcGVfdHlwZV0uZW5hYmxlZCgpKSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgc3RkOjp2ZWN0b3I8U0xBZ2VudD4gJmFnZW50cyA9IGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF07CiAgICAgIHNsaWNlc1tlbnZlbG9wZV90eXBlXVt0aW1lX2luZGV4XSA9CiAgICAgICAgICBzdGQ6Om1ha2VfdW5pcXVlPFNMR3JhcGg+KGFnZW50cywgZmFsc2UpOwogICAgfQo=</text>
+        <text encoding="base64">CiAgZm9yIChTaWRlIHNpZGUgOiBrQWxsU2lkZXMpIHsKICAgIGlmICghIUZyYW1lczo6VGhpcygpLT5kZWNpc2lvbi0+c2luZ2xlX2xhbmVfc2V0LkdldFN0YXRlKHNpZGUpKSB7CiAgICAgIFJ1blNpbmdsZUxhbmUoCiAgICAgICAgICBGcmFtZXM6OlRoaXMoKS0+ZGVjaXNpb24tPnNpbmdsZV9sYW5lX3NldC5HZXRTdGF0ZShzaWRlKS5nZXQoKSk7CiAgICB9CiAgfQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICBhdXRvIHJ1bl9zaW5nbGVfbGFuZ2UgPQo=</text>
+        <text encoding="base64">ICAgIGF1dG8gXyA9IDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6Z3JhcGhfc2VjdGlvbi0+QmVnaW5UaW1pbmcoKTsKICAgIGZvciAoY29uc3QgYXV0byAmZW52ZWxvcGVfdHlwZSA6IEFsbEVudmVsb3BlcykgewogICAgICBpZiAoIWFsbF9lbnZlbG9wZXNbZW52ZWxvcGVfdHlwZV0uZW5hYmxlZCgpKSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgc3RkOjp2ZWN0b3I8U0xBZ2VudD4gJmFnZW50cyA9IGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF07CiAgICAgIHNsaWNlc1tlbnZlbG9wZV90eXBlXVt0aW1lX2luZGV4XSA9CiAgICAgICAgICBzdGQ6Om1ha2VfdW5pcXVlPFNMR3JhcGg+KGFnZW50cywgZmFsc2UpOwogICAgfQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">fSAgLy8gbmFtZXNwYWNlIHBsYW5uaW5nCg==</text>
+        <text encoding="base64">ICBhdXRvIHJ1bl9zaW5nbGVfbGFuZ2UgPQo=</text>
       </register>
       <register name="7" type="2">
-        <text>async StateFrame destruction</text>
+        <text encoding="base64">fSAgLy8gbmFtZXNwYWNlIHBsYW5uaW5nCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">fQo=</text>
+        <text>async StateFrame destruction</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">fQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -289,9 +290,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</last-search>
+      <last-search encoding="base64">XDx0aW1lX2RlY2lzaW9uX21haW5cPg==</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtcGNfZmluZF90dWJlX2xpbWl0c1w+</last-pattern>
+      <last-pattern encoding="base64">XDx0aW1lX2RlY2lzaW9uX21haW5cPg==</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
