@@ -119,18 +119,18 @@
         <mark key="[" line="11" column="0" />
         <mark key="]" line="11" column="20" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587355381594">
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587361753778">
         <mark key="[" line="30" column="17" />
         <mark key="]" line="30" column="21" />
         <mark key="." line="30" column="20" />
         <mark key="^" line="30" column="21" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1587360982939">
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1587361943794">
         <mark key="'" line="146" column="60" />
-        <mark key="[" line="146" column="84" />
-        <mark key="]" line="146" column="84" />
-        <mark key="." line="146" column="84" />
-        <mark key="^" line="146" column="84" />
+        <mark key="[" line="138" column="32" />
+        <mark key="]" line="138" column="33" />
+        <mark key="." line="138" column="32" />
+        <mark key="^" line="138" column="33" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" timestamp="1587128253778">
         <mark key="'" line="251" column="12" />
@@ -246,10 +246,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>.size()</text>
+        <text>home</text>
       </register>
       <register name="-" type="4">
-        <text>.size()</text>
+        <text>home</text>
       </register>
       <register name="/" type="4">
         <text>MakeRun</text>
