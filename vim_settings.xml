@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxlbmRpbmdfZnJvbnRfbGltaXRzXD4=</entry>
         <entry>PerTubePlan</entry>
         <entry encoding="base64">XDxsb25fdjFcPg==</entry>
         <entry encoding="base64">XDxQZXJUdWJlUGxhblw+</entry>
@@ -25,6 +24,7 @@
         <entry>trimmed</entry>
         <entry>trim</entry>
         <entry encoding="base64">XDxtcGNfbGF0ZXJhbF9tYWluXD4=</entry>
+        <entry>MakeRun</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -82,13 +82,21 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/stl_layout.cc" timestamp="1587388348425">
-        <mark key="'" line="367" column="46" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/stl_layout.cc" timestamp="1587436227091">
+        <mark key="'" line="379" column="46" />
+        <mark key="[" line="374" column="47" />
+        <mark key="]" line="374" column="72" />
+        <mark key="^" line="374" column="72" />
+        <mark key="." line="374" column="71" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/longitudinal_prediction/lon_prediction.cc" timestamp="1587382724005">
         <mark key="[" line="94" column="0" />
         <mark key="]" line="94" column="4" />
         <mark key="." line="94" column="4" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/sl_contour.h" timestamp="1587435379597">
+        <mark key="[" line="73" column="0" />
+        <mark key="]" line="75" column="57" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/BUILD" timestamp="1587370928371">
         <mark key="[" line="24" column="8" />
@@ -99,7 +107,7 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/speed_shaper.cc" timestamp="1587383185622">
         <mark key="'" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/sl_tube_utils.cc" timestamp="1587388438690" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/sl_tube_utils.cc" timestamp="1587434675845" />
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" timestamp="1587388607466">
         <mark key="'" line="393" column="18" />
       </file>
@@ -136,7 +144,11 @@
         <mark key="." line="1443" column="59" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/solver.cc" timestamp="1587388572036" />
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1587368487552" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" timestamp="1587436128789">
+        <mark key="'" line="200" column="0" />
+        <mark key="[" line="374" column="0" />
+        <mark key="]" line="390" column="26" />
+      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/reference_velocity.cc" timestamp="1587374955000">
         <mark key="'" line="16" column="12" />
       </file>
@@ -145,10 +157,15 @@
         <mark key="[" line="311" column="0" />
         <mark key="]" line="311" column="55" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/decision/agent_utils.h" timestamp="1587435453068">
+        <mark key="'" line="259" column="5" />
+        <mark key="[" line="53" column="42" />
+        <mark key="]" line="53" column="51" />
+        <mark key="." line="53" column="50" />
+        <mark key="^" line="53" column="51" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="149" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
-      <jump line="726" column="55" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
       <jump line="33" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
       <jump line="37" column="34" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
       <jump line="38" column="30" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
@@ -247,48 +264,50 @@
       <jump line="20" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" />
       <jump line="345" column="18" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" />
       <jump line="393" column="18" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/lateral/planner.cc" />
+      <jump line="256" column="5" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/decision/agent_utils.h" />
+      <jump line="200" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/projection/projection.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>u</text>
+        <text>sample_size</text>
       </register>
       <register name="-" type="4">
-        <text>u</text>
+        <text>sample_size</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxtcGNfbGF0ZXJhbF9tYWluXD4=</text>
+        <text>MakeRun</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBGcmFtZXM6OlRoaXMoKS0+cGxhbm5pbmdfbGF0ZW5jeS0+ZGVjaXNpb25fbGF0ZW5jeV9tcyA9CiAgICAgIHRpbWVfZGVjaXNpb25fbWFpbi0+R2V0VG90YWxBY2N1bXVsYXRlZFRpbWU8c3RkOjpjaHJvbm86Om1pbGxpc2Vjb25kcz4oKTsK</text>
+        <text encoding="base64">ICBhdXRvIGNvbnN0cnVjdF9zaW5nbGVfc2xfZ3JhcGggPSBbJl0oc2l6ZV90IHRpbWVfaW5kZXgsIHNpemVfdCBzYW1wbGVfc2l6ZSkgewogICAgYXV0byBfID0gOjpwbGFubmluZzo6ZGVjaXNpb246OnByb2ZpbGVyOjpncmFwaF9zZWN0aW9uLT5CZWdpblRpbWluZygpOwogICAgZm9yIChjb25zdCBhdXRvICZlbnZlbG9wZV90eXBlIDogQWxsRW52ZWxvcGVzKSB7CiAgICAgIGlmICghYWxsX2VudmVsb3Blc1tlbnZlbG9wZV90eXBlXS5lbmFibGVkKCkpIHsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICBzdGQ6OnZlY3RvcjxTTEFnZW50PiAmYWdlbnRzID0gYWdlbnRfc2V0c1tlbnZlbG9wZV90eXBlXVt0aW1lX2luZGV4XTsKICAgICAgc2xpY2VzW2VudmVsb3BlX3R5cGVdW3RpbWVfaW5kZXhdID0KICAgICAgICAgIHN0ZDo6bWFrZV91bmlxdWU8U0xHcmFwaD4oYWdlbnRzLCBmYWxzZSk7CiAgICB9CiAgfTsKCiAgU2VydmljZTo6R2V0PHNlcnZpY2VzOjpTY2hlZHVsZXJTZXJ2aWNlPigpCiAgICAgIC0+TWFrZVJ1bkluZGV4ZWRUYXNrc1JlcXVlc3QocHJvamVjdF9zaW5nbGVfc2xfZ3JhcGgsIHNhbXBsZV9zaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZDo6c3RyaW5nKCJTVExQcm9qZWN0aW9uIiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ29uZmlnOjpHZXQoKS5udW1fdGhyZWFkcygpKQogICAgICAtPlN0YXJ0QW5kV2FpdEZvcigpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICBqYwo=</text>
+        <text encoding="base64">ICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGF1dG8gCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICBhdXRvIHN0YXRpY19hZ2VudF90aW1lciA9CiAgICAgIDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6c3RhdGljX2FnZW50X3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7CgogIC8vIFByb2plY3Qgc3RhdGlvbmFyeSBvYnN0YWNsZS4KICBmb3IgKGNvbnN0IE9ic3RhY2xlUHJlZGljdGlvbiAmcHJlZCA6ICpGcmFtZXM6OlRoaXMoKS0+cHJlZGljdGlvbnMpIHsKICAgIGF1dG8gYWdlbnRzID0gY3JlYXRlX3NpbmdsZV9zbF9hZ2VudChwcmVkLCAwLjAsIHRydWUpOwogICAgZm9yIChjb25zdCBhdXRvICZlbnZlbG9wZV90eXBlIDogQWxsRW52ZWxvcGVzKSB7CiAgICAgIGlmICghYWxsX2VudmVsb3Blc1tlbnZlbG9wZV90eXBlXS5lbmFibGVkKCkpIHsKICAgICAgICBpZiAoYWdlbnRzW2VudmVsb3BlX3R5cGVdICE9IG51bGxwdHIpIHsKICAgICAgICAgIGpjX2xvZy5XYXJuKCJBYm5vcm1hbCBhZ2VudCBmb3IgZW52ZWxvcGU6ICUlIiwgZW52ZWxvcGVfdHlwZSk7CiAgICAgICAgfQogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChhZ2VudHNbZW52ZWxvcGVfdHlwZV0gPT0gbnVsbHB0cikgewogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGZvciAoc2l6ZV90IHRpbWVfaW5kZXggPSAwOyB0aW1lX2luZGV4IDwgc2FtcGxlX3NpemU7IHRpbWVfaW5kZXgrKykgewogICAgICAgIGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF0uZW1wbGFjZV9iYWNrKAogICAgICAgICAgICAqYWdlbnRzW2VudmVsb3BlX3R5cGVdKTsKICAgICAgfQogICAgfQogIH0KCiAgc3RhdGljX2FnZW50X3RpbWVyLT5FbmRUaW1pbmcoKTs=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">CiAgZm9yIChTaWRlIHNpZGUgOiBrQWxsU2lkZXMpIHsKICAgIGlmICghIUZyYW1lczo6VGhpcygpLT5kZWNpc2lvbi0+c2luZ2xlX2xhbmVfc2V0LkdldFN0YXRlKHNpZGUpKSB7CiAgICAgIFJ1blNpbmdsZUxhbmUoCiAgICAgICAgICBGcmFtZXM6OlRoaXMoKS0+ZGVjaXNpb24tPnNpbmdsZV9sYW5lX3NldC5HZXRTdGF0ZShzaWRlKS5nZXQoKSk7CiAgICB9CiAgfQo=</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">ICAgIGF1dG8gXyA9IDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6Z3JhcGhfc2VjdGlvbi0+QmVnaW5UaW1pbmcoKTsKICAgIGZvciAoY29uc3QgYXV0byAmZW52ZWxvcGVfdHlwZSA6IEFsbEVudmVsb3BlcykgewogICAgICBpZiAoIWFsbF9lbnZlbG9wZXNbZW52ZWxvcGVfdHlwZV0uZW5hYmxlZCgpKSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KICAgICAgc3RkOjp2ZWN0b3I8U0xBZ2VudD4gJmFnZW50cyA9IGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF07CiAgICAgIHNsaWNlc1tlbnZlbG9wZV90eXBlXVt0aW1lX2luZGV4XSA9CiAgICAgICAgICBzdGQ6Om1ha2VfdW5pcXVlPFNMR3JhcGg+KGFnZW50cywgZmFsc2UpOwogICAgfQo=</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgU0xBZ2VudCBzbF9hZ2VudCA9ICgpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICBhdXRvIHJ1bl9zaW5nbGVfbGFuZ2UgPQo=</text>
+        <text encoding="base64">ICAgICAgc2xfYWdlbnRzLnB1c2hfYmFjayhzbF9hZ2VudCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">fSAgLy8gbmFtZXNwYWNlIHBsYW5uaW5nCg==</text>
+        <text encoding="base64">ICBqYwo=</text>
       </register>
       <register name="8" type="2">
-        <text>async StateFrame destruction</text>
+        <text encoding="base64">ICAgIGF1dG8gCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">fQo=</text>
+        <text encoding="base64">ICBhdXRvIHN0YXRpY19hZ2VudF90aW1lciA9CiAgICAgIDo6cGxhbm5pbmc6OmRlY2lzaW9uOjpwcm9maWxlcjo6c3RhdGljX2FnZW50X3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7CgogIC8vIFByb2plY3Qgc3RhdGlvbmFyeSBvYnN0YWNsZS4KICBmb3IgKGNvbnN0IE9ic3RhY2xlUHJlZGljdGlvbiAmcHJlZCA6ICpGcmFtZXM6OlRoaXMoKS0+cHJlZGljdGlvbnMpIHsKICAgIGF1dG8gYWdlbnRzID0gY3JlYXRlX3NpbmdsZV9zbF9hZ2VudChwcmVkLCAwLjAsIHRydWUpOwogICAgZm9yIChjb25zdCBhdXRvICZlbnZlbG9wZV90eXBlIDogQWxsRW52ZWxvcGVzKSB7CiAgICAgIGlmICghYWxsX2VudmVsb3Blc1tlbnZlbG9wZV90eXBlXS5lbmFibGVkKCkpIHsKICAgICAgICBpZiAoYWdlbnRzW2VudmVsb3BlX3R5cGVdICE9IG51bGxwdHIpIHsKICAgICAgICAgIGpjX2xvZy5XYXJuKCJBYm5vcm1hbCBhZ2VudCBmb3IgZW52ZWxvcGU6ICUlIiwgZW52ZWxvcGVfdHlwZSk7CiAgICAgICAgfQogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGlmIChhZ2VudHNbZW52ZWxvcGVfdHlwZV0gPT0gbnVsbHB0cikgewogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGZvciAoc2l6ZV90IHRpbWVfaW5kZXggPSAwOyB0aW1lX2luZGV4IDwgc2FtcGxlX3NpemU7IHRpbWVfaW5kZXgrKykgewogICAgICAgIGFnZW50X3NldHNbZW52ZWxvcGVfdHlwZV1bdGltZV9pbmRleF0uZW1wbGFjZV9iYWNrKAogICAgICAgICAgICAqYWdlbnRzW2VudmVsb3BlX3R5cGVdKTsKICAgICAgfQogICAgfQogIH0KCiAgc3RhdGljX2FnZW50X3RpbWVyLT5FbmRUaW1pbmcoKTs=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -297,9 +316,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxtcGNfbGF0ZXJhbF9tYWluXD4=</last-search>
+      <last-search>MakeRun</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxtcGNfbGF0ZXJhbF9tYWluXD4=</last-pattern>
+      <last-pattern>MakeRun</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
