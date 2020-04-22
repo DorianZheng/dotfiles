@@ -96,21 +96,9 @@
         <mark key="." line="252" column="11" />
         <mark key="^" line="252" column="12" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/workspace/workspace.bzl" timestamp="1587456489374">
-        <mark key="[" line="973" column="24" />
-        <mark key="]" line="973" column="35" />
-        <mark key="." line="973" column="34" />
-        <mark key="^" line="973" column="35" />
-      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/workspace/workspace.bzl" timestamp="1587456489374" />
       <file name="/opt/jc/third_party/marl/current/include/marl/mutex.h" timestamp="1587518361496">
         <mark key="'" line="64" column="1" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587474553887">
-        <mark key="'" line="14" column="0" />
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="16" column="27" />
-        <mark key="." line="168" column="51" />
-        <mark key="^" line="168" column="52" />
       </file>
       <file name="/opt/jc/third_party/marl/current/src/scheduler.cpp" timestamp="1587469660520">
         <mark key="'" line="148" column="2" />
@@ -141,7 +129,7 @@
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/profiler.cc" timestamp="1587453993409">
         <mark key="'" line="82" column="35" />
       </file>
-      <file name="/Dummy.txt" timestamp="1587460123146">
+      <file name="/Dummy.txt" timestamp="1587522549576">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
