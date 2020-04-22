@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDx0YXNrX2dlbmVyYXRvclw+</entry>
-        <entry>RunLoggerBeforePrintHooks</entry>
         <entry>Spawn</entry>
         <entry encoding="base64">XDxzY2hlZHVsZXJcPg==</entry>
         <entry encoding="base64">XDxydW5cPg==</entry>
@@ -25,6 +23,8 @@
         <entry encoding="base64">XDxzaHV0dGluZ19kb3duXD4=</entry>
         <entry>defer</entry>
         <entry encoding="base64">XDx3b3JrZXJfc3RhdHVzX2JpdFw+</entry>
+        <entry>setWO</entry>
+        <entry>setWo</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -100,11 +100,12 @@
       <file name="/opt/jc/third_party/marl/current/include/marl/mutex.h" timestamp="1587518361496">
         <mark key="'" line="64" column="1" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587526245146">
-        <mark key="'" line="409" column="35" />
-        <mark key="]" line="420" column="21" />
-        <mark key="." line="420" column="20" />
-        <mark key="^" line="420" column="21" />
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587526547110">
+        <mark key="'" line="379" column="17" />
+        <mark key="[" line="377" column="0" />
+        <mark key="]" line="379" column="31" />
+        <mark key="." line="379" column="30" />
+        <mark key="^" line="379" column="31" />
       </file>
       <file name="/opt/jc/third_party/marl/current/src/scheduler.cpp" timestamp="1587469660520">
         <mark key="'" line="148" column="2" />
@@ -120,8 +121,8 @@
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/log.cc" timestamp="1587462331979">
         <mark key="'" line="32" column="18" />
       </file>
-      <file name="/opt/jc/third_party/marl/marl.tar/content/marl/src/scheduler.cpp" timestamp="1587469808073">
-        <mark key="'" line="164" column="13" />
+      <file name="/opt/jc/third_party/marl/marl.tar/content/marl/src/scheduler.cpp" timestamp="1587526628983">
+        <mark key="'" line="148" column="2" />
         <mark key="[" line="165" column="77" />
         <mark key="." line="165" column="15" />
       </file>
@@ -161,10 +162,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="84" column="27" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/bucketizing.h" />
-      <jump line="113" column="4" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/bucketizing.h" />
-      <jump line="106" column="16" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/profiler.cc" />
-      <jump line="83" column="35" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/profiler.cc" />
       <jump line="82" column="35" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/profiler.cc" />
       <jump line="43" column="12" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/profiler.h" />
       <jump line="348" column="52" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
@@ -261,48 +258,52 @@
       <jump line="81" column="16" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="411" column="38" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="408" column="35" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="121" column="42" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="379" column="17" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="472" column="7" filename="/opt/jc/third_party/marl/marl.tar/content/marl/src/scheduler.cpp" />
+      <jump line="148" column="2" filename="/opt/jc/third_party/marl/marl.tar/content/marl/src/scheduler.cpp" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>, marl::Scheduler* scheduler</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PSwg</text>
+        <text>, marl::Scheduler* scheduler</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx3b3JrZXJfc3RhdHVzX2JpdFw+</text>
+        <text>setWo</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgIGF1dG8gJiZ3b3JrZXIgPSAqd29ya2Vyc1t3b3JrZXJfaWR4XTsKICAgIEN1cnJlbnRXb3JrZXJUaHJlYWQoKSA9ICZ3b3JrZXI7CiAgICBjb25zdCBhdXRvIHdvcmtlcl9zdGF0dXNfYml0ID0gMXVsbCA8PCB3b3JrZXJfaWR4Owo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIG1hcmw6OlNjaGVkdWxlciogc2NoZWR1bGVye251bGxwdHJ9Owo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgKCp0YXNrKSgpOwogICAgICB0YXNrLT5SZXNldCgpOwogICAgICB0YXNrX3dyYXBwZXJfcG9vbC5wdXNoKHRhc2spOwo=</text>
+        <text encoding="base64">ICAgIAogICAgc2NoZWR1bGVyXy5iaW5kKCkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Ly8gICAgICB3aGlsZSAodGFza19xdWV1ZS5lbXB0eSgpKSB7Ci8vICAgICAgICBpbnQgZXhwZWN0ZWQgPSAwOwovLyAgICAgICAgaWYgKHNsZWVwX3N0YXR1c19mdXRleC5jb21wYXJlX2V4Y2hhbmdlX3N0cm9uZyhleHBlY3RlZCwgMSkpIHsKLy8gICAgICAgICAgLy8gUmVjZWl2ZWQgYSB3YWtldXAgcmVxdWVzdCwgZG9uJ3Qgc2xlZXAganVzdCB5ZXQuCi8vICAgICAgICAgIHJldHVybjsKLy8gICAgICAgIH0KLy8KLy8gICAgICAgIGNvbnN0IGF1dG8gbWF4X2Z1dGV4X3NsZWVwX3RpbWVfbnMgPSBzdGQ6OmNocm9ubzo6bmFub3NlY29uZHMoKm1heF9mdXRleF9zbGVlcF90aW1lKS5jb3VudCgpOwovLyAgICAgICAgc3RydWN0IHRpbWVzcGVjIHRpbWVvdXQ7Ci8vICAgICAgICB0aW1lb3V0LnR2X3NlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zIC8gMTAwMDAwMDAwMDsKLy8gICAgICAgIHRpbWVvdXQudHZfbnNlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zICUgMTAwMDAwMDAwMDsKLy8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FJVCwgMSwgJnRpbWVvdXQsIG51bGxwdHIsIDApOwovLyAgICAgICAgLy8gRUdBSU4gaW5kaWNhdGVzIHRoYXQgYW5vdGhlciB0aHJlYWQgY2FsbGVkIFdha2VVcCgpIGp1c3QgYmVmb3JlIHdlIHdhbnRlZCB0byBzbGVlcC4KLy8gICAgICAgIC8vIEVUSU1FRE9VVCBpcyByZXR1cm5lZCBlaXRoZXIgYmVjYXVzZSBvZiB0aW1lb3V0IG9mIHdoZW4gYW5vdGhlciB0aHJlYWQgd2FrZXMgdXMgdXAuCi8vICAgICAgICAvLyBFSU5UUiBtYXkgYmUgcmV0dXJuZWQgaWYgSHVuZ1Rhc2tEZXRlY3RvcidzIHNpZ25hbCBpcyBkZWxpdmVyZWQuCi8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEgfHwgZXJybm8gPT0gRUFHQUlOIHx8IGVycm5vID09IEVUSU1FRE9VVCB8fCBlcnJubyA9PSBFSU5UUiwgZXJybm8sIHN0cmVycm9yKGVycm5vKSk7Ci8vICAgICAgfQo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhdXRvIF8gPSB0YXNrX3Byb2ZpbGVyX3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7Cg==</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvbnN0IGF1dG8gd29ya2VyX3N0YXR1c19iaXQgPSAxdWxsIDw8IHdvcmtlcl9pZHg7Cg==</text>
-      </register>
-      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgKCp0YXNrKSgpOwogICAgICB0YXNrLT5SZXNldCgpOwogICAgICB0YXNrX3dyYXBwZXJfcG9vbC5wdXNoKHRhc2spOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Ly8gICAgICB3aGlsZSAodGFza19xdWV1ZS5lbXB0eSgpKSB7Ci8vICAgICAgICBpbnQgZXhwZWN0ZWQgPSAwOwovLyAgICAgICAgaWYgKHNsZWVwX3N0YXR1c19mdXRleC5jb21wYXJlX2V4Y2hhbmdlX3N0cm9uZyhleHBlY3RlZCwgMSkpIHsKLy8gICAgICAgICAgLy8gUmVjZWl2ZWQgYSB3YWtldXAgcmVxdWVzdCwgZG9uJ3Qgc2xlZXAganVzdCB5ZXQuCi8vICAgICAgICAgIHJldHVybjsKLy8gICAgICAgIH0KLy8KLy8gICAgICAgIGNvbnN0IGF1dG8gbWF4X2Z1dGV4X3NsZWVwX3RpbWVfbnMgPSBzdGQ6OmNocm9ubzo6bmFub3NlY29uZHMoKm1heF9mdXRleF9zbGVlcF90aW1lKS5jb3VudCgpOwovLyAgICAgICAgc3RydWN0IHRpbWVzcGVjIHRpbWVvdXQ7Ci8vICAgICAgICB0aW1lb3V0LnR2X3NlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zIC8gMTAwMDAwMDAwMDsKLy8gICAgICAgIHRpbWVvdXQudHZfbnNlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zICUgMTAwMDAwMDAwMDsKLy8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FJVCwgMSwgJnRpbWVvdXQsIG51bGxwdHIsIDApOwovLyAgICAgICAgLy8gRUdBSU4gaW5kaWNhdGVzIHRoYXQgYW5vdGhlciB0aHJlYWQgY2FsbGVkIFdha2VVcCgpIGp1c3QgYmVmb3JlIHdlIHdhbnRlZCB0byBzbGVlcC4KLy8gICAgICAgIC8vIEVUSU1FRE9VVCBpcyByZXR1cm5lZCBlaXRoZXIgYmVjYXVzZSBvZiB0aW1lb3V0IG9mIHdoZW4gYW5vdGhlciB0aHJlYWQgd2FrZXMgdXMgdXAuCi8vICAgICAgICAvLyBFSU5UUiBtYXkgYmUgcmV0dXJuZWQgaWYgSHVuZ1Rhc2tEZXRlY3RvcidzIHNpZ25hbCBpcyBkZWxpdmVyZWQuCi8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEgfHwgZXJybm8gPT0gRUFHQUlOIHx8IGVycm5vID09IEVUSU1FRE9VVCB8fCBlcnJubyA9PSBFSU5UUiwgZXJybm8sIHN0cmVycm9yKGVycm5vKSk7Ci8vICAgICAgfQo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBhdXRvIF8gPSB0YXNrX3Byb2ZpbGVyX3NlY3Rpb24tPkJlZ2luVGltaW5nKCk7Cg==</text>
+      </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGF1dG8gJnRocmVhZF9zdGF0dXNlcyA9ICppbnRlcnByb2Nlc3NfdGhyZWFkX21hbmFnZW1lbnQKICAgICAgPyAqcmVpbnRlcnByZXRfY2FzdDxzdGQ6OmF0b21pYzx1aW50NjRfdD4gKj4odGhyZWFkX3N0YXR1c19zaG1lbSkKICAgICAgOiBsb2NhbF90aHJlYWRfc3RhdHVzOwoK</text>
+        <text encoding="base64">ICAgIGNvbnN0IGF1dG8gd29ya2VyX3N0YXR1c19iaXQgPSAxdWxsIDw8IHdvcmtlcl9pZHg7Cg==</text>
       </register>
       <register name="8" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHdoaWxlICghc2h1dHRpbmdfZG93bi5sb2FkKCkpIHsKICAgICAgdGFza193cmFwcGVyX3QgKiB0YXNre307CgogICAgICBhdXRvIHRyeV9nZXRfdGFzayA9IFsmXSh0YXNrX3dyYXBwZXJfdCAqJnRhc2spIHsKICAgICAgICByZXR1cm4gd29ya2VyLlRyeURlcXVldWVUYXNrKHRhc2spIHx8IFRyeVN0ZWFsVGFzayh3b3JrZXJfaWR4LCB0YXNrKTsKICAgICAgfTsKCiAgICAgIC8vIFRyeSB0byBkZXF1ZXVlIG9yIHN0ZWFsIHdvcmsgZm9yIHNvbWUgc2hvcnQgYW1vdW50IG9mIHRpbWUgdG8gYXZvaWQgZXhwZW5zaXZlIGZ1dGV4IHN5c2NhbGxzLgogICAgICBhdXRvIGN1cnJfdGltZSA9IFJlYWRUU0MoKTsKICAgICAgaWYgKCF0cnlfZ2V0X3Rhc2sodGFzaykpIHsKICAgICAgICBhdXRvIHBvcF90aW1lID0gUmVhZFRTQygpIC0gY3Vycl90aW1lOwogICAgICAgIGF1dG8gbnVtX3RyaWVzID0gRHVyYXRpb25Ub0NQVVRpY2tzKCp3b3JrZXJfZGVxdWV1ZV9zcGluX3RpbWVvdXQpIC8gcG9wX3RpbWU7CiAgICAgICAgd2hpbGUgKG51bV90cmllcy0tID4gMCAmJiAhdHJ5X2dldF90YXNrKHRhc2spKSB7CiAgICAgICAgfQogICAgICB9CgogICAgICBpZiAoIXRhc2spIHsKICAgICAgICAvLyBJbmRlZWQgbm8gZWxlbWVudHMgbGVmdCwgYW5kIGNvdWxkbid0IHN0ZWFsIGFueSB3b3JrCiAgICAgICAgLy8gZnJvbSBhbm90ZWhyIHRocmVhZCwgc28gZ28gdG8gc2xlZXAuCiAgICAgICAgLy8gUmVzZXQgdGhlIHN0YXR1cyBiaXQgb24gb3VyIHdheSBvdXQuCiAgICAgICAgdGhyZWFkX3N0YXR1c2VzLmZldGNoX2FuZCh+d29ya2VyX3N0YXR1c19iaXQpOwogICAgICAgIHdvcmtlci5XYWl0Rm9yV29yaygpOwogICAgICB9IGVsc2UgewogICAgICAgIGlmICgodGhyZWFkX3N0YXR1c2VzLmxvYWQoKSAmIHdvcmtlcl9zdGF0dXNfYml0KSAhPSAwKSB7CiAgICAgICAgICAvLyBTb21lb25lIG1hbmFnZWQgdG8gc3VibWl0IGEgdGFzayBhZnRlciB3ZSByZXNldCB0aGUgYml0LgogICAgICAgICAgLy8gVGhhdCdzIG9rLCBtb3ZlIGZvcndhcmQgYXMgdXN1YWwsIGp1c3QgbWFyayBvdXJzZWx2ZXMgYXMgYnVzeS4KICAgICAgICAgIHRocmVhZF9zdGF0dXNlcy5mZXRjaF9vcih3b3JrZXJfc3RhdHVzX2JpdCk7CiAgICAgICAgfQogICAgICAgIHdvcmtlci5SdW5BbmRSZWxlYXNlVGFzayh0YXNrKTsKICAgICAgfQoKICAgICAgLy8gRHJhaW4gb3duIHF1ZXVlCiAgICAgIHdoaWxlICh3b3JrZXIuVHJ5RGVxdWV1ZVRhc2sodGFzaykpIHsKICAgICAgICB3b3JrZXIuUnVuQW5kUmVsZWFzZVRhc2sodGFzayk7CiAgICAgIH0KICAgICAgdGhyZWFkX3N0YXR1c2VzLmZldGNoX2FuZCh+d29ya2VyX3N0YXR1c19iaXQpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgIGF1dG8gJnRocmVhZF9zdGF0dXNlcyA9ICppbnRlcnByb2Nlc3NfdGhyZWFkX21hbmFnZW1lbnQKICAgICAgPyAqcmVpbnRlcnByZXRfY2FzdDxzdGQ6OmF0b21pYzx1aW50NjRfdD4gKj4odGhyZWFkX3N0YXR1c19zaG1lbSkKICAgICAgOiBsb2NhbF90aHJlYWRfc3RhdHVzOwoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -311,9 +312,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx3b3JrZXJfc3RhdHVzX2JpdFw+</last-search>
+      <last-search>setWo</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx3b3JrZXJfc3RhdHVzX2JpdFw+</last-pattern>
+      <last-pattern>setWo</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxpbXBhY3RpdmVfYWdlbnRfdGltZXJcPg==</last-substitute>
       <last-dir>1</last-dir>
