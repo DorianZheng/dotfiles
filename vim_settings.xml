@@ -137,12 +137,11 @@
         <mark key="[" line="19" column="0" />
         <mark key="]" line="25" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587562534506">
-        <mark key="'" line="67" column="36" />
-        <mark key="[" line="96" column="33" />
-        <mark key="]" line="96" column="61" />
-        <mark key="^" line="96" column="61" />
-        <mark key="." line="96" column="60" />
+      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587604323332">
+        <mark key="[" line="103" column="0" />
+        <mark key="]" line="103" column="8" />
+        <mark key="." line="103" column="8" />
+        <mark key="^" line="102" column="31" />
       </file>
       <file name="/opt/jc/third_party/marl/current/src/scheduler.cpp" timestamp="1587469660520">
         <mark key="'" line="148" column="2" />
@@ -177,8 +176,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="164" column="13" filename="/opt/jc/third_party/marl/marl.tar/content/marl/src/scheduler.cpp" />
-      <jump line="407" column="32" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="75" column="14" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="37" column="4" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="423" column="42" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
@@ -191,7 +188,6 @@
       <jump line="222" column="10" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="231" column="21" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="416" column="24" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
-      <jump line="85" column="12" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="119" column="6" filename="/opt/jc/third_party/marl/current/include/marl/conditionvariable.h" />
       <jump line="84" column="10" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
       <jump line="118" column="41" filename="/opt/jc/third_party/marl/current/include/marl/conditionvariable.h" />
@@ -277,15 +273,18 @@
       <jump line="355" column="18" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/stl_layout.cc" />
       <jump line="181" column="32" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/stl_layout.cc" />
       <jump line="67" column="36" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="144" column="38" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="145" column="0" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
+      <jump line="85" column="56" filename="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">KSA9IA==</text>
+        <text>std::memory_order_acquire</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">KSA9IA==</text>
+        <text>std::memory_order_acquire</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxCdWlsZFw+</text>
@@ -294,31 +293,31 @@
         <text encoding="base64">ICAgICAgICBpbnQgZXhwZWN0ZWQgPSAwOwogICAgICAgIGlmIChzbGVlcF9zdGF0dXNfZnV0ZXguY29tcGFyZV9leGNoYW5nZV9zdHJvbmcoZXhwZWN0ZWQsIDEpKSB7CiAgICAgICAgICAvLyBSZWNlaXZlZCBhIHdha2V1cCByZXF1ZXN0LCBkb24ndCBzbGVlcCBqdXN0IHlldC4KICAgICAgICAgIHJldHVybjsKICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHNjaGVkdWxlcl8udW5iaW5kKCk7Cgo=</text>
+        <text encoding="base64">Ly8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FLRSwgMSwgbnVsbHB0ciwgbnVsbHB0ciwgMCk7Ci8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEsIGVycm5vLCBzdHJlcnJvcihlcnJubykpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHNjaGVkdWxlcl8udW5iaW5kKCk7Cgo=</text>
+        <text encoding="base64">ICAgICAgICBtYXJsOjpsb2NrIGxvY2sobXV0ZXgpOwogICAgICAgIGlmIChzbGVlcF9zdGF0dXNfZnV0ZXgubG9hZChzdGQ6Om1lbW9yeV9vcmRlcl9hY3F1aXJlKSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">CiAgICBzY2hlZHVsZXJfLmJpbmQoKTsK</text>
+        <text encoding="base64">Ly8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FLRSwgMSwgbnVsbHB0ciwgbnVsbHB0ciwgMCk7Ci8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEsIGVycm5vLCBzdHJlcnJvcihlcnJubykpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text>change thread pool worker number to 48</text>
+        <text encoding="base64">Ly8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FLRSwgMSwgbnVsbHB0ciwgbnVsbHB0ciwgMCk7Ci8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEsIGVycm5vLCBzdHJlcnJvcihlcnJubykpOwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Ly8gICAgICBpbnQgZXhwZWN0ZWQgPSAxOwovLyAgICAgIGlmIChzbGVlcF9zdGF0dXNfZnV0ZXguY29tcGFyZV9leGNoYW5nZV9zdHJvbmcoZXhwZWN0ZWQsIDApKSB7Ci8vICAgICAgICBhdXRvIGVycl9jb2RlID0gc3lzY2FsbChTWVNfZnV0ZXgsICZzbGVlcF9zdGF0dXNfZnV0ZXgsIEZVVEVYX1dBS0UsIDEsIG51bGxwdHIsIG51bGxwdHIsIDApOwovLyAgICAgICAgSkNfQVNTRVJUKGVycl9jb2RlICE9IC0xLCBlcnJubywgc3RyZXJyb3IoZXJybm8pKTsKLy8gICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgIAo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Ly8gICAgICB3aGlsZSAodGFza19xdWV1ZS5lbXB0eSgpKSB7Ci8vICAgICAgICBpbnQgZXhwZWN0ZWQgPSAwOwovLyAgICAgICAgaWYgKHNsZWVwX3N0YXR1c19mdXRleC5jb21wYXJlX2V4Y2hhbmdlX3N0cm9uZyhleHBlY3RlZCwgMSkpIHsKLy8gICAgICAgICAgLy8gUmVjZWl2ZWQgYSB3YWtldXAgcmVxdWVzdCwgZG9uJ3Qgc2xlZXAganVzdCB5ZXQuCi8vICAgICAgICAgIHJldHVybjsKLy8gICAgICAgIH0KLy8KLy8gICAgICAgIGNvbnN0IGF1dG8gbWF4X2Z1dGV4X3NsZWVwX3RpbWVfbnMgPSBzdGQ6OmNocm9ubzo6bmFub3NlY29uZHMoKm1heF9mdXRleF9zbGVlcF90aW1lKS5jb3VudCgpOwovLyAgICAgICAgc3RydWN0IHRpbWVzcGVjIHRpbWVvdXQ7Ci8vICAgICAgICB0aW1lb3V0LnR2X3NlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zIC8gMTAwMDAwMDAwMDsKLy8gICAgICAgIHRpbWVvdXQudHZfbnNlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zICUgMTAwMDAwMDAwMDsKLy8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FJVCwgMSwgJnRpbWVvdXQsIG51bGxwdHIsIDApOwovLyAgICAgICAgLy8gRUdBSU4gaW5kaWNhdGVzIHRoYXQgYW5vdGhlciB0aHJlYWQgY2FsbGVkIFdha2VVcCgpIGp1c3QgYmVmb3JlIHdlIHdhbnRlZCB0byBzbGVlcC4KLy8gICAgICAgIC8vIEVUSU1FRE9VVCBpcyByZXR1cm5lZCBlaXRoZXIgYmVjYXVzZSBvZiB0aW1lb3V0IG9mIHdoZW4gYW5vdGhlciB0aHJlYWQgd2FrZXMgdXMgdXAuCi8vICAgICAgICAvLyBFSU5UUiBtYXkgYmUgcmV0dXJuZWQgaWYgSHVuZ1Rhc2tEZXRlY3RvcidzIHNpZ25hbCBpcyBkZWxpdmVyZWQuCi8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEgfHwgZXJybm8gPT0gRUFHQUlOIHx8IGVycm5vID09IEVUSU1FRE9VVCB8fCBlcnJubyA9PSBFSU5UUiwgZXJybm8sIHN0cmVycm9yKGVycm5vKSk7Ci8vICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgbWFybDo6bG9jayBsb2NrKG11dGV4KTsKICAgICAgaGFzX3BlbmRpbmdfdGFzay5zdG9yZSh0cnVlLCBzdGQ6Om1lbW9yeV9vcmRlcl9yZWxlYXNlKTsKICAgICAgY29uZC5ub3RpZnlfb25lKCk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW5jbHVkZV9kaXJlY3RvcmllcyhiYXplbC1naWJyYWx0YXIvZXh0ZXJuYWwvcm9zL2luY2x1ZGUpCg==</text>
+        <text encoding="base64">Ly8gICAgICAgIGNvbnN0IGF1dG8gbWF4X2Z1dGV4X3NsZWVwX3RpbWVfbnMgPSBzdGQ6OmNocm9ubzo6bmFub3NlY29uZHMoKm1heF9mdXRleF9zbGVlcF90aW1lKS5jb3VudCgpOwovLyAgICAgICAgc3RydWN0IHRpbWVzcGVjIHRpbWVvdXQ7Ci8vICAgICAgICB0aW1lb3V0LnR2X3NlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zIC8gMTAwMDAwMDAwMDsKLy8gICAgICAgIHRpbWVvdXQudHZfbnNlYyA9IG1heF9mdXRleF9zbGVlcF90aW1lX25zICUgMTAwMDAwMDAwMDsKLy8gICAgICAgIGF1dG8gZXJyX2NvZGUgPSBzeXNjYWxsKFNZU19mdXRleCwgJnNsZWVwX3N0YXR1c19mdXRleCwgRlVURVhfV0FJVCwgMSwgJnRpbWVvdXQsIG51bGxwdHIsIDApOwovLyAgICAgICAgLy8gRUdBSU4gaW5kaWNhdGVzIHRoYXQgYW5vdGhlciB0aHJlYWQgY2FsbGVkIFdha2VVcCgpIGp1c3QgYmVmb3JlIHdlIHdhbnRlZCB0byBzbGVlcC4KLy8gICAgICAgIC8vIEVUSU1FRE9VVCBpcyByZXR1cm5lZCBlaXRoZXIgYmVjYXVzZSBvZiB0aW1lb3V0IG9mIHdoZW4gYW5vdGhlciB0aHJlYWQgd2FrZXMgdXMgdXAuCi8vICAgICAgICAvLyBFSU5UUiBtYXkgYmUgcmV0dXJuZWQgaWYgSHVuZ1Rhc2tEZXRlY3RvcidzIHNpZ25hbCBpcyBkZWxpdmVyZWQuCi8vICAgICAgICBKQ19BU1NFUlQoZXJyX2NvZGUgIT0gLTEgfHwgZXJybm8gPT0gRUFHQUlOIHx8IGVycm5vID09IEVUSU1FRE9VVCB8fCBlcnJubyA9PSBFSU5UUiwgZXJybm8sIHN0cmVycm9yKGVycm5vKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgaW50IGV4cGVjdGVkID0gMTsKICAgICAgaWYgKHNsZWVwX3N0YXR1c19mdXRleC5jb21wYXJlX2V4Y2hhbmdlX3N0cm9uZyhleHBlY3RlZCwgMCkpIHsKICAgICAgICBtYXJsOjpsb2NrIGxvY2sobXV0ZXgpOwogICAgICAgIGlmICgpCiAgICAgICAgY29uZC5ub3RpZnlfb25lKCk7CiAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgaWYgKGhhc19wZW5kaW5nX3Rhc2subG9hZChzdGQ6Om1lbW9yeV9vcmRlcl9hY3F1aXJlKSkKICAgICAgICByZXR1cm47CiAgICAgIGhhc19wZW5kaW5nX3Rhc2sgPSBmYWxzZTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgaW50IGV4cGVjdGVkID0gMDsKICAgICAgaWYgKHNsZWVwX3N0YXR1c19mdXRleC5jb21wYXJlX2V4Y2hhbmdlX3N0cm9uZyhleHBlY3RlZCwgMSkpIHsKICAgICAgICAvLyBSZWNlaXZlZCBhIHdha2V1cCByZXF1ZXN0LCBkb24ndCBzbGVlcCBqdXN0IHlldC4KICAgICAgICByZXR1cm47CiAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgbWFybDo6bG9jayBsb2NrKG11dGV4KTsKICAgICAgY29uZC53YWl0KGxvY2ssIFsmXSB7CiAgICAgICAgcmV0dXJuIGhhc19wZW5kaW5nX3Rhc2subG9hZChzdGQ6Om1lbW9yeV9vcmRlcl9yZWxheGVkKTsKICAgICAgfSk7Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
