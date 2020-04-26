@@ -185,7 +185,7 @@
         <mark key="^" line="916" column="40" />
         <mark key="." line="2" column="16" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587869837220">
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587876839558">
         <mark key="[" line="30" column="17" />
         <mark key="]" line="30" column="21" />
         <mark key="." line="30" column="20" />
@@ -311,11 +311,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>home</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>home</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxSZXNvbHZlQ2FsbFNpZ25hdHVyZVw+</text>
