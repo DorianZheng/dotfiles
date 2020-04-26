@@ -1312,5 +1312,81 @@
         <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" />
       </SOURCES>
     </library>
+    <library name="Python 3.5 interpreter library">
+      <CLASSES>
+        <root url="file:///usr/bin" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/ai/aicore" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/corelib/ros_helpers/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/pnc/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/simulation/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/utility/visualization/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/control/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/control/msg/lateral_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/boards/iob" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/dbw_mkz_ros" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/lidar" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/lidar_common" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/radar/continental/msgs" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/boundingbox_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/cross_msgs" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/obstacle_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/radar_msgs" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/regression_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/semap_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/planning_v2/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/planning_v2/msg/env_msgs" />
+        <root url="file:///opt/ros/kinetic/lib/python2.7/dist-packages" />
+        <root url="file:///usr/lib/python3.5" />
+        <root url="file:///usr/lib/python3.5/plat-x86_64-linux-gnu" />
+        <root url="file:///usr/lib/python3.5/lib-dynload" />
+        <root url="file://$USER_HOME$/.local/lib/python3.5/site-packages" />
+        <root url="file:///usr/local/lib/python3.5/dist-packages" />
+        <root url="file:///usr/lib/python3/dist-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/CLion2020.1/python_stubs/-1247971764" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///usr/bin" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/ai/aicore" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/corelib/ros_helpers/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/pnc/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/simulation/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/common/utility/visualization/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/control/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/control/msg/lateral_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/boards/iob" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/dbw_mkz_ros" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/lidar" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/lidar_common" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/drivers/radar/continental/msgs" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/boundingbox_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/cross_msgs" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/obstacle_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/radar_msgs" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/regression_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/perception/msg/semap_msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/planning_v2/msg" />
+        <root url="file://$USER_HOME$/Workspace/gibraltar/bazel-bin/s_loop/src/planning_v2/msg/env_msgs" />
+        <root url="file:///opt/ros/kinetic/lib/python2.7/dist-packages" />
+        <root url="file:///usr/lib/python3.5" />
+        <root url="file:///usr/lib/python3.5/plat-x86_64-linux-gnu" />
+        <root url="file:///usr/lib/python3.5/lib-dynload" />
+        <root url="file://$USER_HOME$/.local/lib/python3.5/site-packages" />
+        <root url="file:///usr/local/lib/python3.5/dist-packages" />
+        <root url="file:///usr/lib/python3/dist-packages" />
+        <root url="file://$USER_HOME$/.cache/JetBrains/CLion2020.1/python_stubs/-1247971764" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2and3" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/3" />
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" />
+      </SOURCES>
+    </library>
   </component>
 </application>
