@@ -96,11 +96,11 @@
       <file name="$USER_HOME$/Workspace/gibraltar/workspace/workspace.bzl" timestamp="1587956518727">
         <mark key="'" line="574" column="41" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587887941907">
-        <mark key="[" line="30" column="17" />
-        <mark key="]" line="30" column="21" />
-        <mark key="." line="30" column="20" />
-        <mark key="^" line="30" column="21" />
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587971853683">
+        <mark key="[" line="60" column="37" />
+        <mark key="]" line="60" column="38" />
+        <mark key="." line="60" column="37" />
+        <mark key="^" line="60" column="38" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" timestamp="1587960215717">
         <mark key="'" line="378" column="41" />
@@ -246,10 +246,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>home</text>
+        <text>True</text>
       </register>
       <register name="-" type="4">
-        <text>home</text>
+        <text>True</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">XDxCZWdpblRhc2tcPg==</text>
