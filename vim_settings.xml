@@ -5,12 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>MakeRun</entry>
-        <entry>SchedulerService</entry>
-        <entry>scheduler</entry>
-        <entry>24</entry>
-        <entry>profile</entry>
-        <entry>profiler</entry>
         <entry>std</entry>
         <entry>min</entry>
         <entry encoding="base64">XDxzaWduYXR1cmVfdFw+</entry>
@@ -25,6 +19,12 @@
         <entry>ros</entry>
         <entry>pc_interface</entry>
         <entry encoding="base64">XDx0cmFqX3R5cGVcPg==</entry>
+        <entry>UpdateReferen</entry>
+        <entry>Calcu</entry>
+        <entry encoding="base64">XC1cPg==</entry>
+        <entry encoding="base64">LVw+</entry>
+        <entry encoding="base64">LT4=</entry>
+        <entry>UpdateReferenceAndState</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -83,12 +83,12 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/lqr.cc" timestamp="1587970849681">
+        <mark key="'" line="121" column="36" />
+      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/planning_output.h" timestamp="1587959319375" />
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc_dir/fragment.cpp" timestamp="1587959278813">
         <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/callable.h" timestamp="1587871426356">
-        <mark key="'" line="16" column="7" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" timestamp="1587876102651">
         <mark key="'" line="10" column="1" />
@@ -112,16 +112,11 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/record/adv_record.cc" timestamp="1587960295230">
         <mark key="'" line="193" column="47" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.cc" timestamp="1587970249647">
+        <mark key="'" line="150" column="30" />
+      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1587952950888">
         <mark key="'" line="339" column="4" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1587872884408">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="12" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper.h" timestamp="1587873530553">
-        <mark key="'" line="39" column="2" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" timestamp="1587959557587">
         <mark key="'" line="215" column="51" />
@@ -139,27 +134,20 @@
         <mark key="'" line="190" column="44" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/record/adv_record.h" timestamp="1587968341548" />
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/decision/default.py" timestamp="1587871697758">
-        <mark key="'" line="67" column="55" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/base_controller.h" timestamp="1587970254191">
+        <mark key="'" line="33" column="15" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/corelib/ros_helpers/ros_publisher.h" timestamp="1587958584479">
         <mark key="'" line="37" column="27" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.h" timestamp="1587970232895">
+        <mark key="'" line="65" column="7" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/ros_api/pubsub/profiled_publisher_wrapper.h" timestamp="1587958564980">
         <mark key="'" line="44" column="28" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="488" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/data_pipeline/frame_manager.cc" />
-      <jump line="260" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/pedestrian_prediction/detector/ped_cross_detector.cc" />
-      <jump line="5" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/pedestrian_prediction/detector/ped_cross_detector.cc" />
-      <jump line="490" column="47" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/data_pipeline/frame_manager.cc" />
-      <jump line="126" column="52" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/sampling/BUILD" />
-      <jump line="182" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/sampling/BUILD" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/sampling/BUILD" />
-      <jump line="307" column="21" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
-      <jump line="93" column="2" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
       <jump line="15" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
       <jump line="315" column="24" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
       <jump line="94" column="67" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/decision/scan/scan.cc" />
@@ -250,6 +238,16 @@
       <jump line="248" column="17" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
       <jump line="285" column="56" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
       <jump line="215" column="51" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" />
+      <jump line="65" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.h" />
+      <jump line="101" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.cc" />
+      <jump line="157" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.cc" />
+      <jump line="150" column="30" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.cc" />
+      <jump line="33" column="15" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/base_controller.h" />
+      <jump line="8" column="41" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/lqr.cc" />
+      <jump line="54" column="22" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/lqr.cc" />
+      <jump line="20" column="2" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/lqr.cc" />
+      <jump line="115" column="30" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/lqr.cc" />
+      <jump line="121" column="36" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/longitudinal/lqr.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -261,7 +259,7 @@
         <text>home</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDx0cmFqX3R5cGVcPg==</text>
+        <text>UpdateReferenceAndState</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICBzdGQ6OmF0b21pYzx1aW50NjRfdD4gZG9uZXswfTsKICBhdXRvIHRhc2sgPSBbJmRvbmVdKHNpemVfdCBpbmRleCwgc2l6ZV90IGNvdW50KSB7CiAgICBhdXRvIHggPSBjb3VudDsKICAgIHVpbnQzMl90IHEgPSB4OwogICAgZm9yICh1aW50MzJfdCBpID0gMDsgaSA8IDEwMDAwOyBpKyspIHsKICAgICAgeCA9ICh4IDw8IDQpIHwgeDsKICAgICAgeCA9IHggfCAweDEwMjA7CiAgICAgIHggPSAoeCA+PiAyKSAmIHE7CiAgICB9CiAgICBkb25lLmZldGNoX2FkZCgxKTsKICAgIHJldHVybiB4OwogIH07Cg==</text>
@@ -300,9 +298,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDx0cmFqX3R5cGVcPg==</last-search>
+      <last-search>UpdateReferenceAndState</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDx0cmFqX3R5cGVcPg==</last-pattern>
+      <last-pattern>UpdateReferenceAndState</last-pattern>
       <last-replace>~</last-replace>
       <last-substitute encoding="base64">XDxNYWtlUnVuSW5kZXhlZFRhc2tzUmVxdWVzdFw+</last-substitute>
       <last-dir>1</last-dir>
