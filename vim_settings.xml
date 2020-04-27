@@ -98,10 +98,10 @@
         <mark key="'" line="574" column="41" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1587972617419">
-        <mark key="[" line="60" column="37" />
-        <mark key="]" line="60" column="38" />
-        <mark key="." line="60" column="37" />
-        <mark key="^" line="60" column="38" />
+        <mark key="[" line="30" column="37" />
+        <mark key="]" line="30" column="38" />
+        <mark key="." line="30" column="37" />
+        <mark key="^" line="30" column="38" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" timestamp="1587960215717">
         <mark key="'" line="378" column="41" />
@@ -115,18 +115,13 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/high_level_control_core.cc" timestamp="1587970249647">
         <mark key="'" line="150" column="30" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1587974702250">
-        <mark key="'" line="580" column="6" />
-        <mark key="[" line="691" column="7" />
-        <mark key="]" line="692" column="8" />
-        <mark key="^" line="692" column="8" />
-        <mark key="." line="692" column="7" />
+      <file name="/Dummy.txt" timestamp="1587977170414">
+        <mark key="[" line="0" column="10" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="12" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" timestamp="1587959557587">
         <mark key="'" line="215" column="51" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/services/scheduler/src/scheduler.cc" timestamp="1587954076046">
-        <mark key="'" line="96" column="10" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/plog/serialization_service.cc" timestamp="1587974541207">
         <mark key="'" line="169" column="47" />
