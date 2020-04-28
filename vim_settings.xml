@@ -117,6 +117,12 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1588057322252">
         <mark key="'" line="441" column="28" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_cep.py" timestamp="1588059074548">
+        <mark key="[" line="81" column="36" />
+        <mark key="]" line="81" column="42" />
+        <mark key="." line="81" column="41" />
+        <mark key="^" line="81" column="42" />
+      </file>
       <file name="/Dummy.txt" timestamp="1588054734233">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
@@ -127,9 +133,6 @@
         <mark key="[" line="16" column="0" />
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/motion.cc" timestamp="1587959557587">
-        <mark key="'" line="215" column="51" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/plog/serialization_service.cc" timestamp="1587974541207">
         <mark key="'" line="169" column="47" />
@@ -253,11 +256,11 @@
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICBzdGF0aWMgY29uc3QgYXV0byBnZW5lcmF0b3JfcHJvZmlsZXJfc2VjdGlvbiA9CiAgICAgIGNvcmVsaWI6Ok1haW5Qcm9maWxlcigpLT5TZWN0aW9uKGluZGV4ZWRfdGFza19uYW1lLmVtcHR5KCkKICAgICAgPyBjYWxsZXIuR2V0RnVuY3Rpb25OYW1lKCkgKyAiIC0+IEFsbCB0YXNrcyIKICAgICAgOiBpbmRleGVkX3Rhc2tfbmFtZSk7Cgo=</text>
+      <register name="&quot;" type="4">
+        <text>True</text>
       </register>
       <register name="-" type="4">
-        <text>profiler::</text>
+        <text>True</text>
       </register>
       <register name="/" type="4">
         <text>enable_prediction_module</text>
