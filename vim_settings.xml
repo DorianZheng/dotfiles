@@ -100,9 +100,6 @@
         <mark key="." line="30" column="37" />
         <mark key="^" line="30" column="38" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" timestamp="1587960215717">
-        <mark key="'" line="378" column="41" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/record/adv_record.cc" timestamp="1587960295230">
         <mark key="'" line="193" column="47" />
       </file>
@@ -113,7 +110,7 @@
         <mark key="'" line="150" column="30" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1587978872439">
-        <mark key="'" line="439" column="43" />
+        <mark key="'" line="432" column="43" />
       </file>
       <file name="/Dummy.txt" timestamp="1588033143188">
         <mark key="[" line="0" column="1" />
