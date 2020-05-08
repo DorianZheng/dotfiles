@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>no_aeb_</entry>
         <entry>laucher</entry>
         <entry>laucher.cc</entry>
         <entry>launcher</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDx1c2VfcHl0aG9uM1w+</entry>
         <entry encoding="base64">XDx0YWdfcHl0aG9uM1w+</entry>
         <entry>excute_query</entry>
+        <entry>state_db</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -84,113 +84,33 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/arena.h" timestamp="1588818025816">
-        <mark key="'" line="48" column="17" />
-        <mark key="[" line="62" column="26" />
-        <mark key="]" line="62" column="26" />
-        <mark key="." line="62" column="26" />
-        <mark key="^" line="9" column="18" />
+      <file name="/state_db.cc" timestamp="1588822489433">
+        <mark key="'" line="42" column="4" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/workspace/repo_rules.bzl" timestamp="1588819771480">
-        <mark key="'" line="322" column="0" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" timestamp="1588832044928">
+        <mark key="'" line="43" column="31" />
+        <mark key="[" line="43" column="4" />
+        <mark key="]" line="43" column="34" />
+        <mark key="." line="43" column="33" />
+        <mark key="^" line="43" column="34" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" timestamp="1588820563515">
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" timestamp="1588822593308">
         <mark key="'" line="6" column="0" />
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/grading_lib.py" timestamp="1588821287348">
-        <mark key="'" line="25" column="15" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="25" column="15" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/workspace/workspace.bzl" timestamp="1588819615253">
-        <mark key="'" line="985" column="16" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/test/arena_test.cc" timestamp="1588817211678">
-        <mark key="'" line="134" column="14" />
-        <mark key="[" line="134" column="0" />
-        <mark key="]" line="134" column="0" />
-        <mark key="." line="134" column="0" />
-        <mark key="^" line="144" column="66" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/arena.cc" timestamp="1588817403197">
-        <mark key="'" line="152" column="14" />
-        <mark key="[" line="184" column="0" />
-        <mark key="]" line="184" column="0" />
-        <mark key="." line="184" column="0" />
-        <mark key="^" line="184" column="31" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1588817980666">
+      <file name="/Dummy.txt" timestamp="1588835301055">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/rocksdb/memory/arena_test.cc" timestamp="1588817161322">
-        <mark key="'" line="148" column="22" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/arena.cc" timestamp="1588816343288">
-        <mark key="'" line="6" column="16" />
-        <mark key="[" line="145" column="0" />
-        <mark key="]" line="145" column="0" />
-        <mark key="." line="145" column="0" />
-        <mark key="^" line="31" column="48" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/BUILD" timestamp="1588817640405">
-        <mark key="'" line="437" column="0" />
-        <mark key="[" line="378" column="19" />
-        <mark key="]" line="378" column="24" />
-        <mark key="." line="378" column="23" />
-        <mark key="^" line="378" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/memory.h" timestamp="1588816100590">
-        <mark key="'" line="62" column="6" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rocksdb/memory/arena.h" timestamp="1588815698430">
-        <mark key="'" line="13" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/get_plogs.py" timestamp="1588820714961">
-        <mark key="'" line="13" column="16" />
-        <mark key="[" line="13" column="56" />
-        <mark key="]" line="13" column="57" />
-        <mark key="." line="13" column="56" />
-        <mark key="^" line="13" column="57" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/analytics/common/db_client.py" timestamp="1588821087249">
-        <mark key="'" line="9" column="20" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/arena_test.cc" timestamp="1588816423088">
-        <mark key="'" line="189" column="22" />
-        <mark key="[" line="129" column="34" />
-        <mark key="]" line="129" column="34" />
-        <mark key="." line="129" column="34" />
-        <mark key="^" line="2" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/tests/arena_test.cc" timestamp="1588818078962">
-        <mark key="'" line="161" column="14" />
-        <mark key="[" line="173" column="59" />
-        <mark key="]" line="173" column="59" />
-        <mark key="^" line="173" column="59" />
-        <mark key="." line="173" column="59" />
-      </file>
-      <file name="$USER_HOME$/Workspace/rocksdb/memory/allocator.h" timestamp="1588816144715" />
-      <file name="$USER_HOME$/Workspace/rocksdb/memory/arena.cc" timestamp="1588817382170">
-        <mark key="'" line="214" column="20" />
-        <mark key="[" line="222" column="0" />
-        <mark key="]" line="222" column="31" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" timestamp="1588834590996">
+        <mark key="'" line="52" column="33" />
+        <mark key="[" line="85" column="53" />
+        <mark key="]" line="86" column="55" />
+        <mark key="^" line="86" column="55" />
+        <mark key="." line="86" column="54" />
       </file>
     </filemarks>
     <jumps>
-      <jump line="38" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="7" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="52" column="25" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="50" column="2" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="17" column="46" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="37" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper_test.cc" />
-      <jump line="276" column="57" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="63" column="13" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
       <jump line="85" column="13" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
       <jump line="52" column="0" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
       <jump line="70" column="49" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
@@ -282,48 +202,57 @@
       <jump line="262" column="13" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/analytics/common/db_client.py" />
       <jump line="14" column="21" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/analytics/common/db_client.py" />
       <jump line="9" column="20" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/analytics/common/db_client.py" />
+      <jump line="42" column="4" filename="/state_db.cc" />
+      <jump line="40" column="43" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" />
+      <jump line="42" column="3" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" />
+      <jump line="4" column="51" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" />
+      <jump line="43" column="31" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" />
+      <jump line="11" column="47" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
+      <jump line="19" column="33" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
+      <jump line="52" column="33" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="4">
-        <text>value</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>value</text>
+        <text encoding="base64">Y29yZWxpYjo6U2VydmljZTo6R2V0PHNlcnZpY2VzOjpTY2hlZHVsZXJTZXJ2aWNlPigpLT5TcGF3blRhc2so</text>
       </register>
       <register name="/" type="4">
-        <text>excute_query</text>
+        <text>state_db</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9zX2xvb3Avc3JjL2FuYWx5dGljcy9jb21tb246ZGJfY2xpZW50IiwK</text>
+        <text encoding="base64">CnB5X2JpbmFyeSgKICAgIG5hbWUgPSAiZ2V0X3Bsb2dzIiwKICAgIHNyY3MgPSBbImdldF9wbG9ncy5weSJdLAogICAgZGVwcyA9IFsKICAgICAgICAiLy9zX2xvb3Avc3JjL2FuYWx5dGljcy9jb21tb246ZGJfY2xpZW50IiwKICAgIF0sCiAgICBkZWZhdWx0X3B5dGhvbl92ZXJzaW9uID0gIlBZMyIsCiAgICBzcmNzX3ZlcnNpb24gPSAiUFkzT05MWSIsCikK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">IyBmcm9tIHNfbG9vcC5zcmMuc2ltdWxhdGlvbi5ncmFkaW5nX3ZpaS5weXRob24uZ3JhZGluZ19saWIgaW1wb3J0IGdldF9tZXRyaWNfdmFsdWUK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9zX2xvb3Avc3JjL3NpbXVsYXRpb24vZ3JhZGluZ192aWkvcHl0aG9uOmdyYWRpbmdfbGliIiwK</text>
+        <text encoding="base64">IyBmcm9tIHNfbG9vcC5zcmMuc2ltdWxhdGlvbi5ncmFkaW5nX3ZpaS5weXRob24uZ3JhZGluZ19saWIgaW1wb3J0IGdldF9tZXRyaWNfdmFsdWUK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ZnJvbSBncmFkaW5nX2xpYiBpbXBvcnQgZ2V0X21ldHJpY192YWx1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAiLy9zX2xvb3Avc3JjL3NpbXVsYXRpb24vZ3JhZGluZ192aWkvcHl0aG9uOmdyYWRpbmdfbGliIiwK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBzX2xvb3Auc3JjLnNpbXVsYXRpb24uZ3JhZGluZ192aWkucmVzdWx0LnByb3RvIGltcG9ydCBncmFkaW5nX2ZyYW1lX3BiMgo=</text>
+        <text encoding="base64">ZnJvbSBncmFkaW5nX2xpYiBpbXBvcnQgZ2V0X21ldHJpY192YWx1ZQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBwYW5kYXMgYXMgcGQK</text>
+        <text encoding="base64">ZnJvbSBzX2xvb3Auc3JjLnNpbXVsYXRpb24uZ3JhZGluZ192aWkucmVzdWx0LnByb3RvIGltcG9ydCBncmFkaW5nX2ZyYW1lX3BiMgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAiOmdyYWRpbmdfbGliIiwK</text>
+        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBwYW5kYXMgYXMgcGQK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAiOmdyYWRpbmdfbGliIiwK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwpwcmludCgiUHl0aG9uIHZlcnNpb24iKQpwcmludCAoc3lzLnZlcnNpb24pCnByaW50KCJWZXJzaW9uIGluZm8uIikKcHJpbnQgKHN5cy52ZXJzaW9uX2luZm8pCgoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">cHlfcnVudGltZSgKICAgIG5hbWUgPSAicHl0aG9uLTMuNS4yIiwKICAgIGZpbGVzID0gW10sCiAgICBpbnRlcnByZXRlcl9wYXRoID0gIi91c3IvYmluL3B5dGhvbjMiLAopCg==</text>
+        <text encoding="base64">aW1wb3J0IHN5cwpwcmludCgiUHl0aG9uIHZlcnNpb24iKQpwcmludCAoc3lzLnZlcnNpb24pCnByaW50KCJWZXJzaW9uIGluZm8uIikKcHJpbnQgKHN5cy52ZXJzaW9uX2luZm8pCgoK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -332,9 +261,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>excute_query</last-search>
+      <last-search>state_db</last-search>
       <last-offset />
-      <last-pattern>excute_query</last-pattern>
+      <last-pattern>state_db</last-pattern>
       <last-replace>profiler\:\:main_loop</last-replace>
       <last-substitute>main_loop</last-substitute>
       <last-dir>1</last-dir>
