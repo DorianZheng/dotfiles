@@ -5,7 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>cc_test</entry>
         <entry>ROCKS</entry>
         <entry>ROCK</entry>
         <entry>rock</entry>
@@ -25,6 +24,7 @@
         <entry encoding="base64">XDx0dW5hYmxlc191c2Vyc19wYXRoX3ByZWZpeFw+</entry>
         <entry encoding="base64">XDxvdmVycmlkZXNfbWFwXD4=</entry>
         <entry>GetStatsImpl</entry>
+        <entry>Solve</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -87,16 +87,6 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/common/clock_server/clock_server.h" timestamp="1588924059628">
         <mark key="'" line="72" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/defs.cc" timestamp="1589005767258" />
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" timestamp="1589006185504">
-        <mark key="'" line="307" column="21" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/section.cc" timestamp="1589009940981">
-        <mark key="'" line="16" column="0" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" timestamp="1589009932598">
-        <mark key="'" line="331" column="48" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/pedestrian_prediction/detector/ped_cross_detector.cc" timestamp="1589008208667">
         <mark key="'" line="31" column="4" />
         <mark key="[" line="44" column="8" />
@@ -113,11 +103,20 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" timestamp="1589006185504">
+        <mark key="'" line="307" column="21" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" timestamp="1589009932598">
+        <mark key="'" line="331" column="48" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" timestamp="1589180822675">
+        <mark key="'" line="987" column="44" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/section.cc" timestamp="1589009940981">
+        <mark key="'" line="16" column="0" />
+      </file>
     </filemarks>
     <jumps>
-      <jump line="6764" column="59" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
-      <jump line="6780" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
-      <jump line="6785" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
       <jump line="6787" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
       <jump line="6767" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
       <jump line="8835" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
@@ -215,6 +214,9 @@
       <jump line="328" column="11" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
       <jump line="331" column="48" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
       <jump line="16" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/section.cc" />
+      <jump line="628" column="16" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
+      <jump line="977" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
+      <jump line="987" column="44" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
@@ -226,7 +228,7 @@
         <text>boost::filesystem::a</text>
       </register>
       <register name="/" type="4">
-        <text>GetStatsImpl</text>
+        <text>Solve</text>
       </register>
       <register name="0" type="4">
         <text>model_config.gpu_pedestrian_model_path()</text>
@@ -265,9 +267,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>GetStatsImpl</last-search>
+      <last-search>Solve</last-search>
       <last-offset />
-      <last-pattern>GetStatsImpl</last-pattern>
+      <last-pattern>Solve</last-pattern>
       <last-replace>profiler\:\:main_loop</last-replace>
       <last-substitute>main_loop</last-substitute>
       <last-dir>1</last-dir>
