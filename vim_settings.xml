@@ -5,16 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>laucher</entry>
-        <entry>laucher.cc</entry>
-        <entry>launcher</entry>
-        <entry encoding="base64">XDxKQ0FsbG9jQmFzZVw+</entry>
-        <entry>jc_log</entry>
-        <entry>Rnd</entry>
-        <entry>rnd</entry>
-        <entry encoding="base64">XDxhbGxvY2F0ZWRfc2l6ZVw+</entry>
-        <entry>memory</entry>
-        <entry encoding="base64">XDwpXD4=</entry>
         <entry>cc_test</entry>
         <entry>ROCKS</entry>
         <entry>ROCK</entry>
@@ -25,6 +15,16 @@
         <entry encoding="base64">XDx0YWdfcHl0aG9uM1w+</entry>
         <entry>excute_query</entry>
         <entry>state_db</entry>
+        <entry encoding="base64">XDxjbG9ja19wdWJsaXNoZXJfXD4=</entry>
+        <entry encoding="base64">XDxiYWdfcGxheWVyX2hhbmRsZXJfXD4=</entry>
+        <entry>GetStartTime</entry>
+        <entry encoding="base64">XDxJbml0XD4=</entry>
+        <entry encoding="base64">XDxSZWdpc3RlcmVkVHVuYWJsZUltcGxcPg==</entry>
+        <entry encoding="base64">XDx0dW5hYmxlc19kaXJlY3RvcnlfYmFzZV9wYXRoXD4=</entry>
+        <entry encoding="base64">XDxtYXJrX2ZpbGVfbmFtZVw+</entry>
+        <entry encoding="base64">XDx0dW5hYmxlc191c2Vyc19wYXRoX3ByZWZpeFw+</entry>
+        <entry encoding="base64">XDxvdmVycmlkZXNfbWFwXD4=</entry>
+        <entry>GetStatsImpl</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -84,73 +84,37 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="/state_db.cc" timestamp="1588822489433">
-        <mark key="'" line="42" column="4" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/common/clock_server/clock_server.h" timestamp="1588924059628">
+        <mark key="'" line="72" column="11" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/state_db.cc" timestamp="1588832044928">
-        <mark key="'" line="43" column="31" />
-        <mark key="[" line="43" column="4" />
-        <mark key="]" line="43" column="34" />
-        <mark key="." line="43" column="33" />
-        <mark key="^" line="43" column="34" />
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/defs.cc" timestamp="1589005767258" />
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" timestamp="1589006185504">
+        <mark key="'" line="307" column="21" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" timestamp="1588822593308">
-        <mark key="'" line="6" column="0" />
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/section.cc" timestamp="1589009940981">
+        <mark key="'" line="16" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1588835301055">
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" timestamp="1589009932598">
+        <mark key="'" line="331" column="48" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/pedestrian_prediction/detector/ped_cross_detector.cc" timestamp="1589008208667">
+        <mark key="'" line="31" column="4" />
+        <mark key="[" line="44" column="8" />
+        <mark key="]" line="44" column="9" />
+        <mark key="^" line="44" column="9" />
+        <mark key="." line="44" column="8" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/bag_player/base_player.cc" timestamp="1588925310666">
+        <mark key="'" line="30" column="27" />
+      </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" timestamp="1589007091525">
+        <mark key="'" line="451" column="62" />
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" timestamp="1588834590996">
-        <mark key="'" line="52" column="33" />
-        <mark key="[" line="85" column="53" />
-        <mark key="]" line="86" column="55" />
-        <mark key="^" line="86" column="55" />
-        <mark key="." line="86" column="54" />
-      </file>
     </filemarks>
     <jumps>
-      <jump line="85" column="13" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="52" column="0" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="70" column="49" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="223" column="25" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="74" column="0" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="92" column="49" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="213" column="0" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="289" column="5" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="227" column="38" filename="$USER_HOME$/Workspace/gibraltar/config_files/simulation/sim2/default.py" />
-      <jump line="21" column="14" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/pedestrian_prediction/detector/ped_cross_detector.cc" />
-      <jump line="31" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/prediction/behavior_prediction/pedestrian_prediction/detector/ped_cross_detector.cc" />
-      <jump line="389" column="44" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="395" column="10" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="396" column="9" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="407" column="18" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="417" column="52" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="428" column="70" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="6" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/grading_lib.py" />
-      <jump line="2" column="21" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/get_plogs.py" />
-      <jump line="12" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" />
-      <jump line="28" column="10" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" />
-      <jump line="3" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" />
-      <jump line="4" column="13" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" />
-      <jump line="17" column="10" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/grading_vii/python/BUILD" />
-      <jump line="122" column="23" filename="$USER_HOME$/Workspace/rocksdb/memory/arena.h" />
-      <jump line="44" column="8" filename="$USER_HOME$/Workspace/rocksdb/memory/arena.h" />
-      <jump line="29" column="22" filename="$USER_HOME$/Workspace/rocksdb/memory/arena.h" />
-      <jump line="13" column="0" filename="$USER_HOME$/Workspace/rocksdb/memory/arena.h" />
-      <jump line="132" column="9" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena.h" />
-      <jump line="232" column="22" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena.cc" />
-      <jump line="20" column="16" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena.cc" />
-      <jump line="4" column="16" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena_test.cc" />
-      <jump line="189" column="22" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena_test.cc" />
-      <jump line="18" column="39" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena.h" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/arena.h" />
-      <jump line="15" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
-      <jump line="333" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
-      <jump line="651" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
-      <jump line="717" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
-      <jump line="744" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
       <jump line="6764" column="59" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
       <jump line="6780" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
       <jump line="6785" column="0" filename="$USER_HOME$/Workspace/gibraltar/CMakeLists.txt" />
@@ -211,48 +175,88 @@
       <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
       <jump line="19" column="33" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
       <jump line="52" column="33" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/BUILD" />
+      <jump line="72" column="11" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/common/clock_server/clock_server.h" />
+      <jump line="512" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="513" column="9" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="517" column="18" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="564" column="30" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="585" column="41" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="672" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="621" column="6" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/server.cc" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/bag_player/base_player.cc" />
+      <jump line="159" column="13" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/bag_player/base_player.cc" />
+      <jump line="30" column="27" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/ide/bag_player/base_player.cc" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" />
+      <jump line="339" column="2" filename="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" />
+      <jump line="337" column="7" filename="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" />
+      <jump line="417" column="15" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="43" column="6" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="70" column="8" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="312" column="21" filename="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" />
+      <jump line="307" column="21" filename="$USER_HOME$/Workspace/gibraltar/corelib/tunables_impl.h" />
+      <jump line="452" column="22" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="393" column="36" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="113" column="38" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="378" column="14" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="108" column="11" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="375" column="20" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="251" column="30" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="268" column="32" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="276" column="37" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="294" column="34" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="295" column="10" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="298" column="8" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="381" column="18" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="446" column="34" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="451" column="62" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
+      <jump line="322" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
+      <jump line="324" column="11" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
+      <jump line="328" column="11" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
+      <jump line="331" column="48" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
+      <jump line="16" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/section.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text>boost::filesystem::a</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">Y29yZWxpYjo6U2VydmljZTo6R2V0PHNlcnZpY2VzOjpTY2hlZHVsZXJTZXJ2aWNlPigpLT5TcGF3blRhc2so</text>
+        <text>boost::filesystem::a</text>
       </register>
       <register name="/" type="4">
-        <text>state_db</text>
+        <text>GetStatsImpl</text>
       </register>
-      <register name="0" type="2">
-        <text encoding="base64">CnB5X2JpbmFyeSgKICAgIG5hbWUgPSAiZ2V0X3Bsb2dzIiwKICAgIHNyY3MgPSBbImdldF9wbG9ncy5weSJdLAogICAgZGVwcyA9IFsKICAgICAgICAiLy9zX2xvb3Avc3JjL2FuYWx5dGljcy9jb21tb246ZGJfY2xpZW50IiwKICAgIF0sCiAgICBkZWZhdWx0X3B5dGhvbl92ZXJzaW9uID0gIlBZMyIsCiAgICBzcmNzX3ZlcnNpb24gPSAiUFkzT05MWSIsCikK</text>
+      <register name="0" type="4">
+        <text>model_config.gpu_pedestrian_model_path()</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">I2luY2x1ZGUgImNvcmVsaWIvdHVuYWJsZXMuaCIKCiNpbmNsdWRlIDxjYXNzZXJ0PgojaW5jbHVkZSA8Y3N0ZGlvPgojaW5jbHVkZSA8Y3N0ZGxpYj4KI2luY2x1ZGUgPGNzdHJpbmc+CiNpbmNsdWRlIDxmc3RyZWFtPgojaW5jbHVkZSA8bWVtb3J5PgojaW5jbHVkZSA8bXV0ZXg+CiNpbmNsdWRlIDxzc3RyZWFtPgojaW5jbHVkZSA8dGhyZWFkPgoKI2luY2x1ZGUgPHN5cy9pbm90aWZ5Lmg+CiNpbmNsdWRlIDxzeXMvc2VsZWN0Lmg+CiNpbmNsdWRlIDxzeXMvc3RhdC5oPgojaW5jbHVkZSA8c3lzL3R5cGVzLmg+CgojaW5jbHVkZSA8ZGlyZW50Lmg+CiNpbmNsdWRlIDxmY250bC5oPgojaW5jbHVkZSA8c2lnbmFsLmg+CiNpbmNsdWRlIDx1bmlzdGQuaD4KCm5hbWVzcGFjZSBjb3JlbGliIHsKbmFtZXNwYWNlIGRldGFpbCB7CgpzdHJ1Y3QgVHVuYWJsZXNNYXAgewogIHVzaW5nIG92ZXJyaWRlc19tYXBfdCA9IHN0ZDo6bWFwPHN0ZDo6c3RyaW5nLCBzdGQ6OnN0cmluZz47CgogIHVzaW5nIGltcGxzX21hcF90ID0gc3RkOjptYXA8c3RkOjpzdHJpbmcsIHN0ZDo6dW5pcXVlX3B0cjxUdW5hYmxlSW1wbEJhc2U+PjsKCiAgZW51bSBjbGFzcyBUdW5hYmxlVXBkYXRlU3RhdHVzIHsKICAgIENIQU5HRUQsCiAgICBTVEFZRURfU0FNRSwKICAgIEZBSUxFRCwKICB9OwoKICBUdW5hYmxlc01hcCgpIG5vZXhjZXB0CiAgICA6IGxvZ2dlcigidHVuYWJsZXMiKQogICAgLCBkZWZhdWx0X3ZhbHVlX21hZ2ljX3dvcmQoIl9fZGVmYXVsdF92YWx1ZV9fIikKICAgICwgdHVuYWJsZXNfYmFzZV9wYXRoKEdldEVudmlyb25tZW50VmFyaWFibGUoIkpDX1RVTkVfQkFTRV9QQVRIIiwgIi9vcHQvamMvamNfdHVuZSIpKQogICAgLCB0dW5hYmxlc19maWxlX3BhdGgoR2V0RW52aXJvbm1lbnRWYXJpYWJsZSgiSkNfVFVORV9GSUxFIiwgIi90bXAvamNfdHVuYWJsZXMiKSkKICAgICwgZHJpdmVyX2luZm9fdHVuYWJsZXNfZmlsZV9wYXRoKEdldEVudmlyb25tZW50VmFyaWFibGUoIkpDX0RSSVZFUl9JTkZPX1RVTkVfRklMRSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR1bmFibGVzX2Jhc2VfcGF0aCArICIvZHJpdmVyX2luZm9fdHVuYWJsZXMiKSkKICAgICwgdHVuYWJsZXNfZGlyZWN0b3J5X2Jhc2VfcGF0aCh0dW5hYmxlc19iYXNlX3BhdGggKyAiL2RpcmVjdG9yeSIpCiAgICAsIHR1bmFibGVzX3VzZXJzX3BhdGhfcHJlZml4KHR1bmFibGVzX2Jhc2VfcGF0aCArICIvdXNlcnMiKSB7CiAgICAvLyBNYWtlIHN1cmUgdGhlIHR1bmFibGUgZmlsZSBhbHdheXMgZXhpc3RzLCBiZWNhdXNlIG90aGVyd2lzZQogICAgLy8gd2Ugd29uJ3QgYmUgYWJsZSB0byBtb25pdG9yIGl0cyBtb2RpZmljYXRpb25zLgogICAgaWYgKCFJc1VuaXRUZXN0RW52aXJvbm1lbnQoKSkgewogICAgICBjb25zdCBhdXRvIHRydW5jYXRlX21vZGUgPSBHZXRFbnZpcm9ubWVudFZhcmlhYmxlKCJKQ19UVU5BQkxFU19DTEVBUl9PTl9TVEFSVCIsICIwIikgPT0gIjEiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPyBPX1RSVU5DCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiAwOwoKCiAgICAgIGZvciAoYXV0byAqIGZpbGVfcGF0aCA6IHsmdHVuYWJsZXNfZmlsZV9wYXRoLCAmZHJpdmVyX2luZm9fdHVuYWJsZXNfZmlsZV9wYXRofSkgewogICAgICAgIGF1dG8gdHVuZV9maWxlID0gb3BlbihmaWxlX3BhdGgtPmNfc3RyKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9fQ1JFQVQgfCBPX1JET05MWSB8IHRydW5jYXRlX21vZGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNfSVJXWFUgfCBTX0lSV1hHIHwgU19JUldYTyk7CiAgICAgICAgSkNfVkVSSUZZKHR1bmVfZmlsZSAhPSAtMSAmJiAiRmFpbGVkIHRvIGNyZWF0ZSB0dW5hYmxlIGZpbGUiLAogICAgICAgICAgICAgICAgICAqZmlsZV9wYXRoLCBlcnJubywgc3RyZXJyb3IoZXJybm8pKTsKICAgICAgICBmY2htb2QodHVuZV9maWxlLCAwNzc3KTsKICAgICAgICBzdHJ1Y3Qgc3RhdCB0dW5lX2ZpbGVfc3RhdDsKICAgICAgICBKQ19WRVJJRlkoMCA9PSBmc3RhdCh0dW5lX2ZpbGUsICZ0dW5lX2ZpbGVfc3RhdCksCiAgICAgICAgICAgICAgICAgIGZpbGVfcGF0aCwgZXJybm8sIHN0cmVycm9yKGVycm5vKSk7CiAgICAgICAgSkNfVkVSSUZZKFNfSVNSRUcodHVuZV9maWxlX3N0YXQuc3RfbW9kZSkpOwogICAgICAgIEpDX1ZFUklGWSghU19JU0RJUih0dW5lX2ZpbGVfc3RhdC5zdF9tb2RlKSk7CgogICAgICAgIGNsb3NlKHR1bmVfZmlsZSk7CiAgICAgIH0KCiAgICAgIGF1dG8gZGlyZWN0b3J5X2NyZWF0ZV9lcnIgPSBta2RpcigKICAgICAgICB0dW5hYmxlc19kaXJlY3RvcnlfYmFzZV9wYXRoLmNfc3RyKCksIDA3NzcpOwoKICAgICAgSkNfVkVSSUZZKChkaXJlY3RvcnlfY3JlYXRlX2VyciA9PSAwIHx8IGVycm5vID09IEVFWElTVCkgJiYgIkZhaWxlZCB0byBjcmVhdGUgdHVuYWJsZXMgZGlyZWN0b3J5IiwKICAgICAgICAgICAgICAgIHR1bmFibGVzX2RpcmVjdG9yeV9iYXNlX3BhdGgsIGRpcmVjdG9yeV9jcmVhdGVfZXJyLCBlcnJubywgc3RyZXJyb3IoZXJybm8pKTsKICAgICAgY2htb2QodHVuYWJsZXNfZGlyZWN0b3J5X2Jhc2VfcGF0aC5jX3N0cigpLCAwNzc3KTsKCiAgICAgIGF1dG8gdXNlcnNfY3JlYXRlX2VyciA9IG1rZGlyKAogICAgICAgIHR1bmFibGVzX3VzZXJzX3BhdGhfcHJlZml4LmNfc3RyKCksIDA3NzcpOwoKICAgICAgSkNfVkVSSUZZKCh1c2Vyc19jcmVhdGVfZXJyID09IDAgfHwgZXJybm8gPT0gRUVYSVNUKSAmJiAiRmFpbGVkIHRvIGNyZWF0ZSB0dW5hYmxlcyB1c2VycyBkaXJlY3RvcnkiLAogICAgICAgICAgICAgICAgdHVuYWJsZXNfdXNlcnNfcGF0aF9wcmVmaXgsIHVzZXJzX2NyZWF0ZV9lcnIsIGVycm5vLCBzdHJlcnJvcihlcnJubykpOwogICAgICBjaG1vZCh0dW5hYmxlc191c2Vyc19wYXRoX3ByZWZpeC5jX3N0cigpLCAwNzc3KTsKICAgIH0KCiAgICBDaGVja1N0YWxlVHVuYWJsZVVzZXJNYXJrcygpOwogICAgTWFya1NlbGZBc1R1bmFibGVzVXNlcigpOwogICAgTG9hZFR1bmFibGVPdmVycmlkZXModHJ1ZSk7CiAgICBpZiAoIUlzVW5pdFRlc3RFbnZpcm9ubWVudCgpKSB7CiAgICAgIG1vbml0b3JfdGhyZWFkID0gc3RkOjp0aHJlYWQoW3RoaXNdKCkgeyBNb25pdG9yVGhyZWFkRnVuYyh0aGlzKTsgfSk7CiAgICB9CiAgfQoKICB+VHVuYWJsZXNNYXAoKSBub2V4Y2VwdCB7CiAgICBhdXRvIG9sZF92YWx1ZSA9IHNodXR0aW5nX2Rvd24uZXhjaGFuZ2UodHJ1ZSk7CiAgICAodm9pZClvbGRfdmFsdWU7ICAvLyBBcHBlYXNlIHVudXNlZCB2YXJpYWJsZSB3YXJuaW5nLgogICAgYXNzZXJ0KG9sZF92YWx1ZSA9PSBmYWxzZSAmJiAiQWxyZWR5IHNodXR0aW5nIGRvd24/Iik7CiAgICBpZiAobW9uaXRvcl90aHJlYWQuam9pbmFibGUoKSkgewogICAgICBtb25pdG9yX3RocmVhZC5qb2luKCk7CiAgICB9CiAgICBSZW1vdmVUdW5hYmxlc1VzZXJNYXJrKCk7CiAgfQoKICAvLyBQdXQgYSBtYXJrIHRvIHByZXZlbnQgc3RhdGljIHR1bmFibGUgdXBkYXRlcyBhcyBsb25nIGFzIHdlJ3JlIGFsaXZlLgogIHZvaWQgTWFya1NlbGZBc1R1bmFibGVzVXNlcigpIHsKICAgIGlmIChJc1VuaXRUZXN0RW52aXJvbm1lbnQoKSkgewogICAgICByZXR1cm47CiAgICB9CgogICAgYXNzZXJ0KG1hcmtfZmlsZV9uYW1lLmVtcHR5KCkgJiYgIk1hcmsgZmlsZSBhbHJlYWR5IGluaXRpYWxpemVkIik7CgogICAgbWFya19maWxlX25hbWUgPSB0dW5hYmxlc191c2Vyc19wYXRoX3ByZWZpeCArICcvJyArCiAgICAgIHByb2dyYW1faW52b2NhdGlvbl9zaG9ydF9uYW1lICsgJ18nICsgc3RkOjp0b19zdHJpbmcoZ2V0cGlkKCkpOwoKICAgIG1hcmtfZmlsZV9kZXNjcmlwdG9yID0gb3BlbihtYXJrX2ZpbGVfbmFtZS5jX3N0cigpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE9fQ1JFQVQgfCBPX1dST05MWSB8IE9fQ0xPRVhFQyB8IE9fRVhDTCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTX0lSV1hVIHwgU19JUldYRyB8IFNfSVJXWE8pOwogICAgYXNzZXJ0KG1hcmtfZmlsZV9kZXNjcmlwdG9yICE9IC0xICYmICJGYWlsZWQgdG8gY3JlYXRlIHRoZSB1c2VyIG1hcmsgZmlsZSIpOwogICAgZmNobW9kKG1hcmtfZmlsZV9kZXNjcmlwdG9yLCAwNzc3KTsKICB9CgogIHZvaWQgUmVtb3ZlVHVuYWJsZXNVc2VyTWFyaygpIHsKICAgIGlmIChJc1VuaXRUZXN0RW52aXJvbm1lbnQoKSkgewogICAgICByZXR1cm47CiAgICB9CgogICAgKHZvaWQpY2xvc2UobWFya19maWxlX2Rlc2NyaXB0b3IpOwogICAgKHZvaWQpcmVtb3ZlKG1hcmtfZmlsZV9uYW1lLmNfc3RyKCkpOwogIH0KCiAgdm9pZCBBbm5vdW5jZVR1bmFibGUoY29uc3Qgc3RkOjpzdHJpbmcgJm5hbWUpIG5vZXhjZXB0IHsKICAgIGlmIChJc1VuaXRUZXN0RW52aXJvbm1lbnQoKSkgewogICAgICByZXR1cm47CiAgICB9CiAgICBzdGQ6OnN0cmluZyBidWZmZXIoNCAqIDEwMjQsICdcMCcpOwoKICAgIGNvbnN0IGF1dG8gbWFya19maWxlX2xpbmVfc2l6ZSA9IHN0ZDo6c25wcmludGYoCiAgICAgICZidWZmZXJbMF0sIGJ1ZmZlci5zaXplKCksICIlc1xuIiwgbmFtZS5jX3N0cigpKTsKCiAgICBjb25zdCBhdXRvIG51bV93cml0dGVuID0gd3JpdGUobWFya19maWxlX2Rlc2NyaXB0b3IsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJmJ1ZmZlclswXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJrX2ZpbGVfbGluZV9zaXplKTsKICAgIGNvbnN0IGF1dG8gZnN5bmNfZXJyID0gZnN5bmMobWFya19maWxlX2Rlc2NyaXB0b3IpOwoKICAgICh2b2lkKW51bV93cml0dGVuOyAgLy8gQXBwZWFzZSB1bnVzZWQgdmFyaWFibGUgd2FybmluZy4KICAgICh2b2lkKWZzeW5jX2VycjsgIC8vIEFwcGVhc2UgdW51c2VkIHZhcmlhYmxlIHdhcm5pbmcuCiAgICBhc3NlcnQobWFya19maWxlX2xpbmVfc2l6ZSA9PSBudW1fd3JpdHRlbiAmJiAiRmFpbGVkIHRvIG1hcmsgcmVnaXN0ZXJlZCB0dW5hYmxlIik7CiAgICBhc3NlcnQoMCA9PSBmc3luY19lcnIpOwogIH0KCiAgdm9pZCBDaGVja1N0YWxlVHVuYWJsZVVzZXJNYXJrcygpIHsKICAgIGlmIChJc1VuaXRUZXN0RW52aXJvbm1lbnQoKSkgewogICAgICByZXR1cm47CiAgICB9CgogICAgYXV0byBkaXIgPSBvcGVuZGlyKHR1bmFibGVzX3VzZXJzX3BhdGhfcHJlZml4LmNfc3RyKCkpOwogICAgaWYgKGRpciA9PSBudWxscHRyKSB7CiAgICAgIGxvZ2dlci5XYXJuKCJGYWlsZWQgdG8gb3BlbiB0dW5hYmxlcyBiYXNlIGRpcmVjdG9yeSAlJVxuIiwKICAgICAgICAgICAgICAgICAgdHVuYWJsZXNfYmFzZV9wYXRoKTsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIHdoaWxlIChhdXRvICogZW50cnkgPSByZWFkZGlyKGRpcikpIHsKICAgICAgY29uc3Qgc3RkOjpzdHJpbmcgZmlsZV9uYW1lID0gZW50cnktPmRfbmFtZTsKICAgICAgYXV0byB1bmRlcnNjb3JlX3BvcyA9IGZpbGVfbmFtZS5maW5kX2xhc3Rfb2YoJ18nKTsKICAgICAgaWYgKHVuZGVyc2NvcmVfcG9zICE9IHN0ZDo6c3RyaW5nOjpucG9zKSB7CiAgICAgICAgLy8gRm91bmQgYSBtYXJrIGZpbGUuIENoZWNrIGlmIHRoZSBvd25lciBzdGlsbCBleGlzdHMKICAgICAgICAvLyBFeHRyYWN0IHRoZSBQSUQKICAgICAgICB1aW50NjRfdCBvd25lcl9waWQgPSAwOwogICAgICAgIGlmIChzc2NhbmYoJmZpbGVfbmFtZVt1bmRlcnNjb3JlX3BvcyArIDFdLCAiJWx1IiwgJm93bmVyX3BpZCkgPT0gMSkgewogICAgICAgICAgYXNzZXJ0KG93bmVyX3BpZCAhPSAwKTsKICAgICAgICAgIC8vIFRlc3QgaXMgYSBwcm9jZXNzIGV4aXN0cyB3aXRoIHRoZSBnaXZlbiBQSUQuCiAgICAgICAgICAvLyBXZSBuZWVkIHRvIGNoZWNrIGZvciBhIHNwZWNpZmljIGVycm9yIGNvZGUgYmVjYXVzZSBlcnJubyBjb3VsZCBiZQogICAgICAgICAgLy8gRVBFUk0gd2hpY2ggbWVhbnMgd2UgbWF5IHNpbXBseSBub3QgaGF2ZSBwZXJtaXNzaW9uIHRvIHNlbmQgdGhhdAogICAgICAgICAgLy8gcHJvY2VzcyBhbnkgc2lnbmFscy4KICAgICAgICAgIGlmIChraWxsKG93bmVyX3BpZCwgMCkgPT0gLTEgJiYgZXJybm8gPT0gRVNSQ0gpIHsKICAgICAgICAgICAgY29uc3QgYXV0byBmdWxsX3BhdGggPSB0dW5hYmxlc191c2Vyc19wYXRoX3ByZWZpeCArICcvJyArIGZpbGVfbmFtZTsKICAgICAgICAgICAgLy8gVGhlIG9yaWdpbmFsIHByb2Nlc3MgaXMgZGVhZCwgY2xlYW4gaXRzIG1hcmsgb3Vyc2VsdmVzLiBJdCdzIE9LCiAgICAgICAgICAgIC8vIHRvIGZhaWwgLSBtYXkgbWVhbiB0aGF0IGFub3RoZXIgcHJvY2VzcyBoYXMganVzdCBkb25lIHRoZSBzYW1lLgogICAgICAgICAgICBpZiAocmVtb3ZlKGZ1bGxfcGF0aC5jX3N0cigpKSA9PSAwKSB7CiAgICAgICAgICAgICAgbG9nZ2VyLkluZm8oIlJlbW92ZWQgc3RhbGUgdHVuYWJsZXMgbWFyayBmaWxlICUlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICBmdWxsX3BhdGgpOwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgIGxvZ2dlci5XYXJuKCJGYWlsZWQgdG8gcmVtb3ZlIHN0YWxlIHR1bmFibGVzIG1hcmsgZmlsZSAlJSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgZnVsbF9wYXRoKTsKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfQogICAgfQoKICAgICh2b2lkKWNsb3NlZGlyKGRpcik7CiAgfQoKICB2b2lkIExvYWRUdW5hYmxlT3ZlcnJpZGVzKGJvb2wgaXNfaW5pdGlhbF9sb2FkKSBub2V4Y2VwdCB7CiAgICBMb2FkVHVuYWJsZU92ZXJyaWRlcyh0dW5hYmxlc19maWxlX3BhdGgsIGlzX2luaXRpYWxfbG9hZCk7CiAgICBMb2FkVHVuYWJsZU92ZXJyaWRlcyhkcml2ZXJfaW5mb190dW5hYmxlc19maWxlX3BhdGgsIGlzX2luaXRpYWxfbG9hZCk7CiAgfQoKICB2b2lkIExvYWRUdW5hYmxlT3ZlcnJpZGVzKGNvbnN0IHN0ZDo6c3RyaW5nICZmaWxlX3BhdGgsIGJvb2wgaXNfaW5pdGlhbF9sb2FkKSBub2V4Y2VwdCB7CiAgICBpZiAoSXNVbml0VGVzdEVudmlyb25tZW50KCkpIHsKICAgICAgcmV0dXJuOwogICAgfQoKICAgIGNvbnN0IHNpemVfdCBrTWF4T3ZlcnJpZGVMZW5ndGggPSAzMiAqIDEwMjQ7CiAgICBzdGQ6OnN0cmluZyBsaW5lLCBwcmVmaXgsIGNtZCwgdHVuYWJsZV9uYW1lLCBvdmVycmlkZV92YWx1ZSwgaW1wb3J0X2ZpbGVfbmFtZTsKICAgIHN0ZDo6aWZzdHJlYW0gdHVuZV9zdHJlYW0oZmlsZV9wYXRoKTsKCiAgICB1aW50MzJfdCBsaW5lX2lkeCA9IDA7CiAgICB3aGlsZSAoc3RkOjpnZXRsaW5lKHR1bmVfc3RyZWFtLCBsaW5lKSkgewogICAgICArK2xpbmVfaWR4OwogICAgICBpZiAobGluZS5lbXB0eSgpIHx8IGxpbmVbMF0gPT0gJyMnKSB7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KCiAgICAgIHN0ZDo6aXN0cmluZ3N0cmVhbSBsaW5lX3N0cmVhbShsaW5lKTsKICAgICAgbGluZV9zdHJlYW0gPj4gcHJlZml4ID4+IGNtZDsKICAgICAgaWYgKHByZWZpeCAhPSAiamNfdHVuZSIpIHsKICAgICAgICBsb2dnZXIuV2FybigiVW5rbm93biB0dW5hYmxlIGNvbW1hbmQgaW4gZmlsZSAlJSBsaW5lICUlOiAlJSIsIGZpbGVfcGF0aCwgbGluZV9pZHgsIGxpbmUpOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CgogICAgICBpZiAoY21kID09ICJsb2FkIikgewogICAgICAgIC8vIFNraXAgdGhlIHNwYWNlIGRlbGltaXRlciBhZnRlciB0aGUgY29tbWFuZC4KICAgICAgICBsaW5lX3N0cmVhbS5nZXQoKTsKICAgICAgICBpbXBvcnRfZmlsZV9uYW1lLnJlc2l6ZShrTWF4T3ZlcnJpZGVMZW5ndGgpOwogICAgICAgIGF1dG8gaW1wb3J0X2ZpbGVfbmFtZV9sZW5ndGggPQogICAgICAgICAgICBsaW5lX3N0cmVhbS5yZWFkc29tZSgmaW1wb3J0X2ZpbGVfbmFtZVswXSwgaW1wb3J0X2ZpbGVfbmFtZS5zaXplKCkpOwogICAgICAgIGltcG9ydF9maWxlX25hbWUucmVzaXplKGltcG9ydF9maWxlX25hbWVfbGVuZ3RoKTsKICAgICAgICBMb2FkVHVuYWJsZU92ZXJyaWRlcyhpbXBvcnRfZmlsZV9uYW1lLCBpc19pbml0aWFsX2xvYWQpOwogICAgICB9IGVsc2UgaWYgKGNtZCA9PSAic2V0IikgewogICAgICAgIGxpbmVfc3RyZWFtID4+IHR1bmFibGVfbmFtZTsKICAgICAgICAvLyBTa2lwIHRoZSBzcGFjZSBkZWxpbWl0ZXIgYWZ0ZXIgdGhlIHR1bmFibGUgbmFtZS4KICAgICAgICBsaW5lX3N0cmVhbS5nZXQoKTsKCiAgICAgICAgb3ZlcnJpZGVfdmFsdWUucmVzaXplKGtNYXhPdmVycmlkZUxlbmd0aCk7CiAgICAgICAgYXV0byBvdmVycmlkZV9sZW5ndGggPQogICAgICAgICAgICBsaW5lX3N0cmVhbS5yZWFkc29tZSgmb3ZlcnJpZGVfdmFsdWVbMF0sIG92ZXJyaWRlX3ZhbHVlLnNpemUoKSk7CiAgICAgICAgb3ZlcnJpZGVfdmFsdWUucmVzaXplKG92ZXJyaWRlX2xlbmd0aCk7CgogICAgICAgIFRyeVVwZGF0ZVR1bmFibGUodHVuYWJsZV9uYW1lLCBvdmVycmlkZV92YWx1ZSwgaXNfaW5pdGlhbF9sb2FkKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBsb2dnZXIuV2FybigiVW5zdXBwb3J0ZWQgdHVuYWJsZSBjb21tYW5kIGluIGZpbGUgJSUgbGluZSAlJTogJSUiLCBmaWxlX3BhdGgsIGxpbmVfaWR4LCBsaW5lKTsKICAgICAgfQogICAgfQogIH0KCiAgdm9pZCBUcnlVcGRhdGVUdW5hYmxlKGNvbnN0IHN0ZDo6c3RyaW5nICZ0dW5hYmxlX25hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHN0ZDo6c3RyaW5nICZvdmVycmlkZV92YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgYm9vbCAgICAgICAgICAgICAgIGlzX2luaXRpYWxfbG9hZCkgbm9leGNlcHQgewogICAgc3RkOjp1bmlxdWVfbG9jazxzdGQ6Om11dGV4PiBsb2NrKGFjY2Vzc19tdXRleCk7CiAgICBhdXRvIGltcGxfaXRlciA9IHR1bmFibGVzX21hcC5maW5kKHR1bmFibGVfbmFtZSk7CiAgICBhdXRvIGN1cnJfb3ZlcnJpZGVfaXRlciA9IG92ZXJyaWRlc19tYXAuZmluZCh0dW5hYmxlX25hbWUpOwoKICAgIFR1bmFibGVVcGRhdGVTdGF0dXMgc3RhdHVzID0gVHVuYWJsZVVwZGF0ZVN0YXR1czo6RkFJTEVEOwoKICAgIGlmIChpc19pbml0aWFsX2xvYWQpIHsKICAgICAgc3RhdHVzID0gVHVuYWJsZVVwZGF0ZVN0YXR1czo6Q0hBTkdFRDsKICAgIH0gZWxzZSBpZiAoaW1wbF9pdGVyID09IHR1bmFibGVzX21hcC5lbmQoKSkgewogICAgICBsb2dnZXIuV2FybigiRmFpbGVkIHRvIHVwZGF0ZSB1bmtub3duIHR1bmFibGUgJSUgdG8gJSUiLAogICAgICAgICAgICAgICAgICB0dW5hYmxlX25hbWUsCiAgICAgICAgICAgICAgICAgIG92ZXJyaWRlX3ZhbHVlKTsKICAgICAgc3RhdHVzID0gVHVuYWJsZVVwZGF0ZVN0YXR1czo6RkFJTEVEOwogICAgfSBlbHNlIGlmIChpbXBsX2l0ZXItPnNlY29uZC0+R2V0VHVuYWJsZU1vZGUoKSA9PSBUdW5hYmxlTW9kZTo6U1RBVElDKSB7CiAgICAgIGxvZ2dlci5XYXJuKCJGYWlsZWQgdG8gdXBkYXRlIFNUQVRJQyB0dW5hYmxlICUlIHRvICUlIiwKICAgICAgICAgICAgICAgICAgdHVuYWJsZV9uYW1lLAogICAgICAgICAgICAgICAgICBvdmVycmlkZV92YWx1ZSk7CiAgICAgIHN0YXR1cyA9IFR1bmFibGVVcGRhdGVTdGF0dXM6OkZBSUxFRDsKICAgIH0gZWxzZSBpZiAob3ZlcnJpZGVfdmFsdWUgPT0gZGVmYXVsdF92YWx1ZV9tYWdpY193b3JkKSB7CiAgICAgIGlmIChjdXJyX292ZXJyaWRlX2l0ZXIgPT0gb3ZlcnJpZGVzX21hcC5lbmQoKSkgewogICAgICAgIC8vIERlZmF1bHQgPT4gZGVmYXVsdAogICAgICAgIHN0YXR1cyA9IFR1bmFibGVVcGRhdGVTdGF0dXM6OlNUQVlFRF9TQU1FOwogICAgICB9IGVsc2UgewogICAgICAgIC8vIE92ZXJyaWRlID0+IGRlZmF1bHQKICAgICAgICBpbXBsX2l0ZXItPnNlY29uZC0+U2V0RGVmYXVsdFZhbHVlKCk7CiAgICAgICAgc3RhdHVzID0gVHVuYWJsZVVwZGF0ZVN0YXR1czo6Q0hBTkdFRDsKICAgICAgfQogICAgfSBlbHNlIGlmIChjdXJyX292ZXJyaWRlX2l0ZXIgPT0gb3ZlcnJpZGVzX21hcC5lbmQoKSkgewogICAgICAvLyBEZWZhdWx0ID0+IG92ZXJyaWRlCiAgICAgIHN0YXR1cyA9IChpbXBsX2l0ZXItPnNlY29uZC0+U2V0VmFsdWUob3ZlcnJpZGVfdmFsdWUsIGZhbHNlKSkKICAgICAgICAgICAgICAgICAgID8gVHVuYWJsZVVwZGF0ZVN0YXR1czo6Q0hBTkdFRAogICAgICAgICAgICAgICAgICAgOiBUdW5hYmxlVXBkYXRlU3RhdHVzOjpGQUlMRUQ7CiAgICB9IGVsc2UgewogICAgICAvLyBPdmVycmlkZSA9PiBvdmVycmlkZQogICAgICBpZiAoY3Vycl9vdmVycmlkZV9pdGVyLT5zZWNvbmQgPT0gb3ZlcnJpZGVfdmFsdWUpIHsKICAgICAgICBzdGF0dXMgPSBUdW5hYmxlVXBkYXRlU3RhdHVzOjpTVEFZRURfU0FNRTsKICAgICAgfSBlbHNlIHsKICAgICAgICBzdGF0dXMgPSBpbXBsX2l0ZXItPnNlY29uZC0+U2V0VmFsdWUob3ZlcnJpZGVfdmFsdWUsIGZhbHNlKQogICAgICAgICAgICAgICAgICAgICA/IFR1bmFibGVVcGRhdGVTdGF0dXM6OkNIQU5HRUQKICAgICAgICAgICAgICAgICAgICAgOiBUdW5hYmxlVXBkYXRlU3RhdHVzOjpGQUlMRUQ7CiAgICAgIH0KICAgIH0KCiAgICBpZiAoc3RhdHVzID09IFR1bmFibGVVcGRhdGVTdGF0dXM6OkNIQU5HRUQpIHsKICAgICAgaWYgKG92ZXJyaWRlX3ZhbHVlID09IGRlZmF1bHRfdmFsdWVfbWFnaWNfd29yZCkgewogICAgICAgIGlmIChjdXJyX292ZXJyaWRlX2l0ZXIgIT0gb3ZlcnJpZGVzX21hcC5lbmQoKSkgewogICAgICAgICAgb3ZlcnJpZGVzX21hcC5lcmFzZShjdXJyX292ZXJyaWRlX2l0ZXIpOwogICAgICAgIH0KICAgICAgfSBlbHNlIHsKICAgICAgICBvdmVycmlkZXNfbWFwW3R1bmFibGVfbmFtZV0gPSBvdmVycmlkZV92YWx1ZTsKICAgICAgfQoKICAgICAgaWYgKCFpc19pbml0aWFsX2xvYWQpIHsKICAgICAgICBsb2dnZXIuSW5mbygiVHVuYWJsZSAlJSBzZXQgdG86ICUlIiwgdHVuYWJsZV9uYW1lLCAqaW1wbF9pdGVyLT5zZWNvbmQpOwogICAgICAgIGxvZ2dlci5TdHJ1Y3R1cmVkKCJ0dW5hYmxlX3VwZGF0ZWQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICJ0dW5hYmxlX25hbWUiLCB0dW5hYmxlX25hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgInR1bmFibGVfdmFsdWUiLCAqaW1wbF9pdGVyLT5zZWNvbmQpOwogICAgICB9CiAgICB9CiAgfQoKICBzdGF0aWMgdm9pZCBNb25pdG9yVGhyZWFkRnVuYyhUdW5hYmxlc01hcCAqaW5zdGFuY2UpIG5vZXhjZXB0IHsKICAgIC8vIFJlZ2lzdGVyIHRvIG1vbml0b3IgYW55IGZ1dHVyZSBmaWxlIG1vZGlmaWNhdGlvbnMuCiAgICBpbnQgdHVuZV9saXN0X2ZkID0gaW5vdGlmeV9pbml0KCk7CiAgICAvLyBFTUZJTEUgY2FuIGhhcHBlbiBpZiBzeXNjdGwgZnMuaW5vdGlmeS5tYXhfdXNlcl9pbnN0YW5jZXMgaXMgbm90IGVub3VnaAogICAgSkNfVkVSSUZZKHR1bmVfbGlzdF9mZCAhPSAtMSwgc3RyZXJyb3IoZXJybm8pKQogICAgaW50IG5vdGlmeV93YXRjaF9mZHNbXSA9IHsKICAgICAgaW5vdGlmeV9hZGRfd2F0Y2godHVuZV9saXN0X2ZkLAogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YW5jZS0+dHVuYWJsZXNfZmlsZV9wYXRoLmNfc3RyKCksCiAgICAgICAgICAgICAgICAgICAgICAgIElOX01PRElGWSksCiAgICAgIGlub3RpZnlfYWRkX3dhdGNoKHR1bmVfbGlzdF9mZCwKICAgICAgICAgICAgICAgICAgICAgICAgaW5zdGFuY2UtPmRyaXZlcl9pbmZvX3R1bmFibGVzX2ZpbGVfcGF0aC5jX3N0cigpLAogICAgICAgICAgICAgICAgICAgICAgICBJTl9NT0RJRlkpLAogICAgfTsKICAgIEpDX1ZFUklGWShub3RpZnlfd2F0Y2hfZmRzWzBdICE9IC0xICYmIG5vdGlmeV93YXRjaF9mZHNbMV0gIT0gLTEsCiAgICAgICAgICAgICAgbm90aWZ5X3dhdGNoX2ZkcywKICAgICAgICAgICAgICBpbnN0YW5jZS0+dHVuYWJsZXNfZmlsZV9wYXRoLAogICAgICAgICAgICAgIGluc3RhbmNlLT5kcml2ZXJfaW5mb190dW5hYmxlc19maWxlX3BhdGgsCiAgICAgICAgICAgICAgc3RyZXJyb3IoZXJybm8pKTsKCiAgICAvLyBXYWl0IHVwIGFmdGVyIDEgc2Vjb25kIGluc3RlYWQgb2Ygc2xlZXBpbmcgaW5maW5pdGVseS4KICAgIHN0cnVjdCB0aW1lc3BlYyB0aW1lX3RvX3dhaXQ7CiAgICB0aW1lX3RvX3dhaXQudHZfc2VjID0gMTsKICAgIHRpbWVfdG9fd2FpdC50dl9uc2VjID0gMDsKCiAgICB3aGlsZSAoIWluc3RhbmNlLT5zaHV0dGluZ19kb3duLmxvYWQoKSkgewogICAgICBmZF9zZXQgZGVzY3JpcHRvcjsKICAgICAgRkRfWkVSTygmZGVzY3JpcHRvcik7CiAgICAgIEZEX1NFVCh0dW5lX2xpc3RfZmQsICZkZXNjcmlwdG9yKTsKICAgICAgLy8gVE9ETyhldWdlbmUuYm9ndGF0b3YpOiBTb21ldGltZXMgcHNlbGVjdCByZXR1cm5zIHF1aWNrbHkgdHdvIHRpbWVzIGluIGEKICAgICAgLy8gcm93LiBOb3QgZGV0cmltZW50YWwgYXMgdGhlIHR1bmFibGUgdmFsdWVzIHJlbWFpbiB1bmNoYW5nZWQsCiAgICAgIC8vIGJ1dCBhIGxpdHRsZSBhbm5veWluZy4gTmVlZCB0byBpbnZlc3RpZ2F0ZSB0aGlzIGJlaGF2aW9yLgogICAgICBhdXRvIHJlc3VsdCA9IHBzZWxlY3QodHVuZV9saXN0X2ZkICsgMSwgJmRlc2NyaXB0b3IsIG51bGxwdHIsIG51bGxwdHIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAmdGltZV90b193YWl0LCBudWxscHRyKTsKICAgICAgaWYgKHJlc3VsdCA9PSAxKSB7CiAgICAgICAgYXNzZXJ0KEZEX0lTU0VUKHR1bmVfbGlzdF9mZCwgJmRlc2NyaXB0b3IpICYmCiAgICAgICAgICAgICAgICJOb3RpZnkgb24gdGhlIHdyb25nIGRlc2NyaXB0b3I/Iik7CiAgICAgICAgLy8gQ2F1Z2h0IGEgZmlsZSBtb2RpZmljYXRpb24sIHJlbG9hZCB0aGUgdHVuYWJsZXMKICAgICAgICBzdGF0aWMgY2hhciBldmVudF9idWZmZXJbMTI4XTsKICAgICAgICBpbnQgYnl0ZXNfcmVhZCA9IHJlYWQodHVuZV9saXN0X2ZkLCBldmVudF9idWZmZXIsIHNpemVvZihldmVudF9idWZmZXIpKTsKICAgICAgICAodm9pZClieXRlc19yZWFkOyAgLy8gQXBwZWFzZSB1bnVzZWQgdmFyaWFibGUgd2FybmluZy4KICAgICAgICBhc3NlcnQoYnl0ZXNfcmVhZCA+IDApOwogICAgICAgIGluc3RhbmNlLT5Mb2FkVHVuYWJsZU92ZXJyaWRlcyhmYWxzZSk7CiAgICAgIH0KICAgICAgaW5zdGFuY2UtPkNoZWNrU3RhbGVUdW5hYmxlVXNlck1hcmtzKCk7CiAgICB9CgogICAgLy8gV2UncmUgc2h1dHRpbmcgZG93biBzbyBKQ19BU1NFUlQgaW5mcmEgaXMgbGlrZWx5IGRlYWQgYnkgbm93IC0gZG9uJ3QgdXNlLgogICAgZm9yIChhdXRvICZpbm90aWZ5X3dhdGNoX2ZkIDogbm90aWZ5X3dhdGNoX2ZkcykgewogICAgICBpbm90aWZ5X3JtX3dhdGNoKHR1bmVfbGlzdF9mZCwgaW5vdGlmeV93YXRjaF9mZCk7CiAgICB9CiAgICBjbG9zZSh0dW5lX2xpc3RfZmQpOwogIH0KCiAgc3RhdGljIGlubGluZSBUdW5hYmxlc01hcCAmSW5zdGFuY2UoKSB7CiAgICBzdGF0aWMgVHVuYWJsZXNNYXAgbWFwOwogICAgcmV0dXJuIG1hcDsKICB9CgogIExvZ2dlciAgICAgICAgICAgIGxvZ2dlcjsKCiAgY29uc3Qgc3RkOjpzdHJpbmcgZGVmYXVsdF92YWx1ZV9tYWdpY193b3JkOwogIGNvbnN0IHN0ZDo6c3RyaW5nIHR1bmFibGVzX2Jhc2VfcGF0aDsKICBjb25zdCBzdGQ6OnN0cmluZyB0dW5hYmxlc19maWxlX3BhdGg7CiAgY29uc3Qgc3RkOjpzdHJpbmcgZHJpdmVyX2luZm9fdHVuYWJsZXNfZmlsZV9wYXRoOwogIGNvbnN0IHN0ZDo6c3RyaW5nIHR1bmFibGVzX2RpcmVjdG9yeV9iYXNlX3BhdGg7CiAgY29uc3Qgc3RkOjpzdHJpbmcgdHVuYWJsZXNfdXNlcnNfcGF0aF9wcmVmaXg7CgoKICBzdGQ6OnN0cmluZyBtYXJrX2ZpbGVfbmFtZTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">IyBmcm9tIHNfbG9vcC5zcmMuc2ltdWxhdGlvbi5ncmFkaW5nX3ZpaS5weXRob24uZ3JhZGluZ19saWIgaW1wb3J0IGdldF9tZXRyaWNfdmFsdWUK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9zX2xvb3Avc3JjL3NpbXVsYXRpb24vZ3JhZGluZ192aWkvcHl0aG9uOmdyYWRpbmdfbGliIiwK</text>
+        <text encoding="base64">IyBmcm9tIHNfbG9vcC5zcmMuc2ltdWxhdGlvbi5ncmFkaW5nX3ZpaS5weXRob24uZ3JhZGluZ19saWIgaW1wb3J0IGdldF9tZXRyaWNfdmFsdWUK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ZnJvbSBncmFkaW5nX2xpYiBpbXBvcnQgZ2V0X21ldHJpY192YWx1ZQo=</text>
+        <text encoding="base64">ICAgICAgICAiLy9zX2xvb3Avc3JjL3NpbXVsYXRpb24vZ3JhZGluZ192aWkvcHl0aG9uOmdyYWRpbmdfbGliIiwK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSBzX2xvb3Auc3JjLnNpbXVsYXRpb24uZ3JhZGluZ192aWkucmVzdWx0LnByb3RvIGltcG9ydCBncmFkaW5nX2ZyYW1lX3BiMgo=</text>
+        <text encoding="base64">ZnJvbSBncmFkaW5nX2xpYiBpbXBvcnQgZ2V0X21ldHJpY192YWx1ZQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBwYW5kYXMgYXMgcGQK</text>
+        <text encoding="base64">ZnJvbSBzX2xvb3Auc3JjLnNpbXVsYXRpb24uZ3JhZGluZ192aWkucmVzdWx0LnByb3RvIGltcG9ydCBncmFkaW5nX2ZyYW1lX3BiMgo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiOmdyYWRpbmdfbGliIiwK</text>
+        <text encoding="base64">aW1wb3J0IG51bXB5IGFzIG5wCmltcG9ydCBwYW5kYXMgYXMgcGQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAiOmdyYWRpbmdfbGliIiwK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IHN5cwpwcmludCgiUHl0aG9uIHZlcnNpb24iKQpwcmludCAoc3lzLnZlcnNpb24pCnByaW50KCJWZXJzaW9uIGluZm8uIikKcHJpbnQgKHN5cy52ZXJzaW9uX2luZm8pCgoK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -261,9 +265,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>state_db</last-search>
+      <last-search>GetStatsImpl</last-search>
       <last-offset />
-      <last-pattern>state_db</last-pattern>
+      <last-pattern>GetStatsImpl</last-pattern>
       <last-replace>profiler\:\:main_loop</last-replace>
       <last-substitute>main_loop</last-substitute>
       <last-dir>1</last-dir>
