@@ -5,8 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry encoding="base64">XDxTZXJ2aWNlUnVuV3JhcHBlclw+</entry>
-        <entry>ScheduleExecutionAt</entry>
         <entry>coroutine</entry>
         <entry>DoSimu</entry>
         <entry encoding="base64">XDxEb1NpbXVsYXRpb25cPg==</entry>
@@ -25,6 +23,8 @@
         <entry>predication</entry>
         <entry>predic</entry>
         <entry encoding="base64">XDxwcmVkaWN0aW9uX21vZHVsZVw+</entry>
+        <entry>__LINE</entry>
+        <entry>Waiting for localization to be ready</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -32,6 +32,7 @@
         <entry encoding="base64">JzwsJz53</entry>
         <entry>%s/main_loop/profiler\:\:main_loop/g</entry>
         <entry>q</entry>
+        <entry>%s/__LINE/__LINE__/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
@@ -139,12 +140,16 @@
         <mark key="." line="203" column="0" />
         <mark key="^" line="203" column="55" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1589350246118">
-        <mark key="'" line="270" column="4" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1589351482892">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="545" column="0" />
+        <mark key="]" line="545" column="55" />
+        <mark key="." line="545" column="0" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/modules/prediction/prediction.cc" timestamp="1589350407009">
-        <mark key="[" line="152" column="0" />
-        <mark key="]" line="152" column="53" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/modules/prediction/prediction.cc" timestamp="1589351211670">
+        <mark key="'" line="132" column="52" />
+        <mark key="[" line="130" column="0" />
+        <mark key="]" line="130" column="55" />
         <mark key="^" line="77" column="53" />
         <mark key="." line="152" column="0" />
       </file>
@@ -153,8 +158,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="251" column="30" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="268" column="32" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
       <jump line="276" column="37" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
       <jump line="294" column="34" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
       <jump line="295" column="10" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
@@ -170,7 +173,6 @@
       <jump line="628" column="16" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
       <jump line="977" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
       <jump line="987" column="44" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
-      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="56" column="54" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="139" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="959" column="17" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/mpc.cc" />
@@ -253,21 +255,24 @@
       <jump line="472" column="36" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="157" column="36" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="270" column="4" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="132" column="52" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/modules/prediction/prediction.cc" />
+      <jump line="258" column="47" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICBzdGQ6OmNvdXQgPDwgX19GSUxFX18gPDwgIiAiIDw8IF9fTElORSA8PHN0ZDo6ZW5kbDsK</text>
+        <text encoding="base64">ICBzdGQ6OmNvdXQgPDwgX19GSUxFX18gPDwgIiAiIDw8IF9fTElORV9fIDw8c3RkOjplbmRsOwo=</text>
       </register>
       <register name="-" type="4">
         <text>home</text>
       </register>
       <register name="/" type="4">
-        <text encoding="base64">XDxwcmVkaWN0aW9uX21vZHVsZVw+</text>
+        <text>Waiting for localization to be ready</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICBzdGQ6OmNvdXQgPDwgX19GSUxFX18gPDwgIiAiIDw8IF9fTElORSA8PHN0ZDo6ZW5kbDsK</text>
+        <text encoding="base64">ICBzdGQ6OmNvdXQgPDwgX19GSUxFX18gPDwgIiAiIDw8IF9fTElORV9fIDw8c3RkOjplbmRsOwo=</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">ICAgICAgLT5TdGFydEFuZFdhaXRGb3IoKTsK</text>
@@ -303,11 +308,11 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search encoding="base64">XDxwcmVkaWN0aW9uX21vZHVsZVw+</last-search>
+      <last-search>Waiting for localization to be ready</last-search>
       <last-offset />
-      <last-pattern encoding="base64">XDxwcmVkaWN0aW9uX21vZHVsZVw+</last-pattern>
-      <last-replace>profiler\:\:main_loop</last-replace>
-      <last-substitute>main_loop</last-substitute>
+      <last-pattern>Waiting for localization to be ready</last-pattern>
+      <last-replace>__LINE__</last-replace>
+      <last-substitute>__LINE</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
