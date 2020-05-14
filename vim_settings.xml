@@ -85,37 +85,8 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/mission/default.py" timestamp="1589426901692">
-        <mark key="'" line="6" column="5" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/emulator_v3/messenger/messenger.cc" timestamp="1589437908159">
         <mark key="'" line="275" column="41" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/api/api_service.cc" timestamp="1589436605107">
-        <mark key="[" line="70" column="65" />
-        <mark key="]" line="70" column="72" />
-        <mark key="." line="70" column="71" />
-        <mark key="^" line="70" column="72" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" timestamp="1589426919141" />
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1589437679936">
-        <mark key="'" line="291" column="19" />
-        <mark key="[" line="488" column="0" />
-        <mark key="]" line="488" column="106" />
-        <mark key="." line="488" column="23" />
-        <mark key="^" line="488" column="24" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/emulator_v3/messenger/http_utils.cc" timestamp="1589436630877">
-        <mark key="[" line="26" column="0" />
-        <mark key="]" line="26" column="88" />
-        <mark key="^" line="26" column="88" />
-        <mark key="." line="26" column="87" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/mission/mission.cc" timestamp="1589436918856">
-        <mark key="'" line="133" column="2" />
-        <mark key="[" line="445" column="66" />
-        <mark key="]" line="445" column="66" />
-        <mark key="." line="445" column="66" />
       </file>
     </filemarks>
     <jumps>
