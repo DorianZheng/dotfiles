@@ -5,9 +5,6 @@
   <component name="VimHistorySettings">
     <history>
       <history-search>
-        <entry>DoSimu</entry>
-        <entry encoding="base64">XDxEb1NpbXVsYXRpb25cPg==</entry>
-        <entry encoding="base64">XDxQcm9jZXNzTmV4dEV2ZW50XD4=</entry>
         <entry>saas</entry>
         <entry encoding="base64">XDxHZXROZXh0RnV0dXJlRXZlbnRcPg==</entry>
         <entry>full_stack_simulation_mode</entry>
@@ -25,6 +22,9 @@
         <entry>__LINE</entry>
         <entry>Waiting for localization to be ready</entry>
         <entry>Update</entry>
+        <entry>Schedule</entry>
+        <entry>subscribe_dest_from_bag</entry>
+        <entry encoding="base64">XDxFbXBsYWNlUHJlZGljdGlvblN0cnVjdHVyZWRQaWNrVXBEZXN0XD4=</entry>
       </history-search>
       <history-cmd>
         <entry>wq</entry>
@@ -104,16 +104,18 @@
       <file name="/usr/include/boost/coroutine/stack_traits.hpp" timestamp="1589195952007">
         <mark key="'" line="4" column="48" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/sim2/simulation_env.h" timestamp="1589195169341">
-        <mark key="'" line="102" column="72" />
-        <mark key="[" line="16" column="0" />
-        <mark key="]" line="16" column="34" />
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/planning/mission/default.py" timestamp="1589426901692">
+        <mark key="'" line="6" column="5" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/sim2/simulation_env_impl.cc" timestamp="1589196356724">
         <mark key="'" line="1186" column="24" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/mission/mission.cc" timestamp="1589358981879">
-        <mark key="]" line="967" column="57" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/mission/mission.cc" timestamp="1589427648853">
+        <mark key="'" line="475" column="12" />
+        <mark key="[" line="519" column="0" />
+        <mark key="]" line="519" column="137" />
+        <mark key="^" line="422" column="124" />
+        <mark key="." line="519" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/sim2/saas_main.cc" timestamp="1589196173214">
         <mark key="[" line="41" column="0" />
@@ -143,14 +145,15 @@
         <mark key="[" line="19" column="0" />
         <mark key="]" line="19" column="55" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" timestamp="1589426919141" />
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/common/mpc/adapter/BUILD" timestamp="1589197850420">
         <mark key="[" line="203" column="0" />
         <mark key="]" line="203" column="0" />
         <mark key="." line="203" column="0" />
         <mark key="^" line="203" column="55" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1589358866522">
-        <mark key="'" line="432" column="24" />
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1589426512728">
+        <mark key="'" line="331" column="23" />
         <mark key="[" line="484" column="0" />
         <mark key="]" line="484" column="106" />
         <mark key="." line="484" column="23" />
@@ -163,16 +166,9 @@
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/control/plog/BUILD" timestamp="1589252915459">
         <mark key="'" line="293" column="0" />
       </file>
+      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state_db/state_db_maintenance_service.cc" timestamp="1589426579554" />
     </filemarks>
     <jumps>
-      <jump line="298" column="8" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="381" column="18" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="446" column="34" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="451" column="62" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/tunables.cc" />
-      <jump line="322" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
-      <jump line="324" column="11" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
-      <jump line="328" column="11" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
-      <jump line="331" column="48" filename="$USER_HOME$/Workspace/gibraltar/corelib/profiler/section.h" />
       <jump line="16" column="0" filename="$USER_HOME$/Workspace/gibraltar/corelib/src/profiler/section.cc" />
       <jump line="628" column="16" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
       <jump line="977" column="7" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/motion/mpc/longitudinal/planner.cc" />
@@ -265,48 +261,56 @@
       <jump line="528" column="62" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="432" column="24" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
       <jump line="266" column="17" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/state/mission_state.h" />
+      <jump line="454" column="49" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="273" column="62" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="274" column="61" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="331" column="23" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" />
+      <jump line="18" column="64" filename="$USER_HOME$/Workspace/gibraltar/config_files/planning/mission/default.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/Workspace/gibraltar/config_files/planning/mission/default.py" />
+      <jump line="6" column="5" filename="$USER_HOME$/Workspace/gibraltar/config_files/planning/mission/default.py" />
+      <jump line="470" column="12" filename="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/mission/mission.cc" />
     </jumps>
   </component>
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBqY19sb2cuQ3JpdGljYWwoIlhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWCIpOwo=</text>
+        <text encoding="base64">ICBzdGQ6OmNvdXQ8PCAiWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIGRlc3Qgc2l6ZTogIiA8PCBtaXNzaW9uX3N0YXRlLmRlc3RpbmF0aW9ucygpLnNpemUoKSA8PCBfX0ZJTEVfXyA8PCBfX0xJTkVfXyA8PHN0ZDo6ZW5kbDsK</text>
       </register>
       <register name="-" type="4">
-        <text>Info</text>
+        <text>requests.size()</text>
       </register>
       <register name="/" type="4">
-        <text>Update</text>
+        <text encoding="base64">XDxFbXBsYWNlUHJlZGljdGlvblN0cnVjdHVyZWRQaWNrVXBEZXN0XD4=</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBqY19sb2cuQ3JpdGljYWwoIlhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWCIpOwo=</text>
+        <text encoding="base64">ICBzdGQ6OmNvdXQ8PCAiWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIGRlc3Qgc2l6ZTogIiA8PCBtaXNzaW9uX3N0YXRlLmRlc3RpbmF0aW9ucygpLnNpemUoKSA8PCBfX0ZJTEVfXyA8PCBfX0xJTkVfXyA8PHN0ZDo6ZW5kbDsK</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgLT5TdGFydEFuZFdhaXRGb3IoKTsK</text>
+        <text encoding="base64">ICBzdGQ6OmNvdXQ8PCAiWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIGRlc3Qgc2l6ZTogIiA8PCBtaXNzaW9uX3N0YXRlLmRlc3RpbmF0aW9ucygpLnNpemUoKSA8PHN0ZDo6ZW5kbDsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICBjb3JlbGliOjpTZXJ2aWNlOjpHZXQ8c2VydmljZXM6OlNjaGVkdWxlclNlcnZpY2U+KCkK</text>
+        <text encoding="base64">ICBzdGQ6OmNvdXQ8PCAiWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYIGRlc3Qgc2l6ZTogIiA8PCAgPDxzdGQ6OmVuZGw7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAiIgo=</text>
+        <text encoding="base64">ICAgICAgLT5TdGFydEFuZFdhaXRGb3IoKTsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAiLy9zZXJ2aWNlcy9zY2hlZHVsZXI6c2NoZWR1bGVyX3NlcnZpY2UiLAo=</text>
+        <text encoding="base64">ICBjb3JlbGliOjpTZXJ2aWNlOjpHZXQ8c2VydmljZXM6OlNjaGVkdWxlclNlcnZpY2U+KCkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">I2luY2x1ZGUgInNfbG9vcC9zcmMvY29tbW9uL2NvbmN1cnJlbmN5L21hcmxfd3JhcHBlci5oIgo=</text>
+        <text encoding="base64">ICAgICAgICAiIgo=</text>
       </register>
       <register name="6" type="2">
-        <text>remove task_count == 1 optimization</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAiQG1hcmwiLAo=</text>
-      </register>
-      <register name="8" type="2">
         <text encoding="base64">ICAgICAgICAiLy9zZXJ2aWNlcy9zY2hlZHVsZXI6c2NoZWR1bGVyX3NlcnZpY2UiLAo=</text>
       </register>
+      <register name="7" type="2">
+        <text encoding="base64">I2luY2x1ZGUgInNfbG9vcC9zcmMvY29tbW9uL2NvbmN1cnJlbmN5L21hcmxfd3JhcHBlci5oIgo=</text>
+      </register>
+      <register name="8" type="2">
+        <text>remove task_count == 1 optimization</text>
+      </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAiQGlvX29wZW5jZW5zdXNfY3BwLy9vcGVuY2Vuc3VzL3RyYWNlIiwK</text>
+        <text encoding="base64">ICAgICAgICAiQG1hcmwiLAo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -315,9 +319,9 @@
   </component>
   <component name="VimSearchSettings">
     <search>
-      <last-search>Update</last-search>
+      <last-search encoding="base64">XDxFbXBsYWNlUHJlZGljdGlvblN0cnVjdHVyZWRQaWNrVXBEZXN0XD4=</last-search>
       <last-offset />
-      <last-pattern>Update</last-pattern>
+      <last-pattern encoding="base64">XDxFbXBsYWNlUHJlZGljdGlvblN0cnVjdHVyZWRQaWNrVXBEZXN0XD4=</last-pattern>
       <last-replace>__LINE__</last-replace>
       <last-substitute>__LINE</last-substitute>
       <last-dir>1</last-dir>
