@@ -97,9 +97,6 @@
         <mark key="." line="70" column="71" />
         <mark key="^" line="70" column="72" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/sim2/simulation_env_impl.cc" timestamp="1589196356724">
-        <mark key="'" line="1186" column="24" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1589272459144">
         <mark key="[" line="30" column="17" />
         <mark key="]" line="30" column="21" />
@@ -108,11 +105,11 @@
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/pubsub.cc" timestamp="1589426919141" />
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/local_planner.cc" timestamp="1589437679936">
-        <mark key="'" line="287" column="19" />
-        <mark key="[" line="484" column="0" />
-        <mark key="]" line="484" column="106" />
-        <mark key="." line="484" column="23" />
-        <mark key="^" line="484" column="24" />
+        <mark key="'" line="290" column="19" />
+        <mark key="[" line="487" column="0" />
+        <mark key="]" line="487" column="106" />
+        <mark key="." line="487" column="23" />
+        <mark key="^" line="487" column="24" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/modules/prediction/prediction.cc" timestamp="1589351211670">
         <mark key="^" line="77" column="53" />
@@ -133,23 +130,11 @@
         <mark key="^" line="266" column="178" />
         <mark key="." line="266" column="177" />
       </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/sim2/simulation_env_impl.h" timestamp="1589197011155">
-        <mark key="'" line="218" column="44" />
-        <mark key="[" line="217" column="49" />
-        <mark key="]" line="217" column="53" />
-        <mark key="^" line="217" column="53" />
-        <mark key="." line="217" column="52" />
-      </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/mission/mission.cc" timestamp="1589436918856">
         <mark key="'" line="133" column="2" />
         <mark key="[" line="445" column="66" />
         <mark key="]" line="445" column="66" />
         <mark key="." line="445" column="66" />
-      </file>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/common/concurrency/marl_wrapper.cc" timestamp="1589196547724">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="29" column="0" />
-        <mark key="." line="29" column="0" />
       </file>
       <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/planning_v2/BUILD" timestamp="1589197382689">
         <mark key="[" line="39" column="0" />
