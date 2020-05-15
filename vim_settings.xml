@@ -85,8 +85,11 @@
   <component name="VimMarksSettings">
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/Workspace/gibraltar/s_loop/src/simulation/emulator_v3/messenger/messenger.cc" timestamp="1589437908159">
-        <mark key="'" line="275" column="41" />
+      <file name="$USER_HOME$/Workspace/gibraltar/config_files/sil_local_planning_sim.py" timestamp="1589523341288">
+        <mark key="[" line="30" column="17" />
+        <mark key="]" line="30" column="21" />
+        <mark key="." line="30" column="20" />
+        <mark key="^" line="30" column="21" />
       </file>
     </filemarks>
     <jumps>
@@ -195,10 +198,10 @@
   <component name="VimRegisterSettings">
     <registers>
       <register name="&quot;" type="4">
-        <text>s</text>
+        <text>home</text>
       </register>
       <register name="-" type="4">
-        <text>s</text>
+        <text>home</text>
       </register>
       <register name="/" type="4">
         <text>destina</text>
