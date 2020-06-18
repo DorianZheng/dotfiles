@@ -86,6 +86,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias cls="clear"
 alias tailf="tail -f"
+alias ll="ls -al"
 alias gu="git stash && git pull && git stash pop"
 PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p%{$fg[cyan]%}%d %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}>'
 
@@ -98,8 +99,8 @@ export PATH="$PATH:$GOBIN"
 source $HOME/.cargo/env
 
 # The Great Fire Wall
-export http_proxy=http://127.0.0.1:1087
-export https_proxy=http://127.0.0.1:1087
+# export http_proxy=http://127.0.0.1:1087
+# export https_proxy=http://127.0.0.1:1087
 export no_proxy="127.0.0.1, localhost, *.cnn.com, 192.168.1.10, domain.com:8080, 172.16.10.2"
 
 # LLVM
@@ -122,4 +123,7 @@ function cd() {
     . ./venv/bin/activate
   fi
 }
+
+# Maven
+export MAVEN_OPTS="-Xmx2g -XX:ReservedCodeCacheSize=512m"
 
