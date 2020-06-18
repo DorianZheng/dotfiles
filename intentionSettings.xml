@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="LightEdit mode/Open file in project..." />
+  </component>
+</application>

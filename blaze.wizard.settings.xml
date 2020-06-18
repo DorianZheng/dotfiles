@@ -1,0 +1,9 @@
+<application>
+  <component name="BlazeWizardUserSettings">
+    <settings>
+      <entry key="blaze-wizard.last-imported-bazel-workspace" value="$USER_HOME$/Workspace/prometheus-cpp::/data/dorianzheng/Workspace/gibraltar" />
+      <entry key="select-project-view.selected-option" value="create-from-scratch" />
+      <entry key="select-workspace.selected-option" value="use-existing-bazel-workspace" />
+    </settings>
+  </component>
+</application>
