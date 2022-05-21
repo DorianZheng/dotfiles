@@ -103,6 +103,8 @@ export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 export JAVA_11_HOME=$(/usr/libexec/java_home -v11)
 alias java11='export JAVA_HOME=$JAVA_11_HOME'
+export JAVA_12_HOME=$(/usr/libexec/java_home -v12)
+alias java12='export JAVA_HOME=$JAVA_12_HOME'
 
 # The Great Fire Wall
 # export http_proxy=http://127.0.0.1:1087
